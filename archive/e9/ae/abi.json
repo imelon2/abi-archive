@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "mode",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "executionCalldata",
+        "type": "bytes"
+      }
+    ],
+    "name": "execute",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

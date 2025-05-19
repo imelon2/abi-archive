@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "accountId",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "accountImplementationId",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
