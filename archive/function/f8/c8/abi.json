@@ -1,0 +1,30 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IChallengeResultReceiver",
+        "name": "resultReceiver_",
+        "type": "address"
+      },
+      {
+        "internalType": "contract ISequencerInbox",
+        "name": "sequencerInbox_",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IBridge",
+        "name": "bridge_",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IOneStepProofEntry",
+        "name": "osp_",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

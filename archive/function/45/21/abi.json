@@ -26,7 +26,7 @@
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "",
+        "name": "proposalId",
         "type": "uint256"
       }
     ],
@@ -60,7 +60,7 @@
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "proposalId",
+        "name": "",
         "type": "uint256"
       }
     ],

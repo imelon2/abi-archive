@@ -22,5 +22,23 @@
     ],
     "stateMutability": "payable",
     "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "upgrade",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "upgradeCallData",
+        "type": "bytes"
+      }
+    ],
+    "name": "execute",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
   }
 ]

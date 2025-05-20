@@ -22,5 +22,18 @@
     ],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "newExtraTimeBlocks",
+        "type": "uint64"
+      }
+    ],
+    "name": "setExtraChallengeTimeBlocks",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
   }
 ]

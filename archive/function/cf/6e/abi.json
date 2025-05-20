@@ -10,7 +10,7 @@
       },
       {
         "internalType": "uint48",
-        "name": "schedule",
+        "name": "acceptSchedule",
         "type": "uint48"
       }
     ],
@@ -28,7 +28,7 @@
       },
       {
         "internalType": "uint48",
-        "name": "acceptSchedule",
+        "name": "schedule",
         "type": "uint48"
       }
     ],

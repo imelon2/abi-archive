@@ -3,7 +3,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "",
+        "name": "proposalId",
         "type": "uint256"
       }
     ],
@@ -22,7 +22,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "proposalId",
+        "name": "",
         "type": "uint256"
       }
     ],

@@ -10,7 +10,7 @@
       },
       {
         "internalType": "uint48",
-        "name": "schedule",
+        "name": "effectSchedule",
         "type": "uint48"
       }
     ],
@@ -28,7 +28,7 @@
       },
       {
         "internalType": "uint48",
-        "name": "effectSchedule",
+        "name": "schedule",
         "type": "uint48"
       }
     ],

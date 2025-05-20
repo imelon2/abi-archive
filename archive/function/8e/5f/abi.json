@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "eventsView",
+    "outputs": [],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
