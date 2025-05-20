@@ -5,6 +5,9 @@
   "repository": "https://github.com/imelon2/evm-transaction-decoder.git",
   "author": "imelon2 <imelon279@naver.com>",
   "license": "MIT",
+  "scripts": {
+    "generate":"ts-node script/generate.ts"
+  },
   "dependencies": {
     "ethers": "^6.14.1",
     "glob": "^11.0.2",
@@ -17,6 +20,7 @@
   "devDependencies": {
     "@arbitrum/nitro-contracts-1.2.1": "npm:@arbitrum/nitro-contracts@1.2.1",
     "@arbitrum/nitro-contracts-3.1.0": "npm:@arbitrum/nitro-contracts@3.1.0",
+    "@arbitrum/token-bridge-contracts-1.2.1": "npm:@arbitrum/token-bridge-contracts@1.2.1",
     "@openzeppelin/contracts-v4": "npm:@openzeppelin/contracts@4",
     "@openzeppelin/contracts-v5": "npm:@openzeppelin/contracts@5"
   }

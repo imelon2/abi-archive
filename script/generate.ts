@@ -1,6 +1,6 @@
 
-import { genArbitrum } from '../src/projects/arbitrum';
-import { genOpenzeppelin } from '../src/projects/openzeppelin';
+import { genArbitrum } from '../projects/arbitrum';
+import { genOpenzeppelin } from '../projects/openzeppelin';
 
 async function main() {
     await genOpenzeppelin()

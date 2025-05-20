@@ -76,5 +76,31 @@
     "outputs": [],
     "stateMutability": "pure",
     "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract L1TokenBridgeRetryableSender",
+        "name": "_retryableSender",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_beacon",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
   }
 ]

@@ -22,5 +22,29 @@
     ],
     "stateMutability": "payable",
     "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "destination",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "calldataForL1",
+        "type": "bytes"
+      }
+    ],
+    "name": "sendTxToL1",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "exitNum",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "payable",
+    "type": "function"
   }
 ]
