@@ -1,46 +1,32 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "bufferConfig_",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint64",
             "name": "threshold",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "max",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "replenishRateInBasis",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct BufferConfig",
+        "name": "bufferConfig_",
+        "type": "tuple"
       }
     ],
     "name": "postUpgradeInit",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

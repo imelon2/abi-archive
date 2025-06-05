@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "roleId",
-        "type": "uint64",
-        "baseType": "uint64",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint64",
+        "name": "roleId",
+        "type": "uint64"
       },
       {
-        "name": "label",
-        "type": "string",
-        "baseType": "string",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "string",
+        "name": "label",
+        "type": "string"
       }
     ],
     "name": "RoleLabel",
-    "anonymous": false
+    "type": "event"
   }
 ]

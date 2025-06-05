@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "address",
         "name": "target",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
-    "name": "CallTargetNotAllowed"
+    "name": "CallTargetNotAllowed",
+    "type": "error"
   }
 ]

@@ -1,45 +1,33 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": true,
+        "internalType": "address",
         "name": "sender",
-        "type": "address",
-        "baseType": "address",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": true,
+        "internalType": "address",
         "name": "executor",
-        "type": "address",
-        "baseType": "address",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": true,
+        "internalType": "bytes32",
         "name": "messageId",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
-        "name": "status",
-        "type": "bool",
-        "baseType": "bool",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bool",
+        "name": "status",
+        "type": "bool"
       }
     ],
     "name": "AffirmationCompleted",
-    "anonymous": false
+    "type": "event"
   }
 ]

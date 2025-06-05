@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "contract IRollupCore",
         "name": "rollup",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "requireRejectable",
-    "constant": true,
     "outputs": [],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,36 +1,27 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "roleId",
-        "type": "uint64",
-        "baseType": "uint64",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint64",
+        "name": "roleId",
+        "type": "uint64"
       },
       {
+        "indexed": false,
+        "internalType": "uint32",
         "name": "delay",
-        "type": "uint32",
-        "baseType": "uint32",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint32"
       },
       {
-        "name": "since",
-        "type": "uint48",
-        "baseType": "uint48",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint48",
+        "name": "since",
+        "type": "uint48"
       }
     ],
     "name": "RoleGrantDelayChanged",
-    "anonymous": false
+    "type": "event"
   }
 ]

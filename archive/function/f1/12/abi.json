@@ -1,127 +1,87 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "account",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint32",
         "name": "pos",
-        "type": "uint32",
-        "baseType": "uint32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint32"
       }
     ],
     "name": "checkpoints",
-    "constant": true,
     "outputs": [
       {
-        "name": "",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint48",
             "name": "_key",
-            "type": "uint48",
-            "baseType": "uint48",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint48"
           },
           {
+            "internalType": "uint208",
             "name": "_value",
-            "type": "uint208",
-            "baseType": "uint208",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint208"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Checkpoints.Checkpoint208",
+        "name": "",
+        "type": "tuple"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "account",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint32",
         "name": "pos",
-        "type": "uint32",
-        "baseType": "uint32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint32"
       }
     ],
     "name": "checkpoints",
-    "constant": true,
     "outputs": [
       {
-        "name": "",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint32",
             "name": "fromBlock",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint224",
             "name": "votes",
-            "type": "uint224",
-            "baseType": "uint224",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint224"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct ERC20Votes.Checkpoint",
+        "name": "",
+        "type": "tuple"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "uint64",
         "name": "newAfkBlocks",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       }
     ],
     "name": "setValidatorAfkBlocks",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

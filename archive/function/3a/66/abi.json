@@ -1,67 +1,46 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "target",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint256",
         "name": "value",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "string",
         "name": "signature",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       },
       {
+        "internalType": "bytes",
         "name": "data",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       },
       {
+        "internalType": "uint256",
         "name": "eta",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "queueTransaction",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "bytes32",
         "name": "",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "error",
     "inputs": [],
-    "name": "Unused"
+    "name": "Unused",
+    "type": "error"
   }
 ]

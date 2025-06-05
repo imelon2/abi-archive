@@ -1,25 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "staker",
-        "type": "address[]",
-        "baseType": "array",
         "indexed": false,
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "address",
-          "baseType": "address",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "internalType": "address[]",
+        "name": "staker",
+        "type": "address[]"
       }
     ],
     "name": "StakersForceRefunded",
-    "anonymous": false
+    "type": "event"
   }
 ]

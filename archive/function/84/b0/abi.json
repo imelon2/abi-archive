@@ -1,76 +1,45 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "eip712Domain",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "bytes1",
         "name": "fields",
-        "type": "bytes1",
-        "baseType": "bytes1",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes1"
       },
       {
+        "internalType": "string",
         "name": "name",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       },
       {
+        "internalType": "string",
         "name": "version",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       },
       {
+        "internalType": "uint256",
         "name": "chainId",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "address",
         "name": "verifyingContract",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes32",
         "name": "salt",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "internalType": "uint256[]",
         "name": "extensions",
-        "type": "uint256[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint256[]"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

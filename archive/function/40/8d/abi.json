@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "uint256",
         "name": "_version",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "setVersion",
-    "constant": false,
     "outputs": [],
     "stateMutability": "payable",
-    "payable": true,
-    "gas": null
+    "type": "function"
   }
 ]

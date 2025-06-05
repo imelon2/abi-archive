@@ -1,40 +1,28 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "biddingToken",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "contract IERC20",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [],
     "name": "biddingToken",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "contract IERC20",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

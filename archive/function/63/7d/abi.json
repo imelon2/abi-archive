@@ -1,24 +1,18 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "uint16",
         "name": "version",
-        "type": "uint16",
-        "baseType": "uint16",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint16"
       },
       {
+        "internalType": "uint16",
         "name": "stylusVersion",
-        "type": "uint16",
-        "baseType": "uint16",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint16"
       }
     ],
-    "name": "ProgramNeedsUpgrade"
+    "name": "ProgramNeedsUpgrade",
+    "type": "error"
   }
 ]

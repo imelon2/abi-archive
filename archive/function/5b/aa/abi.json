@@ -1,99 +1,69 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": false,
+        "internalType": "address",
         "name": "caller",
-        "type": "address",
-        "baseType": "address",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": true,
+        "internalType": "address",
         "name": "destination",
-        "type": "address",
-        "baseType": "address",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": true,
+        "internalType": "uint256",
         "name": "uniqueId",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "indexed": true,
+        "internalType": "uint256",
         "name": "batchNumber",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "indexInBatch",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "arbBlockNum",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "ethBlockNum",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "timestamp",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "callvalue",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
-        "name": "data",
-        "type": "bytes",
-        "baseType": "bytes",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
       }
     ],
     "name": "L2ToL1Transaction",
-    "anonymous": false
+    "type": "event"
   }
 ]

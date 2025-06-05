@@ -1,12 +1,9 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "initialize",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

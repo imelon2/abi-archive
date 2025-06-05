@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "getL1PricingSurplus",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "int256",
         "name": "",
-        "type": "int256",
-        "baseType": "int256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "int256"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

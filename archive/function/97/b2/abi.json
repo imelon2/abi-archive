@@ -1,168 +1,110 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "op",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "address",
             "name": "sender",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "uint256",
             "name": "nonce",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bytes",
             "name": "initCode",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           },
           {
+            "internalType": "bytes",
             "name": "callData",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           },
           {
+            "internalType": "bytes32",
             "name": "accountGasLimits",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint256",
             "name": "preVerificationGas",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bytes32",
             "name": "gasFees",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes",
             "name": "paymasterAndData",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           },
           {
+            "internalType": "bytes",
             "name": "signature",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct PackedUserOperation",
+        "name": "op",
+        "type": "tuple"
       },
       {
+        "internalType": "address",
         "name": "target",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes",
         "name": "targetCallData",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
     "name": "simulateHandleOp",
-    "constant": false,
     "outputs": [
       {
-        "name": "",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint256",
             "name": "preOpGas",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "paid",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "accountValidationData",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "paymasterValidationData",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bool",
             "name": "targetSuccess",
-            "type": "bool",
-            "baseType": "bool",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bool"
           },
           {
+            "internalType": "bytes",
             "name": "targetResult",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct IEntryPointSimulations.ExecutionResult",
+        "name": "",
+        "type": "tuple"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

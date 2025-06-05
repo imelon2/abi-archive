@@ -1,137 +1,92 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "spender",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint256",
         "name": "value",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "approve",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "bool",
         "name": "",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "to",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint256",
         "name": "tokenId",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "approve",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "spender",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint256",
         "name": "amount",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "approve",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "bool",
         "name": "",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "guy",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint256",
         "name": "wad",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "approve",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "bool",
         "name": "",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "address",
         "name": "sender",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
-    "name": "NotOutbox"
+    "name": "NotOutbox",
+    "type": "error"
   }
 ]

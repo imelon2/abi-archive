@@ -1,37 +1,25 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "contract ISequencerInbox",
         "name": "sequencerInbox",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes",
         "name": "batchData",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       },
       {
+        "internalType": "uint256",
         "name": "numberToPost",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "postManyBatches",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

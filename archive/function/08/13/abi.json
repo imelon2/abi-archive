@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "address",
         "name": "initialAdmin",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
-    "name": "AccessManagerInvalidInitialAdmin"
+    "name": "AccessManagerInvalidInitialAdmin",
+    "type": "error"
   }
 ]

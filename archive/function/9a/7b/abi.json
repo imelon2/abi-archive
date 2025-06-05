@@ -1,240 +1,144 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "bytes32",
         "name": "prevAssertionHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
-        "name": "assertion",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
-            "name": "beforeStateData",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "bytes32",
                 "name": "prevPrevAssertionHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               },
               {
+                "internalType": "bytes32",
                 "name": "sequencerBatchAcc",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               },
               {
-                "name": "configData",
-                "type": "tuple",
-                "baseType": "tuple",
                 "components": [
                   {
+                    "internalType": "bytes32",
                     "name": "wasmModuleRoot",
-                    "type": "bytes32",
-                    "baseType": "bytes32",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
+                    "type": "bytes32"
                   },
                   {
+                    "internalType": "uint256",
                     "name": "requiredStake",
-                    "type": "uint256",
-                    "baseType": "uint256",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
+                    "type": "uint256"
                   },
                   {
+                    "internalType": "address",
                     "name": "challengeManager",
-                    "type": "address",
-                    "baseType": "address",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
+                    "type": "address"
                   },
                   {
+                    "internalType": "uint64",
                     "name": "confirmPeriodBlocks",
-                    "type": "uint64",
-                    "baseType": "uint64",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
+                    "type": "uint64"
                   },
                   {
+                    "internalType": "uint64",
                     "name": "nextInboxPosition",
-                    "type": "uint64",
-                    "baseType": "uint64",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
+                    "type": "uint64"
                   }
                 ],
-                "arrayLength": null,
-                "arrayChildren": null
+                "internalType": "struct ConfigData",
+                "name": "configData",
+                "type": "tuple"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct BeforeStateData",
+            "name": "beforeStateData",
+            "type": "tuple"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "bytes32[2]",
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]"
+                  },
+                  {
+                    "internalType": "uint64[2]",
+                    "name": "u64Vals",
+                    "type": "uint64[2]"
+                  }
+                ],
+                "internalType": "struct GlobalState",
+                "name": "globalState",
+                "type": "tuple"
+              },
+              {
+                "internalType": "enum MachineStatus",
+                "name": "machineStatus",
+                "type": "uint8"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "endHistoryRoot",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct AssertionState",
             "name": "beforeState",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "globalState",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "bytes32Vals",
-                    "type": "bytes32[2]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": 2,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "bytes32",
-                      "baseType": "bytes32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  },
-                  {
-                    "name": "u64Vals",
-                    "type": "uint64[2]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": 2,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "uint64",
-                      "baseType": "uint64",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "machineStatus",
-                "type": "uint8",
-                "baseType": "uint8",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "endHistoryRoot",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
-            "name": "afterState",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
-                "name": "globalState",
-                "type": "tuple",
-                "baseType": "tuple",
                 "components": [
                   {
+                    "internalType": "bytes32[2]",
                     "name": "bytes32Vals",
-                    "type": "bytes32[2]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": 2,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "bytes32",
-                      "baseType": "bytes32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
+                    "type": "bytes32[2]"
                   },
                   {
+                    "internalType": "uint64[2]",
                     "name": "u64Vals",
-                    "type": "uint64[2]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": 2,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "uint64",
-                      "baseType": "uint64",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
+                    "type": "uint64[2]"
                   }
                 ],
-                "arrayLength": null,
-                "arrayChildren": null
+                "internalType": "struct GlobalState",
+                "name": "globalState",
+                "type": "tuple"
               },
               {
+                "internalType": "enum MachineStatus",
                 "name": "machineStatus",
-                "type": "uint8",
-                "baseType": "uint8",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint8"
               },
               {
+                "internalType": "bytes32",
                 "name": "endHistoryRoot",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct AssertionState",
+            "name": "afterState",
+            "type": "tuple"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct AssertionInputs",
+        "name": "assertion",
+        "type": "tuple"
       },
       {
+        "internalType": "bytes32",
         "name": "expectedAssertionHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
     "name": "forceCreateAssertion",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

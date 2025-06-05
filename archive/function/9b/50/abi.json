@@ -1,74 +1,50 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "challengeManager",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes32",
         "name": "edgeId",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
     "name": "createPool",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "contract IEdgeStakingPool",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "_rollup",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes32",
         "name": "_assertionHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
     "name": "createPool",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "contract IAssertionStakingPool",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

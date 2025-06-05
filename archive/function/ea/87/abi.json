@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "id",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
       }
     ],
     "name": "OwnerFunctionCalled",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "oldSuperQuorumNumerator",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "oldSuperQuorumNumerator",
+        "type": "uint256"
       },
       {
-        "name": "newSuperQuorumNumerator",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "newSuperQuorumNumerator",
+        "type": "uint256"
       }
     ],
     "name": "SuperQuorumNumeratorUpdated",
-    "anonymous": false
+    "type": "event"
   }
 ]

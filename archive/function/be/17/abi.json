@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "edgeId",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
       },
       {
-        "name": "newValue",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "newValue",
+        "type": "uint256"
       }
     ],
     "name": "TimerCacheUpdated",
-    "anonymous": false
+    "type": "event"
   }
 ]

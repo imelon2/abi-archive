@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "NotForked"
+    "name": "NotForked",
+    "type": "error"
   }
 ]

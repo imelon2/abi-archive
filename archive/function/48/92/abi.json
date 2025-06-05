@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "oneStepProofEntry",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "contract IOneStepProofEntry",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

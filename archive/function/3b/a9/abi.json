@@ -1,35 +1,26 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "OutOfRangeAccess"
+    "name": "OutOfRangeAccess",
+    "type": "error"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "bool",
         "name": "force",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       }
     ],
     "name": "updateCachedPrice",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "uint256",
         "name": "",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

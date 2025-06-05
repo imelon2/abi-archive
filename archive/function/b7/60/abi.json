@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "account",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "depositTo",
-    "constant": false,
     "outputs": [],
     "stateMutability": "payable",
-    "payable": true,
-    "gas": null
+    "type": "function"
   }
 ]

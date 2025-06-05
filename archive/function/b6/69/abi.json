@@ -1,53 +1,35 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "uint256",
         "name": "batchTimestamp",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "address",
         "name": "batchPosterAddress",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint64",
         "name": "batchNumber",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
+        "internalType": "uint64",
         "name": "batchDataGas",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
+        "internalType": "uint256",
         "name": "l1BaseFeeWei",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "batchPostingReport",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

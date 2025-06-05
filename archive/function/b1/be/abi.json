@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "CallType",
         "name": "callType",
-        "type": "bytes1",
-        "baseType": "bytes1",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes1"
       }
     ],
-    "name": "ERC7579UnsupportedCallType"
+    "name": "ERC7579UnsupportedCallType",
+    "type": "error"
   }
 ]

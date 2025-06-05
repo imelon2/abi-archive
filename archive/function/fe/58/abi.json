@@ -1,24 +1,18 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "uint256",
         "name": "proposalId",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "uint256",
         "name": "neededTimestamp",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
-    "name": "GovernorUnmetDelay"
+    "name": "GovernorUnmetDelay",
+    "type": "error"
   }
 ]

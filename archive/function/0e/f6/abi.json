@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "assertionHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "assertionHash",
+        "type": "bytes32"
       }
     ],
     "name": "AssertionForceConfirmed",
-    "anonymous": false
+    "type": "event"
   }
 ]

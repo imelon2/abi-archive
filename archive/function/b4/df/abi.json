@@ -1,52 +1,40 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "blockHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "blockHash",
+        "type": "bytes32"
       },
       {
-        "name": "outputRoot",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "outputRoot",
+        "type": "bytes32"
       }
     ],
     "name": "SendRootUpdated",
-    "anonymous": false
+    "type": "event"
   },
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "outputRoot",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "outputRoot",
+        "type": "bytes32"
       },
       {
-        "name": "l2BlockHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "l2BlockHash",
+        "type": "bytes32"
       }
     ],
     "name": "SendRootUpdated",
-    "anonymous": false
+    "type": "event"
   }
 ]

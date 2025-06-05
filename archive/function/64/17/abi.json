@@ -1,61 +1,40 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "bytes",
         "name": "_data",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       },
       {
+        "internalType": "int8",
         "name": "n",
-        "type": "int8",
-        "baseType": "int8",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "int8"
       },
       {
+        "internalType": "bytes32",
         "name": "t1",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "internalType": "bytes32",
         "name": "t2",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "internalType": "bytes32",
         "name": "t3",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "internalType": "bytes32",
         "name": "t4",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
     "name": "emitLog",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

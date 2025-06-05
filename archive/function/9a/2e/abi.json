@@ -1,52 +1,40 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "proposalId",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
       },
       {
-        "name": "etaSeconds",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "etaSeconds",
+        "type": "uint256"
       }
     ],
     "name": "ProposalQueued",
-    "anonymous": false
+    "type": "event"
   },
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "proposalId",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "proposalId",
+        "type": "uint256"
       },
       {
-        "name": "eta",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "eta",
+        "type": "uint256"
       }
     ],
     "name": "ProposalQueued",
-    "anonymous": false
+    "type": "event"
   }
 ]

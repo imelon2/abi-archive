@@ -1,38 +1,26 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "account",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes4",
         "name": "interfaceId",
-        "type": "bytes4",
-        "baseType": "bytes4",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes4"
       }
     ],
     "name": "implementsERC165Interface",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "bool",
         "name": "",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

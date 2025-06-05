@@ -1,60 +1,31 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "bytes32[]",
         "name": "me",
-        "type": "bytes32[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "bytes32",
-          "baseType": "bytes32",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "bytes32[]"
       },
       {
+        "internalType": "uint256",
         "name": "level",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "bytes32",
         "name": "subtreeRoot",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
     "name": "appendCompleteSubTree",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "bytes32[]",
         "name": "",
-        "type": "bytes32[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "bytes32",
-          "baseType": "bytes32",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "bytes32[]"
       }
     ],
     "stateMutability": "pure",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

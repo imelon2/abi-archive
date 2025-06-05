@@ -1,12 +1,9 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "renounceOwnership",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

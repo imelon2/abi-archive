@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "bytes32",
         "name": "codehash",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
     "name": "codehashKeepalive",
-    "constant": false,
     "outputs": [],
     "stateMutability": "payable",
-    "payable": true,
-    "gas": null
+    "type": "function"
   }
 ]

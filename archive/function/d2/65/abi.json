@@ -1,24 +1,18 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "address",
         "name": "target",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "forwarder",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
-    "name": "ERC2771UntrustfulTarget"
+    "name": "ERC2771UntrustfulTarget",
+    "type": "error"
   }
 ]

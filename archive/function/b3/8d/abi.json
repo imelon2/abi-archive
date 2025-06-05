@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "DISABLE_VALIDATOR_WHITELIST",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "bool",
         "name": "",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,36 +1,20 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "contract IChallengeManager",
         "name": "manager",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint64[]",
         "name": "challenges",
-        "type": "uint64[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint64",
-          "baseType": "uint64",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint64[]"
       }
     ],
     "name": "timeoutChallenges",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,224 +1,119 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint256[]",
         "name": "",
-        "type": "uint256[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint256[]"
       },
       {
+        "internalType": "uint256[]",
         "name": "",
-        "type": "uint256[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint256[]"
       },
       {
+        "internalType": "bytes",
         "name": "",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
     "name": "onERC1155BatchReceived",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "bytes4",
         "name": "",
-        "type": "bytes4",
-        "baseType": "bytes4",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes4"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "operator",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "from",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint256[]",
         "name": "ids",
-        "type": "uint256[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint256[]"
       },
       {
+        "internalType": "uint256[]",
         "name": "values",
-        "type": "uint256[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint256[]"
       },
       {
+        "internalType": "bytes",
         "name": "data",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
     "name": "onERC1155BatchReceived",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "bytes4",
         "name": "",
-        "type": "bytes4",
-        "baseType": "bytes4",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes4"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint256[]",
         "name": "",
-        "type": "uint256[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint256[]"
       },
       {
+        "internalType": "uint256[]",
         "name": "",
-        "type": "uint256[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint256[]"
       },
       {
+        "internalType": "bytes",
         "name": "",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
     "name": "onERC1155BatchReceived",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "bytes4",
         "name": "",
-        "type": "bytes4",
-        "baseType": "bytes4",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes4"
       }
     ],
     "stateMutability": "pure",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

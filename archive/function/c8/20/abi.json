@@ -1,104 +1,68 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "string",
         "name": "name_",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       },
       {
+        "internalType": "string",
         "name": "symbol_",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       },
       {
+        "internalType": "uint8",
         "name": "decimals_",
-        "type": "uint8",
-        "baseType": "uint8",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint8"
       },
       {
+        "internalType": "address",
         "name": "l2Gateway_",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "l1Address_",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "initialize",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "string",
         "name": "name_",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       },
       {
+        "internalType": "string",
         "name": "symbol_",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       },
       {
+        "internalType": "uint8",
         "name": "decimals_",
-        "type": "uint8",
-        "baseType": "uint8",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint8"
       },
       {
+        "internalType": "address",
         "name": "l2Gateway_",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "l1Counterpart_",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "initialize",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

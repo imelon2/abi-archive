@@ -1,43 +1,20 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address[]",
         "name": "user",
-        "type": "address[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "address",
-          "baseType": "address",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "address[]"
       },
       {
+        "internalType": "bool[]",
         "name": "val",
-        "type": "bool[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "bool",
-          "baseType": "bool",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "bool[]"
       }
     ],
     "name": "setWhitelist",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

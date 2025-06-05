@@ -1,24 +1,18 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "address",
         "name": "sender",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "rollup",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
-    "name": "NotRollup"
+    "name": "NotRollup",
+    "type": "error"
   }
 ]

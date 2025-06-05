@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "address",
         "name": "approver",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
-    "name": "ERC20InvalidApprover"
+    "name": "ERC20InvalidApprover",
+    "type": "error"
   }
 ]

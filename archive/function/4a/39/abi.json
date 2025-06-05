@@ -1,68 +1,39 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": true,
+        "internalType": "address",
         "name": "operator",
-        "type": "address",
-        "baseType": "address",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": true,
+        "internalType": "address",
         "name": "from",
-        "type": "address",
-        "baseType": "address",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": true,
+        "internalType": "address",
         "name": "to",
-        "type": "address",
-        "baseType": "address",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": false,
+        "internalType": "uint256[]",
         "name": "ids",
-        "type": "uint256[]",
-        "baseType": "array",
-        "indexed": false,
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint256[]"
       },
       {
-        "name": "values",
-        "type": "uint256[]",
-        "baseType": "array",
         "indexed": false,
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "internalType": "uint256[]",
+        "name": "values",
+        "type": "uint256[]"
       }
     ],
     "name": "TransferBatch",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,150 +1,99 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "caller",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "target",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes4",
         "name": "selector",
-        "type": "bytes4",
-        "baseType": "bytes4",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes4"
       }
     ],
     "name": "canCall",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "bool",
         "name": "allowed",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "caller",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "target",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes4",
         "name": "selector",
-        "type": "bytes4",
-        "baseType": "bytes4",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes4"
       }
     ],
     "name": "canCall",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "bool",
         "name": "allowed",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       },
       {
+        "internalType": "uint32",
         "name": "delay",
-        "type": "uint32",
-        "baseType": "uint32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint32"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "caller",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "target",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes4",
         "name": "selector",
-        "type": "bytes4",
-        "baseType": "bytes4",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes4"
       }
     ],
     "name": "canCall",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "bool",
         "name": "immediate",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       },
       {
+        "internalType": "uint32",
         "name": "delay",
-        "type": "uint32",
-        "baseType": "uint32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint32"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

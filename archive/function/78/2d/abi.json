@@ -1,38 +1,26 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "account",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint256",
         "name": "blockNumber",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "getPriorVotes",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint96",
         "name": "",
-        "type": "uint96",
-        "baseType": "uint96",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint96"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,54 +1,37 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "_tokenPaymasterConfig",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint256",
             "name": "priceMarkup",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint128",
             "name": "minEntryPointBalance",
-            "type": "uint128",
-            "baseType": "uint128",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint128"
           },
           {
+            "internalType": "uint48",
             "name": "refundPostopCost",
-            "type": "uint48",
-            "baseType": "uint48",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint48"
           },
           {
+            "internalType": "uint48",
             "name": "priceMaxAge",
-            "type": "uint48",
-            "baseType": "uint48",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint48"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct TokenPaymaster.TokenPaymasterConfig",
+        "name": "_tokenPaymasterConfig",
+        "type": "tuple"
       }
     ],
     "name": "setTokenPaymasterConfig",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

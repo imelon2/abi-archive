@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "ticketId",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "ticketId",
+        "type": "bytes32"
       }
     ],
     "name": "Canceled",
-    "anonymous": false
+    "type": "event"
   }
 ]

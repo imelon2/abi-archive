@@ -1,24 +1,18 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "uint8",
         "name": "level",
-        "type": "uint8",
-        "baseType": "uint8",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint8"
       },
       {
+        "internalType": "uint8",
         "name": "numBigStepLevels",
-        "type": "uint8",
-        "baseType": "uint8",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint8"
       }
     ],
-    "name": "LevelTooHigh"
+    "name": "LevelTooHigh",
+    "type": "error"
   }
 ]

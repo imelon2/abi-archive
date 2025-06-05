@@ -1,54 +1,36 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "target",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes",
         "name": "data",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       },
       {
+        "internalType": "uint48",
         "name": "when",
-        "type": "uint48",
-        "baseType": "uint48",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint48"
       }
     ],
     "name": "schedule",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "bytes32",
         "name": "operationId",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "internalType": "uint32",
         "name": "nonce",
-        "type": "uint32",
-        "baseType": "uint32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint32"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

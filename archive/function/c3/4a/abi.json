@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "uint64",
         "name": "roundDurationSeconds",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       }
     ],
-    "name": "RoundTooLong"
+    "name": "RoundTooLong",
+    "type": "error"
   }
 ]

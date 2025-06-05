@@ -1,40 +1,28 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "COUNTING_MODE",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "string",
         "name": "",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [],
     "name": "COUNTING_MODE",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "string",
         "name": "",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       }
     ],
     "stateMutability": "pure",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

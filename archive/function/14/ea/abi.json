@@ -1,131 +1,68 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "bytes32",
         "name": "wasmModuleRoot_",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "internalType": "enum MachineStatus[2]",
         "name": "startAndEndMachineStatuses_",
-        "type": "uint8[2]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": 2,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint8",
-          "baseType": "uint8",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint8[2]"
       },
       {
+        "components": [
+          {
+            "internalType": "bytes32[2]",
+            "name": "bytes32Vals",
+            "type": "bytes32[2]"
+          },
+          {
+            "internalType": "uint64[2]",
+            "name": "u64Vals",
+            "type": "uint64[2]"
+          }
+        ],
+        "internalType": "struct GlobalState[2]",
         "name": "startAndEndGlobalStates_",
-        "type": "tuple[2]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": 2,
-        "arrayChildren": {
-          "name": "",
-          "type": "tuple",
-          "baseType": "tuple",
-          "components": [
-            {
-              "name": "bytes32Vals",
-              "type": "bytes32[2]",
-              "baseType": "array",
-              "components": null,
-              "arrayLength": 2,
-              "arrayChildren": {
-                "name": "",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            },
-            {
-              "name": "u64Vals",
-              "type": "uint64[2]",
-              "baseType": "array",
-              "components": null,
-              "arrayLength": 2,
-              "arrayChildren": {
-                "name": "",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            }
-          ],
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "tuple[2]"
       },
       {
+        "internalType": "uint64",
         "name": "numBlocks",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
+        "internalType": "address",
         "name": "asserter_",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "challenger_",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint256",
         "name": "asserterTimeLeft_",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "uint256",
         "name": "challengerTimeLeft_",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "createChallenge",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "uint64",
         "name": "",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

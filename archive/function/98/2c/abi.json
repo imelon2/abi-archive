@@ -1,54 +1,39 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": false,
+        "internalType": "uint64",
         "name": "currentRound",
-        "type": "uint64",
-        "baseType": "uint64",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
+        "indexed": false,
+        "internalType": "int64",
         "name": "offsetTimestamp",
-        "type": "int64",
-        "baseType": "int64",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "int64"
       },
       {
+        "indexed": false,
+        "internalType": "uint64",
         "name": "roundDurationSeconds",
-        "type": "uint64",
-        "baseType": "uint64",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
+        "indexed": false,
+        "internalType": "uint64",
         "name": "auctionClosingSeconds",
-        "type": "uint64",
-        "baseType": "uint64",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
-        "name": "reserveSubmissionSeconds",
-        "type": "uint64",
-        "baseType": "uint64",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint64",
+        "name": "reserveSubmissionSeconds",
+        "type": "uint64"
       }
     ],
     "name": "SetRoundTimingInfo",
-    "anonymous": false
+    "type": "event"
   }
 ]

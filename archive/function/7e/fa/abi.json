@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "maxSubmissionCost",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "maxSubmissionCost",
+        "type": "uint256"
       }
     ],
     "name": "TicketData",
-    "anonymous": false
+    "type": "event"
   }
 ]

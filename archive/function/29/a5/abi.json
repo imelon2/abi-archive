@@ -1,30 +1,21 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "bytes32",
         "name": "userSalt",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
     "name": "createProxy",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "address",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

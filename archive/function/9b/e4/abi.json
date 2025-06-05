@@ -1,54 +1,39 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": true,
+        "internalType": "bool",
         "name": "flag",
-        "type": "bool",
-        "baseType": "bool",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       },
       {
+        "indexed": true,
+        "internalType": "address",
         "name": "field",
-        "type": "address",
-        "baseType": "address",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": false,
+        "internalType": "uint24",
         "name": "number",
-        "type": "uint24",
-        "baseType": "uint24",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint24"
       },
       {
+        "indexed": false,
+        "internalType": "bytes32",
         "name": "value",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
-        "name": "store",
-        "type": "bytes",
-        "baseType": "bytes",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes",
+        "name": "store",
+        "type": "bytes"
       }
     ],
     "name": "Store",
-    "anonymous": false
+    "type": "event"
   }
 ]

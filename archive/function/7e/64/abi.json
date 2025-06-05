@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "previousAdmin",
-        "type": "address",
-        "baseType": "address",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "address",
+        "name": "previousAdmin",
+        "type": "address"
       },
       {
-        "name": "newAdmin",
-        "type": "address",
-        "baseType": "address",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "address",
+        "name": "newAdmin",
+        "type": "address"
       }
     ],
     "name": "AdminChanged",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,63 +1,44 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "resolvedRounds",
-    "constant": true,
     "outputs": [
       {
-        "name": "",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "address",
             "name": "expressLaneController",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "uint64",
             "name": "round",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct ELCRound",
+        "name": "",
+        "type": "tuple"
       },
       {
-        "name": "",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "address",
             "name": "expressLaneController",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "uint64",
             "name": "round",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct ELCRound",
+        "name": "",
+        "type": "tuple"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

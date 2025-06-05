@@ -1,95 +1,63 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "req",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "address",
             "name": "from",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "to",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "uint256",
             "name": "value",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "gas",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "nonce",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bytes",
             "name": "data",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct MinimalForwarder.ForwardRequest",
+        "name": "req",
+        "type": "tuple"
       },
       {
+        "internalType": "bytes",
         "name": "signature",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
     "name": "execute",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "bool",
         "name": "",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       },
       {
+        "internalType": "bytes",
         "name": "",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
     "stateMutability": "payable",
-    "payable": true,
-    "gas": null
+    "type": "function"
   }
 ]

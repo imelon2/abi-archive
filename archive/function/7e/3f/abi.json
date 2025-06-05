@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "oldVotingPeriod",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "oldVotingPeriod",
+        "type": "uint256"
       },
       {
-        "name": "newVotingPeriod",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "newVotingPeriod",
+        "type": "uint256"
       }
     ],
     "name": "VotingPeriodSet",
-    "anonymous": false
+    "type": "event"
   }
 ]

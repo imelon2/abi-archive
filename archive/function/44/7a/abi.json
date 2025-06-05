@@ -1,79 +1,54 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "firstPriceBid",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "address",
             "name": "expressLaneController",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "uint256",
             "name": "amount",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bytes",
             "name": "signature",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Bid",
+        "name": "firstPriceBid",
+        "type": "tuple"
       },
       {
-        "name": "secondPriceBid",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "address",
             "name": "expressLaneController",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "uint256",
             "name": "amount",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bytes",
             "name": "signature",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Bid",
+        "name": "secondPriceBid",
+        "type": "tuple"
       }
     ],
     "name": "resolveMultiBidAuction",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

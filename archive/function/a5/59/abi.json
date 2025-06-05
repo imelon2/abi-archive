@@ -1,77 +1,50 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "l1Templates",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "contract L1GatewayRouter",
         "name": "routerTemplate",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "contract L1ERC20Gateway",
         "name": "standardGatewayTemplate",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "contract L1CustomGateway",
         "name": "customGatewayTemplate",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "contract L1WethGateway",
         "name": "wethGatewayTemplate",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "contract L1OrbitGatewayRouter",
         "name": "feeTokenBasedRouterTemplate",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "contract L1OrbitERC20Gateway",
         "name": "feeTokenBasedStandardGatewayTemplate",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "contract L1OrbitCustomGateway",
         "name": "feeTokenBasedCustomGatewayTemplate",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "contract IUpgradeExecutor",
         "name": "upgradeExecutor",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

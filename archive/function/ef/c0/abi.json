@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "L2AtomicTokenBridgeFactory_AlreadyExists"
+    "name": "L2AtomicTokenBridgeFactory_AlreadyExists",
+    "type": "error"
   }
 ]

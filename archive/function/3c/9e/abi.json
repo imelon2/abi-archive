@@ -1,36 +1,27 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": true,
+        "internalType": "bytes4",
         "name": "method",
-        "type": "bytes4",
-        "baseType": "bytes4",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes4"
       },
       {
+        "indexed": true,
+        "internalType": "address",
         "name": "owner",
-        "type": "address",
-        "baseType": "address",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
-        "name": "data",
-        "type": "bytes",
-        "baseType": "bytes",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
       }
     ],
     "name": "OwnerActs",
-    "anonymous": false
+    "type": "event"
   }
 ]

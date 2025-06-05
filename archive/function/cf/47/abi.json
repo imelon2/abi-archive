@@ -1,46 +1,34 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "uint256",
         "name": "balance",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "uint256",
         "name": "needed",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
-    "name": "InsufficientBalance"
+    "name": "InsufficientBalance",
+    "type": "error"
   },
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "uint256",
         "name": "amountRequested",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "uint256",
         "name": "balance",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
-    "name": "InsufficientBalance"
+    "name": "InsufficientBalance",
+    "type": "error"
   }
 ]

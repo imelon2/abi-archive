@@ -1,8 +1,8 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [],
     "name": "ZombieTriggered",
-    "anonymous": false
+    "type": "event"
   }
 ]

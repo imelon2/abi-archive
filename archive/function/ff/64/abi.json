@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "messageNum",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "messageNum",
+        "type": "uint256"
       },
       {
-        "name": "data",
-        "type": "bytes",
-        "baseType": "bytes",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
       }
     ],
     "name": "InboxMessageDelivered",
-    "anonymous": false
+    "type": "event"
   }
 ]

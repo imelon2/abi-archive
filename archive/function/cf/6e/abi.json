@@ -1,56 +1,38 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "pendingDefaultAdmin",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "address",
         "name": "newAdmin",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint48",
         "name": "acceptSchedule",
-        "type": "uint48",
-        "baseType": "uint48",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint48"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [],
     "name": "pendingDefaultAdmin",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "address",
         "name": "newAdmin",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "uint48",
         "name": "schedule",
-        "type": "uint48",
-        "baseType": "uint48",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint48"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

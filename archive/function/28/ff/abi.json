@@ -1,232 +1,151 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "config",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint64",
             "name": "confirmPeriodBlocks",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "extraChallengeTimeBlocks",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "address",
             "name": "stakeToken",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "uint256",
             "name": "baseStake",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bytes32",
             "name": "wasmModuleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "address",
             "name": "owner",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "loserStakeEscrow",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "uint256",
             "name": "chainId",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "string",
             "name": "chainConfig",
-            "type": "string",
-            "baseType": "string",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "string"
           },
           {
+            "internalType": "uint64",
             "name": "genesisBlockNum",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
-            "name": "sequencerInboxMaxTimeVariation",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "uint256",
                 "name": "delayBlocks",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint256"
               },
               {
+                "internalType": "uint256",
                 "name": "futureBlocks",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint256"
               },
               {
+                "internalType": "uint256",
                 "name": "delaySeconds",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint256"
               },
               {
+                "internalType": "uint256",
                 "name": "futureSeconds",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint256"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct ISequencerInbox.MaxTimeVariation",
+            "name": "sequencerInboxMaxTimeVariation",
+            "type": "tuple"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Config",
+        "name": "config",
+        "type": "tuple"
       },
       {
-        "name": "connectedContracts",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "contract IBridge",
             "name": "bridge",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract ISequencerInbox",
             "name": "sequencerInbox",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract IInboxBase",
             "name": "inbox",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract IOutbox",
             "name": "outbox",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract IRollupEventInbox",
             "name": "rollupEventInbox",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract IChallengeManager",
             "name": "challengeManager",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "rollupAdminLogic",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract IRollupUser",
             "name": "rollupUserLogic",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "validatorUtils",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "validatorWalletCreator",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct ContractDependencies",
+        "name": "connectedContracts",
+        "type": "tuple"
       }
     ],
     "name": "initialize",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

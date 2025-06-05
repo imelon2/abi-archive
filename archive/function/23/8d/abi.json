@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "newPeriod",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "newPeriod",
+        "type": "uint256"
       }
     ],
     "name": "MinimumAssertionPeriodSet",
-    "anonymous": false
+    "type": "event"
   }
 ]

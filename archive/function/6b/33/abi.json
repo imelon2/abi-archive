@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "bytes1",
         "name": "",
-        "type": "bytes1",
-        "baseType": "bytes1",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes1"
       }
     ],
-    "name": "InvalidHeaderFlag"
+    "name": "InvalidHeaderFlag",
+    "type": "error"
   }
 ]

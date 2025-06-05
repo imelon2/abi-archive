@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "newWasmModuleRoot",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "newWasmModuleRoot",
+        "type": "bytes32"
       }
     ],
     "name": "WasmModuleRootSet",
-    "anonymous": false
+    "type": "event"
   }
 ]

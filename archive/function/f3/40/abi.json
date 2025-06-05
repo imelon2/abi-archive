@@ -1,40 +1,28 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "refundee",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "deposit",
-    "constant": false,
     "outputs": [],
     "stateMutability": "payable",
-    "payable": true,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "payee",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "deposit",
-    "constant": false,
     "outputs": [],
     "stateMutability": "payable",
-    "payable": true,
-    "gas": null
+    "type": "function"
   }
 ]

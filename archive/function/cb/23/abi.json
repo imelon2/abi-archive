@@ -1,40 +1,41 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "rollup",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "address",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [],
     "name": "rollup",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "contract IOwnable",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "rollup",
+    "outputs": [
+      {
+        "internalType": "contract IOwnable",
+        "name": "",
+        "type": "address"
       }
     ],
     "stateMutability": "pure",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

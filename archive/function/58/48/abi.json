@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "oldPrice",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "oldPrice",
+        "type": "uint256"
       },
       {
-        "name": "newPrice",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "newPrice",
+        "type": "uint256"
       }
     ],
     "name": "SetMinReservePrice",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "bytes32",
         "name": "operationId",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
-    "name": "AccessManagerNotScheduled"
+    "name": "AccessManagerNotScheduled",
+    "type": "error"
   }
 ]

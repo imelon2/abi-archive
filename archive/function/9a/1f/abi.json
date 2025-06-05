@@ -1,151 +1,99 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "args",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "address",
             "name": "_auctioneer",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "_biddingToken",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "_beneficiary",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
-            "name": "_roundTimingInfo",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "int64",
                 "name": "offsetTimestamp",
-                "type": "int64",
-                "baseType": "int64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "int64"
               },
               {
+                "internalType": "uint64",
                 "name": "roundDurationSeconds",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "uint64",
                 "name": "auctionClosingSeconds",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "uint64",
                 "name": "reserveSubmissionSeconds",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct RoundTimingInfo",
+            "name": "_roundTimingInfo",
+            "type": "tuple"
           },
           {
+            "internalType": "uint256",
             "name": "_minReservePrice",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "address",
             "name": "_auctioneerAdmin",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "_minReservePriceSetter",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "_reservePriceSetter",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "_reservePriceSetterAdmin",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "_beneficiarySetter",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "_roundTimingSetter",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "address",
             "name": "_masterAdmin",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct InitArgs",
+        "name": "args",
+        "type": "tuple"
       }
     ],
     "name": "initialize",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

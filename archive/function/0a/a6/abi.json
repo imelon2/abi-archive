@@ -1,12 +1,9 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "rollbackDefaultAdminDelay",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

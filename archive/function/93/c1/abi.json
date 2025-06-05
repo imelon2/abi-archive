@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "flag",
-        "type": "bool",
-        "baseType": "bool",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bool",
+        "name": "flag",
+        "type": "bool"
       },
       {
-        "name": "value",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "value",
+        "type": "bytes32"
       }
     ],
     "name": "Basic",
-    "anonymous": false
+    "type": "event"
   }
 ]

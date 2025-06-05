@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "codehash",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "codehash",
+        "type": "bytes32"
       },
       {
-        "name": "dataFee",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "dataFee",
+        "type": "uint256"
       }
     ],
     "name": "ProgramLifetimeExtended",
-    "anonymous": false
+    "type": "event"
   }
 ]

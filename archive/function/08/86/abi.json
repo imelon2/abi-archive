@@ -1,8 +1,8 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [],
     "name": "RefundsClosed",
-    "anonymous": false
+    "type": "event"
   }
 ]

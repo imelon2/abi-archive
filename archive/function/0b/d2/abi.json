@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "uint192",
         "name": "key",
-        "type": "uint192",
-        "baseType": "uint192",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint192"
       }
     ],
     "name": "incrementNonce",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

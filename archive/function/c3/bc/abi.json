@@ -1,270 +1,362 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "userOp",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "address",
             "name": "sender",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "uint256",
             "name": "nonce",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bytes",
             "name": "initCode",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           },
           {
+            "internalType": "bytes",
             "name": "callData",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           },
           {
+            "internalType": "bytes32",
             "name": "accountGasLimits",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint256",
             "name": "preVerificationGas",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bytes32",
             "name": "gasFees",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes",
             "name": "paymasterAndData",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           },
           {
+            "internalType": "bytes",
             "name": "signature",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct PackedUserOperation",
+        "name": "userOp",
+        "type": "tuple"
       }
     ],
     "name": "simulateValidation",
-    "constant": false,
     "outputs": [
       {
-        "name": "",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
-            "name": "returnInfo",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "uint256",
                 "name": "preOpGas",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint256"
               },
               {
+                "internalType": "uint256",
                 "name": "prefund",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint256"
               },
               {
+                "internalType": "uint256",
                 "name": "accountValidationData",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint256"
               },
               {
+                "internalType": "uint256",
                 "name": "paymasterValidationData",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint256"
               },
               {
+                "internalType": "bytes",
                 "name": "paymasterContext",
-                "type": "bytes",
-                "baseType": "bytes",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct IEntryPoint.ReturnInfo",
+            "name": "returnInfo",
+            "type": "tuple"
           },
           {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "stake",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "unstakeDelaySec",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct IStakeManager.StakeInfo",
             "name": "senderInfo",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "stake",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "unstakeDelaySec",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "stake",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "unstakeDelaySec",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct IStakeManager.StakeInfo",
             "name": "factoryInfo",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "stake",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "unstakeDelaySec",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "stake",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "unstakeDelaySec",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct IStakeManager.StakeInfo",
             "name": "paymasterInfo",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "stake",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "unstakeDelaySec",
-                "type": "uint256",
-                "baseType": "uint256",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
-            "name": "aggregatorInfo",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "address",
                 "name": "aggregator",
-                "type": "address",
-                "baseType": "address",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "address"
               },
               {
-                "name": "stakeInfo",
-                "type": "tuple",
-                "baseType": "tuple",
                 "components": [
                   {
+                    "internalType": "uint256",
                     "name": "stake",
-                    "type": "uint256",
-                    "baseType": "uint256",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
+                    "type": "uint256"
                   },
                   {
+                    "internalType": "uint256",
                     "name": "unstakeDelaySec",
-                    "type": "uint256",
-                    "baseType": "uint256",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
+                    "type": "uint256"
                   }
                 ],
-                "arrayLength": null,
-                "arrayChildren": null
+                "internalType": "struct IStakeManager.StakeInfo",
+                "name": "stakeInfo",
+                "type": "tuple"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct IEntryPointSimulations.AggregatorStakeInfo",
+            "name": "aggregatorInfo",
+            "type": "tuple"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct IEntryPointSimulations.ValidationResult",
+        "name": "",
+        "type": "tuple"
       }
     ],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "nonce",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "initCode",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "callData",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "accountGasLimits",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "preVerificationGas",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "gasFees",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes",
+            "name": "paymasterAndData",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct PackedUserOperation",
+        "name": "userOp",
+        "type": "tuple"
+      }
+    ],
+    "name": "simulateValidation",
+    "outputs": [
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "preOpGas",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "prefund",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "accountValidationData",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "paymasterValidationData",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "paymasterContext",
+                "type": "bytes"
+              }
+            ],
+            "internalType": "struct IEntryPoint.ReturnInfo",
+            "name": "returnInfo",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "stake",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "unstakeDelaySec",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct IStakeManager.StakeInfo",
+            "name": "senderInfo",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "stake",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "unstakeDelaySec",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct IStakeManager.StakeInfo",
+            "name": "factoryInfo",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "stake",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "unstakeDelaySec",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct IStakeManager.StakeInfo",
+            "name": "paymasterInfo",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "aggregator",
+                "type": "address"
+              },
+              {
+                "components": [
+                  {
+                    "internalType": "uint256",
+                    "name": "stake",
+                    "type": "uint256"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "unstakeDelaySec",
+                    "type": "uint256"
+                  }
+                ],
+                "internalType": "struct IStakeManager.StakeInfo",
+                "name": "stakeInfo",
+                "type": "tuple"
+              }
+            ],
+            "internalType": "struct IEntryPoint.AggregatorStakeInfo",
+            "name": "aggregatorInfo",
+            "type": "tuple"
+          }
+        ],
+        "internalType": "struct IEntryPointSimulations.ValidationResult",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
   }
 ]

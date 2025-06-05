@@ -1,53 +1,32 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "getEntries",
-    "constant": true,
     "outputs": [
       {
+        "components": [
+          {
+            "internalType": "bytes32",
+            "name": "code",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint64",
+            "name": "size",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint192",
+            "name": "bid",
+            "type": "uint192"
+          }
+        ],
+        "internalType": "struct CacheManager.Entry[]",
         "name": "",
-        "type": "tuple[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "tuple",
-          "baseType": "tuple",
-          "components": [
-            {
-              "name": "code",
-              "type": "bytes32",
-              "baseType": "bytes32",
-              "components": null,
-              "arrayLength": null,
-              "arrayChildren": null
-            },
-            {
-              "name": "size",
-              "type": "uint64",
-              "baseType": "uint64",
-              "components": null,
-              "arrayLength": null,
-              "arrayChildren": null
-            },
-            {
-              "name": "bid",
-              "type": "uint192",
-              "baseType": "uint192",
-              "components": null,
-              "arrayLength": null,
-              "arrayChildren": null
-            }
-          ],
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "tuple[]"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

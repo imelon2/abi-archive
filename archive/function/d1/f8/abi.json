@@ -1,46 +1,31 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "uint64",
         "name": "roleId",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
+        "internalType": "address",
         "name": "account",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "hasRole",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "bool",
         "name": "isMember",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       },
       {
+        "internalType": "uint32",
         "name": "executionDelay",
-        "type": "uint32",
-        "baseType": "uint32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint32"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

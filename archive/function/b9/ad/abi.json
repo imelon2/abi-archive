@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "AuctionNotClosed"
+    "name": "AuctionNotClosed",
+    "type": "error"
   }
 ]

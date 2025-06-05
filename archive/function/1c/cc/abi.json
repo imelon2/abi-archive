@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "BIGSTEP_LEAF_SIZE",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint256",
         "name": "",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

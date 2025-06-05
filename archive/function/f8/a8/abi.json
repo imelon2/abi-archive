@@ -1,12 +1,9 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "test",
-    "constant": true,
     "outputs": [],
     "stateMutability": "pure",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

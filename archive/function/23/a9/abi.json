@@ -1,30 +1,21 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "uint64",
         "name": "challengeIndex",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       }
     ],
     "name": "currentResponder",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "address",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

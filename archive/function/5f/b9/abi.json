@@ -1,75 +1,40 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "bytes32",
         "name": "preRoot",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "internalType": "uint256",
         "name": "preSize",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "bytes32",
         "name": "postRoot",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "internalType": "uint256",
         "name": "postSize",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "bytes32[]",
         "name": "preExpansion",
-        "type": "bytes32[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "bytes32",
-          "baseType": "bytes32",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "bytes32[]"
       },
       {
+        "internalType": "bytes32[]",
         "name": "proof",
-        "type": "bytes32[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "bytes32",
-          "baseType": "bytes32",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "bytes32[]"
       }
     ],
     "name": "verifyPrefixProof",
-    "constant": true,
     "outputs": [],
     "stateMutability": "pure",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

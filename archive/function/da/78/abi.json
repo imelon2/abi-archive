@@ -1,2186 +1,1400 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint256",
             "name": "maxInboxMessagesRead",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "contract IBridge",
             "name": "bridge",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct ExecutionContext",
+        "name": "",
+        "type": "tuple"
       },
       {
-        "name": "startMach",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "enum MachineStatus",
             "name": "status",
-            "type": "uint8",
-            "baseType": "uint8",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint8"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
             "name": "valueStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
             "name": "internalStack",
-            "type": "tuple",
-            "baseType": "tuple",
+            "type": "tuple"
+          },
+          {
             "components": [
               {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
                 "components": [
                   {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value",
+                    "name": "returnPc",
+                    "type": "tuple"
+                  },
+                  {
+                    "internalType": "bytes32",
+                    "name": "localsMerkleRoot",
+                    "type": "bytes32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModule",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModuleInternals",
+                    "type": "uint32"
                   }
                 ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "frameStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
+                "internalType": "struct StackFrame[]",
                 "name": "proved",
-                "type": "tuple[]",
-                "baseType": "array",
-                "components": null,
-                "arrayLength": -1,
-                "arrayChildren": {
-                  "name": "",
-                  "type": "tuple",
-                  "baseType": "tuple",
-                  "components": [
-                    {
-                      "name": "returnPc",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "localsMerkleRoot",
-                      "type": "bytes32",
-                      "baseType": "bytes32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModule",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModuleInternals",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  ],
-                  "arrayLength": null,
-                  "arrayChildren": null
-                }
+                "type": "tuple[]"
               },
               {
+                "internalType": "bytes32",
                 "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct StackFrameWindow",
+            "name": "frameStack",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "globalStateHash",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "moduleIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint32",
             "name": "functionIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint32",
             "name": "functionPc",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "bytes32",
             "name": "modulesRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Machine",
+        "name": "startMach",
+        "type": "tuple"
       },
       {
-        "name": "startMod",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "bytes32",
             "name": "globalsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
-            "name": "moduleMemory",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "uint64",
                 "name": "size",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "uint64",
                 "name": "maxSize",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "bytes32",
                 "name": "merkleRoot",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct ModuleMemory",
+            "name": "moduleMemory",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "tablesMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes32",
             "name": "functionsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "internalsOffset",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Module",
+        "name": "startMod",
+        "type": "tuple"
       },
       {
-        "name": "inst",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint16",
             "name": "opcode",
-            "type": "uint16",
-            "baseType": "uint16",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint16"
           },
           {
+            "internalType": "uint256",
             "name": "argumentData",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Instruction",
+        "name": "inst",
+        "type": "tuple"
       },
       {
+        "internalType": "bytes",
         "name": "proof",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
     "name": "executeOneStep",
-    "constant": true,
     "outputs": [
       {
-        "name": "mach",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "enum MachineStatus",
             "name": "status",
-            "type": "uint8",
-            "baseType": "uint8",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint8"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
             "name": "valueStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
             "name": "internalStack",
-            "type": "tuple",
-            "baseType": "tuple",
+            "type": "tuple"
+          },
+          {
             "components": [
               {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
                 "components": [
                   {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value",
+                    "name": "returnPc",
+                    "type": "tuple"
+                  },
+                  {
+                    "internalType": "bytes32",
+                    "name": "localsMerkleRoot",
+                    "type": "bytes32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModule",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModuleInternals",
+                    "type": "uint32"
                   }
                 ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "frameStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
+                "internalType": "struct StackFrame[]",
                 "name": "proved",
-                "type": "tuple[]",
-                "baseType": "array",
-                "components": null,
-                "arrayLength": -1,
-                "arrayChildren": {
-                  "name": "",
-                  "type": "tuple",
-                  "baseType": "tuple",
-                  "components": [
-                    {
-                      "name": "returnPc",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "localsMerkleRoot",
-                      "type": "bytes32",
-                      "baseType": "bytes32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModule",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModuleInternals",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  ],
-                  "arrayLength": null,
-                  "arrayChildren": null
-                }
+                "type": "tuple[]"
               },
               {
+                "internalType": "bytes32",
                 "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct StackFrameWindow",
+            "name": "frameStack",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "globalStateHash",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "moduleIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint32",
             "name": "functionIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint32",
             "name": "functionPc",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "bytes32",
             "name": "modulesRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Machine",
+        "name": "mach",
+        "type": "tuple"
       },
       {
-        "name": "mod",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "bytes32",
             "name": "globalsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
-            "name": "moduleMemory",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "uint64",
                 "name": "size",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "uint64",
                 "name": "maxSize",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "bytes32",
                 "name": "merkleRoot",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct ModuleMemory",
+            "name": "moduleMemory",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "tablesMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes32",
             "name": "functionsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "internalsOffset",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Module",
+        "name": "mod",
+        "type": "tuple"
       }
     ],
     "stateMutability": "pure",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "execCtx",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint256",
             "name": "maxInboxMessagesRead",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "contract IBridge",
             "name": "bridge",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct ExecutionContext",
+        "name": "execCtx",
+        "type": "tuple"
       },
       {
+        "components": [
+          {
+            "internalType": "enum MachineStatus",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
+            "name": "valueStack",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
+            "name": "internalStack",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value",
+                    "name": "returnPc",
+                    "type": "tuple"
+                  },
+                  {
+                    "internalType": "bytes32",
+                    "name": "localsMerkleRoot",
+                    "type": "bytes32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModule",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModuleInternals",
+                    "type": "uint32"
+                  }
+                ],
+                "internalType": "struct StackFrame[]",
+                "name": "proved",
+                "type": "tuple[]"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct StackFrameWindow",
+            "name": "frameStack",
+            "type": "tuple"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "globalStateHash",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "moduleIdx",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "functionIdx",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "functionPc",
+            "type": "uint32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "modulesRoot",
+            "type": "bytes32"
+          }
+        ],
+        "internalType": "struct Machine",
         "name": "startMach",
-        "type": "tuple",
-        "baseType": "tuple",
-        "components": [
-          {
-            "name": "status",
-            "type": "uint8",
-            "baseType": "uint8",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "valueStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "internalStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "frameStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "proved",
-                "type": "tuple[]",
-                "baseType": "array",
-                "components": null,
-                "arrayLength": -1,
-                "arrayChildren": {
-                  "name": "",
-                  "type": "tuple",
-                  "baseType": "tuple",
-                  "components": [
-                    {
-                      "name": "returnPc",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "localsMerkleRoot",
-                      "type": "bytes32",
-                      "baseType": "bytes32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModule",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModuleInternals",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  ],
-                  "arrayLength": null,
-                  "arrayChildren": null
-                }
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "globalStateHash",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "moduleIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "functionIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "functionPc",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "modulesRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
-          }
-        ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "tuple"
       },
       {
-        "name": "startMod",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "bytes32",
             "name": "globalsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
-            "name": "moduleMemory",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "uint64",
                 "name": "size",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "uint64",
                 "name": "maxSize",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "bytes32",
                 "name": "merkleRoot",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct ModuleMemory",
+            "name": "moduleMemory",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "tablesMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes32",
             "name": "functionsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "internalsOffset",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Module",
+        "name": "startMod",
+        "type": "tuple"
       },
       {
-        "name": "inst",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint16",
             "name": "opcode",
-            "type": "uint16",
-            "baseType": "uint16",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint16"
           },
           {
+            "internalType": "uint256",
             "name": "argumentData",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Instruction",
+        "name": "inst",
+        "type": "tuple"
       },
       {
+        "internalType": "bytes",
         "name": "proof",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
     "name": "executeOneStep",
-    "constant": true,
     "outputs": [
       {
-        "name": "mach",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "enum MachineStatus",
             "name": "status",
-            "type": "uint8",
-            "baseType": "uint8",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint8"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
             "name": "valueStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
             "name": "internalStack",
-            "type": "tuple",
-            "baseType": "tuple",
+            "type": "tuple"
+          },
+          {
             "components": [
               {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
                 "components": [
                   {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value",
+                    "name": "returnPc",
+                    "type": "tuple"
+                  },
+                  {
+                    "internalType": "bytes32",
+                    "name": "localsMerkleRoot",
+                    "type": "bytes32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModule",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModuleInternals",
+                    "type": "uint32"
                   }
                 ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "frameStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
+                "internalType": "struct StackFrame[]",
                 "name": "proved",
-                "type": "tuple[]",
-                "baseType": "array",
-                "components": null,
-                "arrayLength": -1,
-                "arrayChildren": {
-                  "name": "",
-                  "type": "tuple",
-                  "baseType": "tuple",
-                  "components": [
-                    {
-                      "name": "returnPc",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "localsMerkleRoot",
-                      "type": "bytes32",
-                      "baseType": "bytes32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModule",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModuleInternals",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  ],
-                  "arrayLength": null,
-                  "arrayChildren": null
-                }
+                "type": "tuple[]"
               },
               {
+                "internalType": "bytes32",
                 "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct StackFrameWindow",
+            "name": "frameStack",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "globalStateHash",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "moduleIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint32",
             "name": "functionIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint32",
             "name": "functionPc",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "bytes32",
             "name": "modulesRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Machine",
+        "name": "mach",
+        "type": "tuple"
       },
       {
-        "name": "mod",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "bytes32",
             "name": "globalsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
-            "name": "moduleMemory",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "uint64",
                 "name": "size",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "uint64",
                 "name": "maxSize",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "bytes32",
                 "name": "merkleRoot",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct ModuleMemory",
+            "name": "moduleMemory",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "tablesMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes32",
             "name": "functionsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "internalsOffset",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Module",
+        "name": "mod",
+        "type": "tuple"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "execCtx",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint256",
             "name": "maxInboxMessagesRead",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "contract IBridge",
             "name": "bridge",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct ExecutionContext",
+        "name": "execCtx",
+        "type": "tuple"
       },
       {
-        "name": "mach",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "enum MachineStatus",
             "name": "status",
-            "type": "uint8",
-            "baseType": "uint8",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint8"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
             "name": "valueStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
             "name": "internalStack",
-            "type": "tuple",
-            "baseType": "tuple",
+            "type": "tuple"
+          },
+          {
             "components": [
               {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
                 "components": [
                   {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value",
+                    "name": "returnPc",
+                    "type": "tuple"
+                  },
+                  {
+                    "internalType": "bytes32",
+                    "name": "localsMerkleRoot",
+                    "type": "bytes32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModule",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModuleInternals",
+                    "type": "uint32"
                   }
                 ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "frameStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
+                "internalType": "struct StackFrame[]",
                 "name": "proved",
-                "type": "tuple[]",
-                "baseType": "array",
-                "components": null,
-                "arrayLength": -1,
-                "arrayChildren": {
-                  "name": "",
-                  "type": "tuple",
-                  "baseType": "tuple",
-                  "components": [
-                    {
-                      "name": "returnPc",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "localsMerkleRoot",
-                      "type": "bytes32",
-                      "baseType": "bytes32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModule",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModuleInternals",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  ],
-                  "arrayLength": null,
-                  "arrayChildren": null
-                }
+                "type": "tuple[]"
               },
               {
+                "internalType": "bytes32",
                 "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct StackFrameWindow",
+            "name": "frameStack",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "globalStateHash",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "moduleIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint32",
             "name": "functionIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint32",
             "name": "functionPc",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "bytes32",
             "name": "modulesRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Machine",
+        "name": "mach",
+        "type": "tuple"
       },
       {
-        "name": "mod",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "bytes32",
             "name": "globalsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
-            "name": "moduleMemory",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "uint64",
                 "name": "size",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "uint64",
                 "name": "maxSize",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "bytes32",
                 "name": "merkleRoot",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct ModuleMemory",
+            "name": "moduleMemory",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "tablesMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes32",
             "name": "functionsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "internalsOffset",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Module",
+        "name": "mod",
+        "type": "tuple"
       },
       {
-        "name": "instruction",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint16",
             "name": "opcode",
-            "type": "uint16",
-            "baseType": "uint16",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint16"
           },
           {
+            "internalType": "uint256",
             "name": "argumentData",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Instruction",
+        "name": "instruction",
+        "type": "tuple"
       },
       {
+        "internalType": "bytes",
         "name": "proof",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
     "name": "executeOneStep",
-    "constant": true,
     "outputs": [
       {
-        "name": "result",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "enum MachineStatus",
             "name": "status",
-            "type": "uint8",
-            "baseType": "uint8",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint8"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
             "name": "valueStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value[]",
+                    "name": "inner",
+                    "type": "tuple[]"
+                  }
+                ],
+                "internalType": "struct ValueArray",
+                "name": "proved",
+                "type": "tuple"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "remainingHash",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ValueStack",
             "name": "internalStack",
-            "type": "tuple",
-            "baseType": "tuple",
+            "type": "tuple"
+          },
+          {
             "components": [
               {
-                "name": "proved",
-                "type": "tuple",
-                "baseType": "tuple",
                 "components": [
                   {
-                    "name": "inner",
-                    "type": "tuple[]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": -1,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
+                    "components": [
+                      {
+                        "internalType": "enum ValueType",
+                        "name": "valueType",
+                        "type": "uint8"
+                      },
+                      {
+                        "internalType": "uint256",
+                        "name": "contents",
+                        "type": "uint256"
+                      }
+                    ],
+                    "internalType": "struct Value",
+                    "name": "returnPc",
+                    "type": "tuple"
+                  },
+                  {
+                    "internalType": "bytes32",
+                    "name": "localsMerkleRoot",
+                    "type": "bytes32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModule",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "callerModuleInternals",
+                    "type": "uint32"
                   }
                 ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "frameStack",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
+                "internalType": "struct StackFrame[]",
                 "name": "proved",
-                "type": "tuple[]",
-                "baseType": "array",
-                "components": null,
-                "arrayLength": -1,
-                "arrayChildren": {
-                  "name": "",
-                  "type": "tuple",
-                  "baseType": "tuple",
-                  "components": [
-                    {
-                      "name": "returnPc",
-                      "type": "tuple",
-                      "baseType": "tuple",
-                      "components": [
-                        {
-                          "name": "valueType",
-                          "type": "uint8",
-                          "baseType": "uint8",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        },
-                        {
-                          "name": "contents",
-                          "type": "uint256",
-                          "baseType": "uint256",
-                          "components": null,
-                          "arrayLength": null,
-                          "arrayChildren": null
-                        }
-                      ],
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "localsMerkleRoot",
-                      "type": "bytes32",
-                      "baseType": "bytes32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModule",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    },
-                    {
-                      "name": "callerModuleInternals",
-                      "type": "uint32",
-                      "baseType": "uint32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  ],
-                  "arrayLength": null,
-                  "arrayChildren": null
-                }
+                "type": "tuple[]"
               },
               {
+                "internalType": "bytes32",
                 "name": "remainingHash",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct StackFrameWindow",
+            "name": "frameStack",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "globalStateHash",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "moduleIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint32",
             "name": "functionIdx",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint32",
             "name": "functionPc",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "bytes32",
             "name": "modulesRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Machine",
+        "name": "result",
+        "type": "tuple"
       },
       {
-        "name": "resultMod",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "bytes32",
             "name": "globalsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
-            "name": "moduleMemory",
-            "type": "tuple",
-            "baseType": "tuple",
             "components": [
               {
+                "internalType": "uint64",
                 "name": "size",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "uint64",
                 "name": "maxSize",
-                "type": "uint64",
-                "baseType": "uint64",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "uint64"
               },
               {
+                "internalType": "bytes32",
                 "name": "merkleRoot",
-                "type": "bytes32",
-                "baseType": "bytes32",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
+                "type": "bytes32"
               }
             ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "internalType": "struct ModuleMemory",
+            "name": "moduleMemory",
+            "type": "tuple"
           },
           {
+            "internalType": "bytes32",
             "name": "tablesMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes32",
             "name": "functionsMerkleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint32",
             "name": "internalsOffset",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Module",
+        "name": "resultMod",
+        "type": "tuple"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

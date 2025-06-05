@@ -1,55 +1,40 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "oldVotingDelay",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "oldVotingDelay",
+        "type": "uint256"
       },
       {
-        "name": "newVotingDelay",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "newVotingDelay",
+        "type": "uint256"
       }
     ],
     "name": "VotingDelaySet",
-    "anonymous": false
+    "type": "event"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "bytes32",
         "name": "codehash",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
     "name": "getMinBid",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint192",
         "name": "min",
-        "type": "uint192",
-        "baseType": "uint192",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint192"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

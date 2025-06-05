@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "oldProposalThreshold",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "oldProposalThreshold",
+        "type": "uint256"
       },
       {
-        "name": "newProposalThreshold",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "newProposalThreshold",
+        "type": "uint256"
       }
     ],
     "name": "ProposalThresholdSet",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,32 +1,23 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "uint256",
         "name": "opIndex",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "string",
         "name": "reason",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       },
       {
+        "internalType": "bytes",
         "name": "inner",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
-    "name": "FailedOpWithRevert"
+    "name": "FailedOpWithRevert",
+    "type": "error"
   }
 ]

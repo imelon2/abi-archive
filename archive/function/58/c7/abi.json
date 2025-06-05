@@ -1,38 +1,26 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "program",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "activateProgram",
-    "constant": false,
     "outputs": [
       {
+        "internalType": "uint16",
         "name": "version",
-        "type": "uint16",
-        "baseType": "uint16",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint16"
       },
       {
+        "internalType": "uint256",
         "name": "dataFee",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "stateMutability": "payable",
-    "payable": true,
-    "gas": null
+    "type": "function"
   }
 ]

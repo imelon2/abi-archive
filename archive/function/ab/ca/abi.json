@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "keysetHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "keysetHash",
+        "type": "bytes32"
       },
       {
-        "name": "keysetBytes",
-        "type": "bytes",
-        "baseType": "bytes",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes",
+        "name": "keysetBytes",
+        "type": "bytes"
       }
     ],
     "name": "SetValidKeyset",
-    "anonymous": false
+    "type": "event"
   }
 ]

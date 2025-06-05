@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "BROTLI_MESSAGE_HEADER_FLAG",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "bytes1",
         "name": "",
-        "type": "bytes1",
-        "baseType": "bytes1",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes1"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

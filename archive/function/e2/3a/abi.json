@@ -1,63 +1,43 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "uint256",
         "name": "proposalId",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "internalType": "address",
         "name": "voter",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "getReceipt",
-    "constant": true,
     "outputs": [
       {
-        "name": "",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "bool",
             "name": "hasVoted",
-            "type": "bool",
-            "baseType": "bool",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bool"
           },
           {
+            "internalType": "uint8",
             "name": "support",
-            "type": "uint8",
-            "baseType": "uint8",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint8"
           },
           {
+            "internalType": "uint96",
             "name": "votes",
-            "type": "uint96",
-            "baseType": "uint96",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint96"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct IGovernorCompatibilityBravo.Receipt",
+        "name": "",
+        "type": "tuple"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

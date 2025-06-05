@@ -1,44 +1,25 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "target",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "bytes4[]",
         "name": "selectors",
-        "type": "bytes4[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "bytes4",
-          "baseType": "bytes4",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "bytes4[]"
       },
       {
+        "internalType": "bool",
         "name": "ignored",
-        "type": "bool",
-        "baseType": "bool",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       }
     ],
     "name": "setAccessManagerIgnored",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,8 +1,8 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [],
     "name": "WithdrawTriggered",
-    "anonymous": false
+    "type": "event"
   }
 ]

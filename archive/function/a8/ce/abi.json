@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "int256",
         "name": "value",
-        "type": "int256",
-        "baseType": "int256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "int256"
       }
     ],
-    "name": "SafeCastOverflowedIntToUint"
+    "name": "SafeCastOverflowedIntToUint",
+    "type": "error"
   }
 ]

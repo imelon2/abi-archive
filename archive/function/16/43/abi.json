@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "isEnabled",
-        "type": "bool",
-        "baseType": "bool",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bool",
+        "name": "isEnabled",
+        "type": "bool"
       }
     ],
     "name": "AllowListEnabledUpdated",
-    "anonymous": false
+    "type": "event"
   }
 ]

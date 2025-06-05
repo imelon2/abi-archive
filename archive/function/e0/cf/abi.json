@@ -1,140 +1,96 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
-        "name": "returnInfo",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint256",
             "name": "preOpGas",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "prefund",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bool",
             "name": "sigFailed",
-            "type": "bool",
-            "baseType": "bool",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bool"
           },
           {
+            "internalType": "uint48",
             "name": "validAfter",
-            "type": "uint48",
-            "baseType": "uint48",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint48"
           },
           {
+            "internalType": "uint48",
             "name": "validUntil",
-            "type": "uint48",
-            "baseType": "uint48",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint48"
           },
           {
+            "internalType": "bytes",
             "name": "paymasterContext",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct IEntryPoint.ReturnInfo",
+        "name": "returnInfo",
+        "type": "tuple"
       },
       {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "stake",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "unstakeDelaySec",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IStakeManager.StakeInfo",
         "name": "senderInfo",
-        "type": "tuple",
-        "baseType": "tuple",
-        "components": [
-          {
-            "name": "stake",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "unstakeDelaySec",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
-          }
-        ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "tuple"
       },
       {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "stake",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "unstakeDelaySec",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IStakeManager.StakeInfo",
         "name": "factoryInfo",
-        "type": "tuple",
-        "baseType": "tuple",
-        "components": [
-          {
-            "name": "stake",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
-          },
-          {
-            "name": "unstakeDelaySec",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
-          }
-        ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "tuple"
       },
       {
-        "name": "paymasterInfo",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint256",
             "name": "stake",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "unstakeDelaySec",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct IStakeManager.StakeInfo",
+        "name": "paymasterInfo",
+        "type": "tuple"
       }
     ],
-    "name": "ValidationResult"
+    "name": "ValidationResult",
+    "type": "error"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "InvalidDelayedAccPreimage"
+    "name": "InvalidDelayedAccPreimage",
+    "type": "error"
   }
 ]

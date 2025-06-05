@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "SimulationOnlyEntrypoint"
+    "name": "SimulationOnlyEntrypoint",
+    "type": "error"
   }
 ]

@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "challengeIndex",
-        "type": "uint64",
-        "baseType": "uint64",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint64",
+        "name": "challengeIndex",
+        "type": "uint64"
       },
       {
-        "name": "kind",
-        "type": "uint8",
-        "baseType": "uint8",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "enum IChallengeManager.ChallengeTerminationType",
+        "name": "kind",
+        "type": "uint8"
       }
     ],
     "name": "ChallengeEnded",
-    "anonymous": false
+    "type": "event"
   }
 ]

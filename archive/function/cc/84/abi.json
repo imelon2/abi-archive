@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "defaultAdminDelay",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint48",
         "name": "",
-        "type": "uint48",
-        "baseType": "uint48",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint48"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

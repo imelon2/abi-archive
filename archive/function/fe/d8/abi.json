@@ -1,54 +1,37 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "newRoundTimingInfo",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "int64",
             "name": "offsetTimestamp",
-            "type": "int64",
-            "baseType": "int64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "int64"
           },
           {
+            "internalType": "uint64",
             "name": "roundDurationSeconds",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "auctionClosingSeconds",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "reserveSubmissionSeconds",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct RoundTimingInfo",
+        "name": "newRoundTimingInfo",
+        "type": "tuple"
       }
     ],
     "name": "setRoundTimingInfo",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

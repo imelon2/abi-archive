@@ -1,61 +1,40 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "commonParams",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint128",
         "name": "maxRefundeeBalance",
-        "type": "uint128",
-        "baseType": "uint128",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint128"
       },
       {
+        "internalType": "uint32",
         "name": "extraGasMargin",
-        "type": "uint32",
-        "baseType": "uint32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint32"
       },
       {
+        "internalType": "uint8",
         "name": "calldataCost",
-        "type": "uint8",
-        "baseType": "uint8",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint8"
       },
       {
+        "internalType": "uint64",
         "name": "maxGasTip",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
+        "internalType": "uint64",
         "name": "maxGasCost",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
+        "internalType": "uint32",
         "name": "maxSingleGasUsage",
-        "type": "uint32",
-        "baseType": "uint32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint32"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,56 +1,38 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "pendingDefaultAdminDelay",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint48",
         "name": "newDelay",
-        "type": "uint48",
-        "baseType": "uint48",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint48"
       },
       {
+        "internalType": "uint48",
         "name": "effectSchedule",
-        "type": "uint48",
-        "baseType": "uint48",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint48"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [],
     "name": "pendingDefaultAdminDelay",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint48",
         "name": "newDelay",
-        "type": "uint48",
-        "baseType": "uint48",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint48"
       },
       {
+        "internalType": "uint48",
         "name": "schedule",
-        "type": "uint48",
-        "baseType": "uint48",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint48"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,28 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address[]",
         "name": "addresses",
-        "type": "address[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "address",
-          "baseType": "address",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "address[]"
       }
     ],
     "name": "disallowContracts",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

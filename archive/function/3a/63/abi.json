@@ -1,24 +1,18 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "bytes32",
         "name": "endHistoryRoot",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "internalType": "bytes32",
         "name": "assertionEndRoot",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       }
     ],
-    "name": "EndHistoryRootMismatch"
+    "name": "EndHistoryRootMismatch",
+    "type": "error"
   }
 ]

@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "id",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
       },
       {
-        "name": "newSymbol",
-        "type": "string",
-        "baseType": "string",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "string",
+        "name": "newSymbol",
+        "type": "string"
       }
     ],
     "name": "ERC6909SymbolUpdated",
-    "anonymous": false
+    "type": "event"
   }
 ]

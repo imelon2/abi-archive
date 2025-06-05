@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "NativeTokenMismatch"
+    "name": "NativeTokenMismatch",
+    "type": "error"
   }
 ]

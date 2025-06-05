@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "challengeIndex",
-        "type": "uint64",
-        "baseType": "uint64",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint64",
+        "name": "challengeIndex",
+        "type": "uint64"
       },
       {
-        "name": "blockSteps",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "blockSteps",
+        "type": "uint256"
       }
     ],
     "name": "ExecutionChallengeBegun",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,63 +1,45 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": true,
+        "internalType": "bytes32",
         "name": "operationId",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "indexed": true,
+        "internalType": "uint32",
         "name": "nonce",
-        "type": "uint32",
-        "baseType": "uint32",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint32"
       },
       {
+        "indexed": false,
+        "internalType": "uint48",
         "name": "schedule",
-        "type": "uint48",
-        "baseType": "uint48",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint48"
       },
       {
+        "indexed": false,
+        "internalType": "address",
         "name": "caller",
-        "type": "address",
-        "baseType": "address",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": false,
+        "internalType": "address",
         "name": "target",
-        "type": "address",
-        "baseType": "address",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
-        "name": "data",
-        "type": "bytes",
-        "baseType": "bytes",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
       }
     ],
     "name": "OperationScheduled",
-    "anonymous": false
+    "type": "event"
   }
 ]

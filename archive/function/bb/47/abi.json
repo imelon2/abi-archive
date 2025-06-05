@@ -1,8 +1,8 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [],
     "name": "BeforeExecution",
-    "anonymous": false
+    "type": "event"
   }
 ]

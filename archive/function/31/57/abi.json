@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "L1AtomicTokenBridgeCreator_L2FactoryCannotBeChanged"
+    "name": "L1AtomicTokenBridgeCreator_L2FactoryCannotBeChanged",
+    "type": "error"
   }
 ]

@@ -1,36 +1,27 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "token",
-        "type": "address",
-        "baseType": "address",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "contract IERC20",
+        "name": "token",
+        "type": "address"
       },
       {
+        "indexed": false,
+        "internalType": "address",
         "name": "to",
-        "type": "address",
-        "baseType": "address",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
-        "name": "amount",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
       }
     ],
     "name": "ERC20PaymentReleased",
-    "anonymous": false
+    "type": "event"
   }
 ]

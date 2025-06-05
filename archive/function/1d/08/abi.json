@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "ERC721ForbiddenBatchBurn"
+    "name": "ERC721ForbiddenBatchBurn",
+    "type": "error"
   }
 ]

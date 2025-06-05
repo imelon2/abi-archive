@@ -1,8 +1,8 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [],
     "name": "EIP712DomainChanged",
-    "anonymous": false
+    "type": "event"
   }
 ]

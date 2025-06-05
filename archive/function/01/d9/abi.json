@@ -1,143 +1,93 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "contract IRollupCore",
         "name": "rollup",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "internalType": "address",
         "name": "staker",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "latestStaked",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint64",
         "name": "",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
-        "name": "",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "bytes32",
             "name": "stateHash",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes32",
             "name": "challengeHash",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes32",
             "name": "confirmData",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint64",
             "name": "prevNum",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "deadlineBlock",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "noChildConfirmedBeforeBlock",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "stakerCount",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "childStakerCount",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "firstChildBlock",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "latestChildNumber",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "createdAtBlock",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "bytes32",
             "name": "nodeHash",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Node",
+        "name": "",
+        "type": "tuple"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

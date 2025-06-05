@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "messageNum",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "messageNum",
+        "type": "uint256"
       }
     ],
     "name": "InboxMessageDeliveredFromOrigin",
-    "anonymous": false
+    "type": "event"
   }
 ]

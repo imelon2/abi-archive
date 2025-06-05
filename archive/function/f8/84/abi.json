@@ -1,36 +1,27 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": true,
+        "internalType": "bytes32",
         "name": "fullHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "indexed": true,
+        "internalType": "uint64",
         "name": "offset",
-        "type": "uint64",
-        "baseType": "uint64",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
-        "name": "part",
-        "type": "bytes",
-        "baseType": "bytes",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes",
+        "name": "part",
+        "type": "bytes"
       }
     ],
     "name": "PreimagePartProven",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "uint8",
         "name": "level",
-        "type": "uint8",
-        "baseType": "uint8",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint8"
       }
     ],
-    "name": "EdgeTypeNotSmallStep"
+    "name": "EdgeTypeNotSmallStep",
+    "type": "error"
   }
 ]

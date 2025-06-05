@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "string",
         "name": "str",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       }
     ],
-    "name": "StringTooLong"
+    "name": "StringTooLong",
+    "type": "error"
   }
 ]

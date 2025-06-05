@@ -1,36 +1,27 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "codehash",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "codehash",
+        "type": "bytes32"
       },
       {
+        "indexed": false,
+        "internalType": "uint192",
         "name": "bid",
-        "type": "uint192",
-        "baseType": "uint192",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint192"
       },
       {
-        "name": "size",
-        "type": "uint64",
-        "baseType": "uint64",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint64",
+        "name": "size",
+        "type": "uint64"
       }
     ],
     "name": "DeleteBid",
-    "anonymous": false
+    "type": "event"
   }
 ]

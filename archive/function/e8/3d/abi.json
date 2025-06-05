@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "feeTokenPricer",
-        "type": "address",
-        "baseType": "address",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "address",
+        "name": "feeTokenPricer",
+        "type": "address"
       }
     ],
     "name": "FeeTokenPricerSet",
-    "anonymous": false
+    "type": "event"
   }
 ]

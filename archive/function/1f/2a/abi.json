@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "ZeroAmount"
+    "name": "ZeroAmount",
+    "type": "error"
   }
 ]

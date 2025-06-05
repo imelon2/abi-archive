@@ -1,30 +1,21 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "program",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "getMinBid",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint192",
         "name": "min",
-        "type": "uint192",
-        "baseType": "uint192",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint192"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

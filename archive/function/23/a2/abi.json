@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "ExecType",
         "name": "execType",
-        "type": "bytes1",
-        "baseType": "bytes1",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes1"
       }
     ],
-    "name": "ERC7579UnsupportedExecType"
+    "name": "ERC7579UnsupportedExecType",
+    "type": "error"
   }
 ]

@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "newBaseStake",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "newBaseStake",
+        "type": "uint256"
       }
     ],
     "name": "BaseStakeSet",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "int64",
         "name": "cost",
-        "type": "int64",
-        "baseType": "int64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "int64"
       }
     ],
     "name": "setPerBatchGasCharge",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

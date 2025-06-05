@@ -1,140 +1,94 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "account",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "getDepositInfo",
-    "constant": true,
     "outputs": [
       {
-        "name": "info",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint112",
             "name": "deposit",
-            "type": "uint112",
-            "baseType": "uint112",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint112"
           },
           {
+            "internalType": "bool",
             "name": "staked",
-            "type": "bool",
-            "baseType": "bool",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bool"
           },
           {
+            "internalType": "uint112",
             "name": "stake",
-            "type": "uint112",
-            "baseType": "uint112",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint112"
           },
           {
+            "internalType": "uint32",
             "name": "unstakeDelaySec",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint48",
             "name": "withdrawTime",
-            "type": "uint48",
-            "baseType": "uint48",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint48"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct IStakeManager.DepositInfo",
+        "name": "info",
+        "type": "tuple"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   },
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "address",
         "name": "account",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "getDepositInfo",
-    "constant": true,
     "outputs": [
       {
-        "name": "info",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint256",
             "name": "deposit",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bool",
             "name": "staked",
-            "type": "bool",
-            "baseType": "bool",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bool"
           },
           {
+            "internalType": "uint112",
             "name": "stake",
-            "type": "uint112",
-            "baseType": "uint112",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint112"
           },
           {
+            "internalType": "uint32",
             "name": "unstakeDelaySec",
-            "type": "uint32",
-            "baseType": "uint32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint32"
           },
           {
+            "internalType": "uint48",
             "name": "withdrawTime",
-            "type": "uint48",
-            "baseType": "uint48",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint48"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct IStakeManager.DepositInfo",
+        "name": "info",
+        "type": "tuple"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,21 +1,28 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "challengeManagerTemplate",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "contract IChallengeManager",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "challengeManagerTemplate",
+    "outputs": [
+      {
+        "internalType": "contract IEdgeChallengeManager",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
   }
 ]

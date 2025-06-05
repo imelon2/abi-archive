@@ -1,125 +1,74 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "bytes32",
         "name": "edgeId",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
-        "name": "oneStepData",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "bytes32",
             "name": "beforeHash",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "bytes",
             "name": "proof",
-            "type": "bytes",
-            "baseType": "bytes",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct OneStepData",
+        "name": "oneStepData",
+        "type": "tuple"
       },
       {
-        "name": "prevConfig",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "bytes32",
             "name": "wasmModuleRoot",
-            "type": "bytes32",
-            "baseType": "bytes32",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "bytes32"
           },
           {
+            "internalType": "uint256",
             "name": "requiredStake",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "address",
             "name": "challengeManager",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "uint64",
             "name": "confirmPeriodBlocks",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           },
           {
+            "internalType": "uint64",
             "name": "nextInboxPosition",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct ConfigData",
+        "name": "prevConfig",
+        "type": "tuple"
       },
       {
+        "internalType": "bytes32[]",
         "name": "beforeHistoryInclusionProof",
-        "type": "bytes32[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "bytes32",
-          "baseType": "bytes32",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "bytes32[]"
       },
       {
+        "internalType": "bytes32[]",
         "name": "afterHistoryInclusionProof",
-        "type": "bytes32[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "bytes32",
-          "baseType": "bytes32",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "bytes32[]"
       }
     ],
     "name": "confirmEdgeByOneStepProof",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

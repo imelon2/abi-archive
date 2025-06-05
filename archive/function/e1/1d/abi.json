@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "edgeId",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
       },
       {
-        "name": "mutualId",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "mutualId",
+        "type": "bytes32"
       }
     ],
     "name": "EdgeConfirmedByOneStepProof",
-    "anonymous": false
+    "type": "event"
   }
 ]

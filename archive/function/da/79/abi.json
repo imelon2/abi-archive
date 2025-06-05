@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "parameter",
-        "type": "uint8",
-        "baseType": "uint8",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "enum GasRefunder.CommonParameterKey",
+        "name": "parameter",
+        "type": "uint8"
       },
       {
-        "name": "value",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "value",
+        "type": "uint256"
       }
     ],
     "name": "CommonParameterSet",
-    "anonymous": false
+    "type": "event"
   }
 ]

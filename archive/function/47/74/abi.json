@@ -1,158 +1,90 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "assertion",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "bytes32[2]",
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]"
+                  },
+                  {
+                    "internalType": "uint64[2]",
+                    "name": "u64Vals",
+                    "type": "uint64[2]"
+                  }
+                ],
+                "internalType": "struct GlobalState",
+                "name": "globalState",
+                "type": "tuple"
+              },
+              {
+                "internalType": "enum MachineStatus",
+                "name": "machineStatus",
+                "type": "uint8"
+              }
+            ],
+            "internalType": "struct ExecutionState",
             "name": "beforeState",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "globalState",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "bytes32Vals",
-                    "type": "bytes32[2]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": 2,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "bytes32",
-                      "baseType": "bytes32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  },
-                  {
-                    "name": "u64Vals",
-                    "type": "uint64[2]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": 2,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "uint64",
-                      "baseType": "uint64",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "machineStatus",
-                "type": "uint8",
-                "baseType": "uint8",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "bytes32[2]",
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]"
+                  },
+                  {
+                    "internalType": "uint64[2]",
+                    "name": "u64Vals",
+                    "type": "uint64[2]"
+                  }
+                ],
+                "internalType": "struct GlobalState",
+                "name": "globalState",
+                "type": "tuple"
+              },
+              {
+                "internalType": "enum MachineStatus",
+                "name": "machineStatus",
+                "type": "uint8"
+              }
+            ],
+            "internalType": "struct ExecutionState",
             "name": "afterState",
-            "type": "tuple",
-            "baseType": "tuple",
-            "components": [
-              {
-                "name": "globalState",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "bytes32Vals",
-                    "type": "bytes32[2]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": 2,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "bytes32",
-                      "baseType": "bytes32",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  },
-                  {
-                    "name": "u64Vals",
-                    "type": "uint64[2]",
-                    "baseType": "array",
-                    "components": null,
-                    "arrayLength": 2,
-                    "arrayChildren": {
-                      "name": "",
-                      "type": "uint64",
-                      "baseType": "uint64",
-                      "components": null,
-                      "arrayLength": null,
-                      "arrayChildren": null
-                    }
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
-              },
-              {
-                "name": "machineStatus",
-                "type": "uint8",
-                "baseType": "uint8",
-                "components": null,
-                "arrayLength": null,
-                "arrayChildren": null
-              }
-            ],
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "tuple"
           },
           {
+            "internalType": "uint64",
             "name": "numBlocks",
-            "type": "uint64",
-            "baseType": "uint64",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint64"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct Assertion",
+        "name": "assertion",
+        "type": "tuple"
       },
       {
+        "internalType": "bytes32",
         "name": "expectedNodeHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "internalType": "uint256",
         "name": "prevNodeInboxMaxCount",
-        "type": "uint256",
-        "baseType": "uint256",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       }
     ],
     "name": "newStakeOnNewNode",
-    "constant": false,
     "outputs": [],
     "stateMutability": "payable",
-    "payable": true,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,77 +1,47 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "uint64",
         "name": "challengeIndex",
-        "type": "uint64",
-        "baseType": "uint64",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint64"
       },
       {
-        "name": "selection",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint256",
             "name": "oldSegmentsStart",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "oldSegmentsLength",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "bytes32[]",
             "name": "oldSegments",
-            "type": "bytes32[]",
-            "baseType": "array",
-            "components": null,
-            "arrayLength": -1,
-            "arrayChildren": {
-              "name": "",
-              "type": "bytes32",
-              "baseType": "bytes32",
-              "components": null,
-              "arrayLength": null,
-              "arrayChildren": null
-            }
+            "type": "bytes32[]"
           },
           {
+            "internalType": "uint256",
             "name": "challengePosition",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct ChallengeLib.SegmentSelection",
+        "name": "selection",
+        "type": "tuple"
       },
       {
+        "internalType": "bytes",
         "name": "proof",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
     "name": "oneStepProveExecution",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

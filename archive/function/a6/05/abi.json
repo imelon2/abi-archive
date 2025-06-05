@@ -1,54 +1,39 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": true,
+        "internalType": "bool",
         "name": "flag",
-        "type": "bool",
-        "baseType": "bool",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       },
       {
+        "indexed": false,
+        "internalType": "bool",
         "name": "not",
-        "type": "bool",
-        "baseType": "bool",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bool"
       },
       {
+        "indexed": true,
+        "internalType": "bytes32",
         "name": "value",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
-        "name": "conn",
-        "type": "address",
-        "baseType": "address",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "address",
+        "name": "conn",
+        "type": "address"
       },
       {
-        "name": "caller",
-        "type": "address",
-        "baseType": "address",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "address",
+        "name": "caller",
+        "type": "address"
       }
     ],
     "name": "Mixed",
-    "anonymous": false
+    "type": "event"
   }
 ]

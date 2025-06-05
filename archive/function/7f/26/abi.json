@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "version",
-        "type": "uint8",
-        "baseType": "uint8",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint8",
+        "name": "version",
+        "type": "uint8"
       }
     ],
     "name": "Initialized",
-    "anonymous": false
+    "type": "event"
   }
 ]

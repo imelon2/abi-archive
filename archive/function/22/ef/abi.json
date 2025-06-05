@@ -1,36 +1,27 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "nodeNum",
-        "type": "uint64",
-        "baseType": "uint64",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint64",
+        "name": "nodeNum",
+        "type": "uint64"
       },
       {
+        "indexed": false,
+        "internalType": "bytes32",
         "name": "blockHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
-        "name": "sendRoot",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "sendRoot",
+        "type": "bytes32"
       }
     ],
     "name": "NodeConfirmed",
-    "anonymous": false
+    "type": "event"
   }
 ]

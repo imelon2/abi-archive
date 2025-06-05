@@ -1,36 +1,27 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "signer",
-        "type": "address",
-        "baseType": "address",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "address",
+        "name": "signer",
+        "type": "address"
       },
       {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "nonce",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
-        "name": "success",
-        "type": "bool",
-        "baseType": "bool",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bool",
+        "name": "success",
+        "type": "bool"
       }
     ],
     "name": "ExecutedForwardRequest",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,54 +1,39 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "codehash",
-        "type": "bytes32",
-        "baseType": "bytes32",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes32",
+        "name": "codehash",
+        "type": "bytes32"
       },
       {
+        "indexed": false,
+        "internalType": "bytes32",
         "name": "moduleHash",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "indexed": false,
+        "internalType": "address",
         "name": "program",
-        "type": "address",
-        "baseType": "address",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "dataFee",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
-        "name": "version",
-        "type": "uint16",
-        "baseType": "uint16",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint16",
+        "name": "version",
+        "type": "uint16"
       }
     ],
     "name": "ProgramActivated",
-    "anonymous": false
+    "type": "event"
   }
 ]

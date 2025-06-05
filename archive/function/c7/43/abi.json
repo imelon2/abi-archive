@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "id",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
       },
       {
-        "name": "newDecimals",
-        "type": "uint8",
-        "baseType": "uint8",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint8",
+        "name": "newDecimals",
+        "type": "uint8"
       }
     ],
     "name": "ERC6909DecimalsUpdated",
-    "anonymous": false
+    "type": "event"
   }
 ]

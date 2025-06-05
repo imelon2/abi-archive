@@ -1,70 +1,47 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "_newTemplates",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "contract IBridge",
             "name": "bridge",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract ISequencerInbox",
             "name": "sequencerInbox",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract ISequencerInbox",
             "name": "delayBufferableSequencerInbox",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract IInboxBase",
             "name": "inbox",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract IRollupEventInbox",
             "name": "rollupEventInbox",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           },
           {
+            "internalType": "contract IOutbox",
             "name": "outbox",
-            "type": "address",
-            "baseType": "address",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "address"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct BridgeCreator.BridgeTemplates",
+        "name": "_newTemplates",
+        "type": "tuple"
       }
     ],
     "name": "updateTemplates",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

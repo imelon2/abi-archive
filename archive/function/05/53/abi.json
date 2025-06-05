@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "oldQuorumNumerator",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "oldQuorumNumerator",
+        "type": "uint256"
       },
       {
-        "name": "newQuorumNumerator",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "newQuorumNumerator",
+        "type": "uint256"
       }
     ],
     "name": "QuorumNumeratorUpdated",
-    "anonymous": false
+    "type": "event"
   }
 ]

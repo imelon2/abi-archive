@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "oldReservePrice",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "oldReservePrice",
+        "type": "uint256"
       },
       {
-        "name": "newReservePrice",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "newReservePrice",
+        "type": "uint256"
       }
     ],
     "name": "SetReservePrice",
-    "anonymous": false
+    "type": "event"
   }
 ]

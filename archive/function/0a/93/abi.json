@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "keepaliveDays",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint16",
         "name": "_days",
-        "type": "uint16",
-        "baseType": "uint16",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint16"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

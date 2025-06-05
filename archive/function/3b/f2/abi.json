@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "enum EdgeType",
         "name": "edgeType",
-        "type": "uint8",
-        "baseType": "uint8",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint8"
       }
     ],
-    "name": "InvalidEdgeType"
+    "name": "InvalidEdgeType",
+    "type": "error"
   }
 ]

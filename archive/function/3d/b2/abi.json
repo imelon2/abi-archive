@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "Empty"
+    "name": "Empty",
+    "type": "error"
   }
 ]

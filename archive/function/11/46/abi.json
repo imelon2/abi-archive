@@ -1,21 +1,28 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "accountImplementation",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "contract SimpleAccount",
         "name": "",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "accountImplementation",
+    "outputs": [
+      {
+        "internalType": "contract BrokenBLSAccount",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
   }
 ]

@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "challengeIndex",
-        "type": "uint64",
-        "baseType": "uint64",
         "indexed": true,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint64",
+        "name": "challengeIndex",
+        "type": "uint64"
       }
     ],
     "name": "OneStepProofCompleted",
-    "anonymous": false
+    "type": "event"
   }
 ]

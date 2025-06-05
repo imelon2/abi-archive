@@ -1,21 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
+        "internalType": "uint16",
         "name": "limit",
-        "type": "uint16",
-        "baseType": "uint16",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint16"
       }
     ],
     "name": "setWasmPageLimit",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

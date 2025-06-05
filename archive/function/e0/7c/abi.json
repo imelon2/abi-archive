@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "UUPSUnauthorizedCallContext"
+    "name": "UUPSUnauthorizedCallContext",
+    "type": "error"
   }
 ]

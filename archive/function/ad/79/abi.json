@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "bytes",
         "name": "returnData",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
-    "name": "PostOpReverted"
+    "name": "PostOpReverted",
+    "type": "error"
   }
 ]

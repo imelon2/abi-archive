@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "InvalidInitialization"
+    "name": "InvalidInitialization",
+    "type": "error"
   }
 ]

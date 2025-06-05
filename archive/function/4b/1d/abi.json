@@ -1,157 +1,94 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "opsPerAggregator",
-        "type": "tuple[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "tuple",
-          "baseType": "tuple",
-          "components": [
-            {
-              "name": "userOps",
-              "type": "tuple[]",
-              "baseType": "array",
-              "components": null,
-              "arrayLength": -1,
-              "arrayChildren": {
-                "name": "",
-                "type": "tuple",
-                "baseType": "tuple",
-                "components": [
-                  {
-                    "name": "sender",
-                    "type": "address",
-                    "baseType": "address",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  },
-                  {
-                    "name": "nonce",
-                    "type": "uint256",
-                    "baseType": "uint256",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  },
-                  {
-                    "name": "initCode",
-                    "type": "bytes",
-                    "baseType": "bytes",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  },
-                  {
-                    "name": "callData",
-                    "type": "bytes",
-                    "baseType": "bytes",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  },
-                  {
-                    "name": "callGasLimit",
-                    "type": "uint256",
-                    "baseType": "uint256",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  },
-                  {
-                    "name": "verificationGasLimit",
-                    "type": "uint256",
-                    "baseType": "uint256",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  },
-                  {
-                    "name": "preVerificationGas",
-                    "type": "uint256",
-                    "baseType": "uint256",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  },
-                  {
-                    "name": "maxFeePerGas",
-                    "type": "uint256",
-                    "baseType": "uint256",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  },
-                  {
-                    "name": "maxPriorityFeePerGas",
-                    "type": "uint256",
-                    "baseType": "uint256",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  },
-                  {
-                    "name": "paymasterAndData",
-                    "type": "bytes",
-                    "baseType": "bytes",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  },
-                  {
-                    "name": "signature",
-                    "type": "bytes",
-                    "baseType": "bytes",
-                    "components": null,
-                    "arrayLength": null,
-                    "arrayChildren": null
-                  }
-                ],
-                "arrayLength": null,
-                "arrayChildren": null
+        "components": [
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "sender",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "nonce",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "initCode",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes",
+                "name": "callData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "uint256",
+                "name": "callGasLimit",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "verificationGasLimit",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "preVerificationGas",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "maxFeePerGas",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "maxPriorityFeePerGas",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "paymasterAndData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes",
+                "name": "signature",
+                "type": "bytes"
               }
-            },
-            {
-              "name": "aggregator",
-              "type": "address",
-              "baseType": "address",
-              "components": null,
-              "arrayLength": null,
-              "arrayChildren": null
-            },
-            {
-              "name": "signature",
-              "type": "bytes",
-              "baseType": "bytes",
-              "components": null,
-              "arrayLength": null,
-              "arrayChildren": null
-            }
-          ],
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+            ],
+            "internalType": "struct UserOperation[]",
+            "name": "userOps",
+            "type": "tuple[]"
+          },
+          {
+            "internalType": "contract IAggregator",
+            "name": "aggregator",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct IEntryPoint.UserOpsPerAggregator[]",
+        "name": "opsPerAggregator",
+        "type": "tuple[]"
       },
       {
+        "internalType": "address payable",
         "name": "beneficiary",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
     "name": "handleAggregatedOps",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

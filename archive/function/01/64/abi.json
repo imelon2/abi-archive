@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "_validatorWhitelistDisabled",
-        "type": "bool",
-        "baseType": "bool",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bool",
+        "name": "_validatorWhitelistDisabled",
+        "type": "bool"
       }
     ],
     "name": "ValidatorWhitelistDisabledSet",
-    "anonymous": false
+    "type": "event"
   }
 ]

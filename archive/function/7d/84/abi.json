@@ -1,118 +1,63 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "proposalId",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "indexed": false,
+        "internalType": "address",
         "name": "proposer",
-        "type": "address",
-        "baseType": "address",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       },
       {
+        "indexed": false,
+        "internalType": "address[]",
         "name": "targets",
-        "type": "address[]",
-        "baseType": "array",
-        "indexed": false,
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "address",
-          "baseType": "address",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "address[]"
       },
       {
+        "indexed": false,
+        "internalType": "uint256[]",
         "name": "values",
-        "type": "uint256[]",
-        "baseType": "array",
-        "indexed": false,
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint256[]"
       },
       {
+        "indexed": false,
+        "internalType": "string[]",
         "name": "signatures",
-        "type": "string[]",
-        "baseType": "array",
-        "indexed": false,
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "string",
-          "baseType": "string",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "string[]"
       },
       {
+        "indexed": false,
+        "internalType": "bytes[]",
         "name": "calldatas",
-        "type": "bytes[]",
-        "baseType": "array",
-        "indexed": false,
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "bytes",
-          "baseType": "bytes",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "bytes[]"
       },
       {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "voteStart",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "voteEnd",
-        "type": "uint256",
-        "baseType": "uint256",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "uint256"
       },
       {
-        "name": "description",
-        "type": "string",
-        "baseType": "string",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "string",
+        "name": "description",
+        "type": "string"
       }
     ],
     "name": "ProposalCreated",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,46 +1,32 @@
 [
   {
-    "type": "function",
     "inputs": [
       {
-        "name": "_uniswapHelperConfig",
-        "type": "tuple",
-        "baseType": "tuple",
         "components": [
           {
+            "internalType": "uint256",
             "name": "minSwapAmount",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint24",
             "name": "uniswapPoolFee",
-            "type": "uint24",
-            "baseType": "uint24",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint24"
           },
           {
+            "internalType": "uint8",
             "name": "slippage",
-            "type": "uint8",
-            "baseType": "uint8",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint8"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "struct UniswapHelper.UniswapHelperConfig",
+        "name": "_uniswapHelperConfig",
+        "type": "tuple"
       }
     ],
     "name": "setUniswapConfiguration",
-    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "string",
         "name": "name",
-        "type": "string",
-        "baseType": "string",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "string"
       }
     ],
-    "name": "InitParamZero"
+    "name": "InitParamZero",
+    "type": "error"
   }
 ]

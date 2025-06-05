@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "excessFeeRefundAddress",
-        "type": "address",
-        "baseType": "address",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "address",
+        "name": "excessFeeRefundAddress",
+        "type": "address"
       },
       {
-        "name": "callValueRefundAddress",
-        "type": "address",
-        "baseType": "address",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "address",
+        "name": "callValueRefundAddress",
+        "type": "address"
       }
     ],
     "name": "RefundAddresses",
-    "anonymous": false
+    "type": "event"
   }
 ]

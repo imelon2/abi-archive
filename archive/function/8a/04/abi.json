@@ -1,8 +1,8 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [],
     "name": "OrbitTokenBridgeTemplatesUpdated",
-    "anonymous": false
+    "type": "event"
   }
 ]

@@ -1,27 +1,21 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "batchExecutionIndex",
-        "type": "uint256",
-        "baseType": "uint256",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint256",
+        "name": "batchExecutionIndex",
+        "type": "uint256"
       },
       {
-        "name": "returndata",
-        "type": "bytes",
-        "baseType": "bytes",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bytes",
+        "name": "returndata",
+        "type": "bytes"
       }
     ],
     "name": "ERC7579TryExecuteFail",
-    "anonymous": false
+    "type": "event"
   }
 ]

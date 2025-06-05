@@ -1,51 +1,37 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "maxTimeVariation",
-        "type": "tuple",
-        "baseType": "tuple",
-        "indexed": false,
         "components": [
           {
+            "internalType": "uint256",
             "name": "delayBlocks",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "futureBlocks",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "delaySeconds",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           },
           {
+            "internalType": "uint256",
             "name": "futureSeconds",
-            "type": "uint256",
-            "baseType": "uint256",
-            "components": null,
-            "arrayLength": null,
-            "arrayChildren": null
+            "type": "uint256"
           }
         ],
-        "arrayLength": null,
-        "arrayChildren": null
+        "indexed": false,
+        "internalType": "struct ISequencerInbox.MaxTimeVariation",
+        "name": "maxTimeVariation",
+        "type": "tuple"
       }
     ],
     "name": "MaxTimeVariationSet",
-    "anonymous": false
+    "type": "event"
   }
 ]

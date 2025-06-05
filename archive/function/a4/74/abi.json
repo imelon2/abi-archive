@@ -1,8 +1,8 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [],
     "name": "ERC20TemplatesUpdated",
-    "anonymous": false
+    "type": "event"
   }
 ]

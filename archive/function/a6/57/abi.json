@@ -1,18 +1,15 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
-        "name": "newConfirmPeriod",
-        "type": "uint64",
-        "baseType": "uint64",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "uint64",
+        "name": "newConfirmPeriod",
+        "type": "uint64"
       }
     ],
     "name": "ConfirmPeriodBlocksSet",
-    "anonymous": false
+    "type": "event"
   }
 ]

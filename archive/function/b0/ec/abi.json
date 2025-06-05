@@ -1,28 +1,15 @@
 [
   {
-    "type": "function",
     "inputs": [],
     "name": "array",
-    "constant": true,
     "outputs": [
       {
+        "internalType": "uint256[]",
         "name": "",
-        "type": "uint256[]",
-        "baseType": "array",
-        "components": null,
-        "arrayLength": -1,
-        "arrayChildren": {
-          "name": "",
-          "type": "uint256",
-          "baseType": "uint256",
-          "components": null,
-          "arrayLength": null,
-          "arrayChildren": null
-        }
+        "type": "uint256[]"
       }
     ],
     "stateMutability": "view",
-    "payable": false,
-    "gas": null
+    "type": "function"
   }
 ]

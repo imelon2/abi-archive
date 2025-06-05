@@ -1,21 +1,18 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "address",
         "name": "spender",
-        "type": "address",
-        "baseType": "address",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "address"
       }
     ],
-    "name": "ERC20InvalidSpender"
+    "name": "ERC20InvalidSpender",
+    "type": "error"
   },
   {
-    "type": "error",
     "inputs": [],
-    "name": "CloneArgumentsTooLong"
+    "name": "CloneArgumentsTooLong",
+    "type": "error"
   }
 ]

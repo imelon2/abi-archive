@@ -1,7 +1,7 @@
 [
   {
-    "type": "error",
     "inputs": [],
-    "name": "TieBidsWrongOrder"
+    "name": "TieBidsWrongOrder",
+    "type": "error"
   }
 ]

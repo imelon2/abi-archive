@@ -1,36 +1,27 @@
 [
   {
-    "type": "event",
+    "anonymous": false,
     "inputs": [
       {
+        "indexed": false,
+        "internalType": "bytes32",
         "name": "slot",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
+        "indexed": false,
+        "internalType": "bytes32",
         "name": "data",
-        "type": "bytes32",
-        "baseType": "bytes32",
-        "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes32"
       },
       {
-        "name": "write",
-        "type": "bool",
-        "baseType": "bool",
         "indexed": false,
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "internalType": "bool",
+        "name": "write",
+        "type": "bool"
       }
     ],
     "name": "Storage",
-    "anonymous": false
+    "type": "event"
   }
 ]

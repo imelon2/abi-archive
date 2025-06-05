@@ -1,16 +1,13 @@
 [
   {
-    "type": "error",
     "inputs": [
       {
+        "internalType": "bytes",
         "name": "bytecode",
-        "type": "bytes",
-        "baseType": "bytes",
-        "components": null,
-        "arrayLength": null,
-        "arrayChildren": null
+        "type": "bytes"
       }
     ],
-    "name": "ContractDeploymentError"
+    "name": "ContractDeploymentError",
+    "type": "error"
   }
 ]
