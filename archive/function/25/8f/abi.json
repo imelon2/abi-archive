@@ -1,21 +1,30 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "bytes32",
         "name": "ksHash",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "getKeysetCreationBlock",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint256",
         "name": "",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

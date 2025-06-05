@@ -1,0 +1,24 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "level",
+        "type": "uint8",
+        "baseType": "uint8",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "numBigStepLevels",
+        "type": "uint8",
+        "baseType": "uint8",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "LevelTooHigh"
+  }
+]

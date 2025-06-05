@@ -1,0 +1,45 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address",
+        "baseType": "address",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "to",
+        "type": "address",
+        "baseType": "address",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "value",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "baseType": "bytes",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "ArbSysL2ToL1Tx",
+    "anonymous": false
+  }
+]

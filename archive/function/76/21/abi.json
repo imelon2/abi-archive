@@ -1,0 +1,32 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "round",
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "expectedTransferor",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "msgSender",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "NotTransferor"
+  }
+]

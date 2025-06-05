@@ -1,50 +1,74 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint256",
         "name": "proposalId",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint8",
         "name": "support",
-        "type": "uint8"
+        "type": "uint8",
+        "baseType": "uint8",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "castVote",
+    "constant": false,
     "outputs": [
       {
-        "internalType": "uint256",
         "name": "balance",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   },
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint256",
         "name": "proposalId",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint8",
         "name": "support",
-        "type": "uint8"
+        "type": "uint8",
+        "baseType": "uint8",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "castVote",
+    "constant": false,
     "outputs": [
       {
-        "internalType": "uint256",
         "name": "",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

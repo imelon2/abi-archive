@@ -1,70 +1,148 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "address[]",
         "name": "targets",
-        "type": "address[]"
+        "type": "address[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "uint256[]",
         "name": "values",
-        "type": "uint256[]"
+        "type": "uint256[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "bytes[]",
         "name": "calldatas",
-        "type": "bytes[]"
+        "type": "bytes[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes",
+          "baseType": "bytes",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "bytes32",
         "name": "descriptionHash",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "execute",
+    "constant": false,
     "outputs": [
       {
-        "internalType": "uint256",
         "name": "proposalId",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "payable",
-    "type": "function"
+    "payable": true,
+    "gas": null
   },
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "address[]",
         "name": "targets",
-        "type": "address[]"
+        "type": "address[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "uint256[]",
         "name": "values",
-        "type": "uint256[]"
+        "type": "uint256[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "bytes[]",
         "name": "calldatas",
-        "type": "bytes[]"
+        "type": "bytes[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes",
+          "baseType": "bytes",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "bytes32",
         "name": "descriptionHash",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "execute",
+    "constant": false,
     "outputs": [
       {
-        "internalType": "uint256",
         "name": "",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "payable",
-    "type": "function"
+    "payable": true,
+    "gas": null
   }
 ]

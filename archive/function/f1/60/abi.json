@@ -1,0 +1,16 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "roundStart",
+        "type": "int64",
+        "baseType": "int64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "NegativeRoundStart"
+  }
+]

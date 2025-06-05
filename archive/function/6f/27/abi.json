@@ -1,21 +1,30 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint64",
         "name": "l2BlockNum",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "blockL1Num",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint64",
         "name": "l1BlockNum",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

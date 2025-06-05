@@ -1,21 +1,55 @@
 [
   {
+    "type": "event",
     "inputs": [
       {
-        "internalType": "bytes32",
+        "name": "oldVotingDelay",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "newVotingDelay",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "VotingDelaySet",
+    "anonymous": false
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
         "name": "codehash",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "getMinBid",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint192",
         "name": "min",
-        "type": "uint192"
+        "type": "uint192",
+        "baseType": "uint192",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

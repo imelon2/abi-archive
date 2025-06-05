@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "nitroGenesisBlock",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint256",
         "name": "number",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "pure",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

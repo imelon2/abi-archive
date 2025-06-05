@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "oldDuration",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "newDuration",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "MinDelayChange",
+    "anonymous": false
+  }
+]

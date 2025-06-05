@@ -1,140 +1,140 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "address",
         "name": "staker",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "getStaker",
+    "constant": true,
     "outputs": [
       {
+        "name": "",
+        "type": "tuple",
+        "baseType": "tuple",
         "components": [
           {
-            "internalType": "uint256",
             "name": "amountStaked",
-            "type": "uint256"
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "bytes32",
+            "name": "index",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "latestStakedNode",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "currentChallenge",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "isStaked",
+            "type": "bool",
+            "baseType": "bool",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "stateMutability": "view",
+    "payable": false,
+    "gas": null
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "staker",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "getStaker",
+    "constant": true,
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "amountStaked",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
             "name": "latestStakedAssertion",
-            "type": "bytes32"
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint64",
             "name": "index",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "bool",
             "name": "isStaked",
-            "type": "bool"
+            "type": "bool",
+            "baseType": "bool",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "address",
             "name": "withdrawalAddress",
-            "type": "address"
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           }
         ],
-        "internalType": "struct IRollupCore.Staker",
-        "name": "",
-        "type": "tuple"
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "staker",
-        "type": "address"
-      }
-    ],
-    "name": "getStaker",
-    "outputs": [
-      {
-        "components": [
-          {
-            "internalType": "uint256",
-            "name": "amountStaked",
-            "type": "uint256"
-          },
-          {
-            "internalType": "uint64",
-            "name": "index",
-            "type": "uint64"
-          },
-          {
-            "internalType": "uint64",
-            "name": "latestStakedNode",
-            "type": "uint64"
-          },
-          {
-            "internalType": "uint64",
-            "name": "currentChallenge",
-            "type": "uint64"
-          },
-          {
-            "internalType": "bool",
-            "name": "isStaked",
-            "type": "bool"
-          }
-        ],
-        "internalType": "struct OldStaker",
-        "name": "",
-        "type": "tuple"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "staker",
-        "type": "address"
-      }
-    ],
-    "name": "getStaker",
-    "outputs": [
-      {
-        "components": [
-          {
-            "internalType": "uint256",
-            "name": "amountStaked",
-            "type": "uint256"
-          },
-          {
-            "internalType": "uint64",
-            "name": "index",
-            "type": "uint64"
-          },
-          {
-            "internalType": "uint64",
-            "name": "latestStakedNode",
-            "type": "uint64"
-          },
-          {
-            "internalType": "uint64",
-            "name": "currentChallenge",
-            "type": "uint64"
-          },
-          {
-            "internalType": "bool",
-            "name": "isStaked",
-            "type": "bool"
-          }
-        ],
-        "internalType": "struct IRollupCore.Staker",
-        "name": "",
-        "type": "tuple"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

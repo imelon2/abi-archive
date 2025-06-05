@@ -1,0 +1,63 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "refundee",
+        "type": "address",
+        "baseType": "address",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "contractAddress",
+        "type": "address",
+        "baseType": "address",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "success",
+        "type": "bool",
+        "baseType": "bool",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "gas",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "gasPrice",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "amountPaid",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "RefundedGasCosts",
+    "anonymous": false
+  }
+]

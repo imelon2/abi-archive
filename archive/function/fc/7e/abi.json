@@ -1,80 +1,122 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "address",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "deposits",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint112",
         "name": "deposit",
-        "type": "uint112"
+        "type": "uint112",
+        "baseType": "uint112",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "bool",
         "name": "staked",
-        "type": "bool"
+        "type": "bool",
+        "baseType": "bool",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint112",
         "name": "stake",
-        "type": "uint112"
+        "type": "uint112",
+        "baseType": "uint112",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint32",
         "name": "unstakeDelaySec",
-        "type": "uint32"
+        "type": "uint32",
+        "baseType": "uint32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint48",
         "name": "withdrawTime",
-        "type": "uint48"
+        "type": "uint48",
+        "baseType": "uint48",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   },
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "address",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "deposits",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint256",
         "name": "deposit",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "bool",
         "name": "staked",
-        "type": "bool"
+        "type": "bool",
+        "baseType": "bool",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint112",
         "name": "stake",
-        "type": "uint112"
+        "type": "uint112",
+        "baseType": "uint112",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint32",
         "name": "unstakeDelaySec",
-        "type": "uint32"
+        "type": "uint32",
+        "baseType": "uint32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint48",
         "name": "withdrawTime",
-        "type": "uint48"
+        "type": "uint48",
+        "baseType": "uint48",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

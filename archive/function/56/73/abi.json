@@ -1,0 +1,63 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address",
+        "baseType": "address",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "to",
+        "type": "address",
+        "baseType": "address",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "exitNum",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "newData",
+        "type": "bytes",
+        "baseType": "bytes",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "baseType": "bytes",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "madeExternalCall",
+        "type": "bool",
+        "baseType": "bool",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "WithdrawRedirected",
+    "anonymous": false
+  }
+]

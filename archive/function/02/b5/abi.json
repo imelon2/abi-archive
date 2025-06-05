@@ -1,0 +1,16 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "key",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "EnumerableMapNonexistentKey"
+  }
+]

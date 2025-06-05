@@ -1,0 +1,40 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "msgsender",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "caller",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "target",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "selector",
+        "type": "bytes4",
+        "baseType": "bytes4",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "AccessManagerUnauthorizedCancel"
+  }
+]

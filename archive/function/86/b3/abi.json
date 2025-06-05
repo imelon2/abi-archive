@@ -1,0 +1,61 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "challengeIndex",
+        "type": "uint64",
+        "baseType": "uint64",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "challengeRoot",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "challengedSegmentStart",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "challengedSegmentLength",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "chainHashes",
+        "type": "bytes32[]",
+        "baseType": "array",
+        "indexed": false,
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes32",
+          "baseType": "bytes32",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      }
+    ],
+    "name": "Bisected",
+    "anonymous": false
+  }
+]

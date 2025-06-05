@@ -1,28 +1,40 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "lateQuorumVoteExtension",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint48",
         "name": "",
-        "type": "uint48"
+        "type": "uint48",
+        "baseType": "uint48",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   },
   {
+    "type": "function",
     "inputs": [],
     "name": "lateQuorumVoteExtension",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint64",
         "name": "",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

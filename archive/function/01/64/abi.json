@@ -1,0 +1,18 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "_validatorWhitelistDisabled",
+        "type": "bool",
+        "baseType": "bool",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "ValidatorWhitelistDisabledSet",
+    "anonymous": false
+  }
+]

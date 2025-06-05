@@ -1,0 +1,24 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "bid",
+        "type": "uint192",
+        "baseType": "uint192",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "min",
+        "type": "uint192",
+        "baseType": "uint192",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "BidTooSmall"
+  }
+]

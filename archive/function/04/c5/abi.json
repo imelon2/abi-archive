@@ -1,31 +1,46 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint64",
         "name": "round",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "address",
         "name": "expressLaneController",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint256",
         "name": "amount",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "getBidHash",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "bytes32",
         "name": "",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

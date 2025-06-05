@@ -1,0 +1,24 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "length",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "StringsInsufficientHexLength"
+  }
+]

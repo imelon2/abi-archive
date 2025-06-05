@@ -1,83 +1,127 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint64",
         "name": "nodeNum",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "getNode",
+    "constant": true,
     "outputs": [
       {
+        "name": "",
+        "type": "tuple",
+        "baseType": "tuple",
         "components": [
           {
-            "internalType": "bytes32",
             "name": "stateHash",
-            "type": "bytes32"
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "bytes32",
             "name": "challengeHash",
-            "type": "bytes32"
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "bytes32",
             "name": "confirmData",
-            "type": "bytes32"
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint64",
             "name": "prevNum",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint64",
             "name": "deadlineBlock",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint64",
             "name": "noChildConfirmedBeforeBlock",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint64",
             "name": "stakerCount",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint64",
             "name": "childStakerCount",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint64",
             "name": "firstChildBlock",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint64",
             "name": "latestChildNumber",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint64",
             "name": "createdAtBlock",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "bytes32",
             "name": "nodeHash",
-            "type": "bytes32"
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           }
         ],
-        "internalType": "struct Node",
-        "name": "",
-        "type": "tuple"
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

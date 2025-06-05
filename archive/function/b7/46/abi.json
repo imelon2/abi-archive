@@ -1,31 +1,46 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "address",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "keccakStates",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint64",
         "name": "offset",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "bytes",
         "name": "part",
-        "type": "bytes"
+        "type": "bytes",
+        "baseType": "bytes",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint256",
         "name": "length",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

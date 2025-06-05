@@ -1,0 +1,86 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "requireSuccess",
+        "type": "bool",
+        "baseType": "bool",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "calls",
+        "type": "tuple[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "tuple",
+          "baseType": "tuple",
+          "components": [
+            {
+              "name": "target",
+              "type": "address",
+              "baseType": "address",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            },
+            {
+              "name": "callData",
+              "type": "bytes",
+              "baseType": "bytes",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            }
+          ],
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      }
+    ],
+    "name": "tryAggregate",
+    "constant": false,
+    "outputs": [
+      {
+        "name": "returnData",
+        "type": "tuple[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "tuple",
+          "baseType": "tuple",
+          "components": [
+            {
+              "name": "success",
+              "type": "bool",
+              "baseType": "bool",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            },
+            {
+              "name": "returnData",
+              "type": "bytes",
+              "baseType": "bytes",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            }
+          ],
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

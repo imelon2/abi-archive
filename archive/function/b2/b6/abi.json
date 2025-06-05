@@ -1,20 +1,43 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "bytes32[]",
         "name": "ticketIds",
-        "type": "bytes32[]"
+        "type": "bytes32[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes32",
+          "baseType": "bytes32",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "address payable[]",
         "name": "addresses",
-        "type": "address[]"
+        "type": "address[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "name": "redeemAllAndCreateAddresses",
+    "constant": false,
     "outputs": [],
     "stateMutability": "payable",
-    "type": "function"
+    "payable": true,
+    "gas": null
   }
 ]

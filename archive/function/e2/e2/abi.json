@@ -1,0 +1,24 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "mutualId",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "originId",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "OriginIdMutualIdMismatch"
+  }
+]

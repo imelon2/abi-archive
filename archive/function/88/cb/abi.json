@@ -1,0 +1,36 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "challengeIndex",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "winner",
+        "type": "address",
+        "baseType": "address",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "loser",
+        "type": "address",
+        "baseType": "address",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "ChallengeCompleted",
+    "anonymous": false
+  }
+]

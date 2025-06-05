@@ -1,21 +1,30 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "address",
         "name": "program",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "programMemoryFootprint",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint16",
         "name": "footprint",
-        "type": "uint16"
+        "type": "uint16",
+        "baseType": "uint16",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

@@ -1,40 +1,68 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint256",
         "name": "_totalDelayedMessagesRead",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint8",
         "name": "kind",
-        "type": "uint8"
+        "type": "uint8",
+        "baseType": "uint8",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint64[2]",
         "name": "l1BlockAndTime",
-        "type": "uint64[2]"
+        "type": "uint64[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint64",
+          "baseType": "uint64",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "uint256",
         "name": "baseFeeL1",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "address",
         "name": "sender",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "bytes32",
         "name": "messageDataHash",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "forceInclusion",
+    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

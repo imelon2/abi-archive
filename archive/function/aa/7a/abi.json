@@ -1,0 +1,43 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "bufferConfig",
+        "type": "tuple",
+        "baseType": "tuple",
+        "indexed": false,
+        "components": [
+          {
+            "name": "threshold",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "max",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "replenishRateInBasis",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "BufferConfigSet",
+    "anonymous": false
+  }
+]

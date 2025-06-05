@@ -1,0 +1,72 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "ticketId",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "retryTxHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "sequenceNum",
+        "type": "uint64",
+        "baseType": "uint64",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "donatedGas",
+        "type": "uint64",
+        "baseType": "uint64",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "gasDonor",
+        "type": "address",
+        "baseType": "address",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "maxRefund",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "submissionFeeRefund",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "RedeemScheduled",
+    "anonymous": false
+  }
+]

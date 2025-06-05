@@ -1,43 +1,64 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "roundTimingInfo",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "int64",
         "name": "offsetTimestamp",
-        "type": "int64"
+        "type": "int64",
+        "baseType": "int64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint64",
         "name": "roundDurationSeconds",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint64",
         "name": "auctionClosingSeconds",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint64",
         "name": "reserveSubmissionSeconds",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   },
   {
+    "type": "function",
     "inputs": [],
     "name": "exitNum",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint256",
         "name": "",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

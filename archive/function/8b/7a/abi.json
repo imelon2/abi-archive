@@ -1,0 +1,56 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "preOpGas",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "paid",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "validAfter",
+        "type": "uint48",
+        "baseType": "uint48",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "validUntil",
+        "type": "uint48",
+        "baseType": "uint48",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "targetSuccess",
+        "type": "bool",
+        "baseType": "bool",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "targetResult",
+        "type": "bytes",
+        "baseType": "bytes",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "ExecutionResult"
+  }
+]

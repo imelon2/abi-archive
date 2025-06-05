@@ -1,41 +1,40 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "entryPoint",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "contract IEntryPoint",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   },
   {
+    "type": "function",
     "inputs": [],
     "name": "entryPoint",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "contract IEntryPoint",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "pure",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "entryPoint",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

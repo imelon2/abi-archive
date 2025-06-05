@@ -1,0 +1,79 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "firstPriceBid",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "expressLaneController",
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "amount",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "signature",
+            "type": "bytes",
+            "baseType": "bytes",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "secondPriceBid",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "expressLaneController",
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "amount",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "signature",
+            "type": "bytes",
+            "baseType": "bytes",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "resolveMultiBidAuction",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

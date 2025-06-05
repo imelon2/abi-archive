@@ -1,0 +1,24 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "size",
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "limit",
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "MakeSpaceTooLarge"
+  }
+]

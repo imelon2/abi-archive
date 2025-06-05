@@ -1,73 +1,112 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "erc20BasedTemplates",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "contract IBridge",
         "name": "bridge",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "contract ISequencerInbox",
         "name": "sequencerInbox",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "contract ISequencerInbox",
-        "name": "delayBufferableSequencerInbox",
-        "type": "address"
-      },
-      {
-        "internalType": "contract IInboxBase",
         "name": "inbox",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "contract IRollupEventInbox",
         "name": "rollupEventInbox",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "contract IOutbox",
         "name": "outbox",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   },
   {
+    "type": "function",
     "inputs": [],
     "name": "erc20BasedTemplates",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "contract IBridge",
         "name": "bridge",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "contract ISequencerInbox",
         "name": "sequencerInbox",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "contract IInboxBase",
+        "name": "delayBufferableSequencerInbox",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
         "name": "inbox",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "contract IRollupEventInbox",
         "name": "rollupEventInbox",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "contract IOutbox",
         "name": "outbox",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

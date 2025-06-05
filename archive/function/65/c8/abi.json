@@ -1,0 +1,32 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "opIndex",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "reason",
+        "type": "string",
+        "baseType": "string",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "inner",
+        "type": "bytes",
+        "baseType": "bytes",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "FailedOpWithRevert"
+  }
+]

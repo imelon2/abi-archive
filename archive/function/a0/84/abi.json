@@ -1,0 +1,46 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "_uniswapHelperConfig",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "minSwapAmount",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "uniswapPoolFee",
+            "type": "uint24",
+            "baseType": "uint24",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "slippage",
+            "type": "uint8",
+            "baseType": "uint8",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "setUniswapConfiguration",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "expressLaneController",
+        "type": "address",
+        "baseType": "address",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "transferor",
+        "type": "address",
+        "baseType": "address",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "fixedUntilRound",
+        "type": "uint64",
+        "baseType": "uint64",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "SetTransferor",
+    "anonymous": false
+  }
+]

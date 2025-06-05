@@ -1,22 +1,31 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "eventsView",
+    "constant": true,
     "outputs": [],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   },
   {
+    "type": "function",
     "inputs": [],
     "name": "isArbitrumEnabled",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint8",
         "name": "",
-        "type": "uint8"
+        "type": "uint8",
+        "baseType": "uint8",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

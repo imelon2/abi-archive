@@ -1,0 +1,36 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "target",
+        "type": "address",
+        "baseType": "address",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "selector",
+        "type": "bytes4",
+        "baseType": "bytes4",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "ignored",
+        "type": "bool",
+        "baseType": "bool",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "AccessManagerIgnoredSet",
+    "anonymous": false
+  }
+]

@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "cachedPriceTimestamp",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint48",
         "name": "",
-        "type": "uint48"
+        "type": "uint48",
+        "baseType": "uint48",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

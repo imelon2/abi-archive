@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "address",
         "name": "to",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "mint",
+    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

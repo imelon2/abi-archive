@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "machineHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "chainId",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "RollupInitialized",
+    "anonymous": false
+  }
+]

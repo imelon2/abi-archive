@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "string",
+        "baseType": "string",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "id",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "URI",
+    "anonymous": false
+  }
+]

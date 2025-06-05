@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "feeTokenPricer",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "contract IFeeTokenPricer",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

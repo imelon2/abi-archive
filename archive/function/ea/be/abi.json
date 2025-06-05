@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "oldProposalGuardian",
+        "type": "address",
+        "baseType": "address",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "newProposalGuardian",
+        "type": "address",
+        "baseType": "address",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "ProposalGuardianSet",
+    "anonymous": false
+  }
+]

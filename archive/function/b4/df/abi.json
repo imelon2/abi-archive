@@ -1,0 +1,52 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "blockHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "outputRoot",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "SendRootUpdated",
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "outputRoot",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "l2BlockHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "SendRootUpdated",
+    "anonymous": false
+  }
+]

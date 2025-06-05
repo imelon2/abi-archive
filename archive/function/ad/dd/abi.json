@@ -1,21 +1,30 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "contract IERC20",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "oracles",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "contract IOracle",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

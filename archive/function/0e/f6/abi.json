@@ -1,0 +1,18 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "assertionHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "AssertionForceConfirmed",
+    "anonymous": false
+  }
+]

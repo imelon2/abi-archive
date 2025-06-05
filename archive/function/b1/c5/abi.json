@@ -1,41 +1,83 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "address[]",
         "name": "targets",
-        "type": "address[]"
+        "type": "address[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "uint256[]",
         "name": "values",
-        "type": "uint256[]"
+        "type": "uint256[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "bytes[]",
         "name": "payloads",
-        "type": "bytes[]"
+        "type": "bytes[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes",
+          "baseType": "bytes",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "bytes32",
         "name": "predecessor",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "bytes32",
         "name": "salt",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "hashOperationBatch",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "bytes32",
         "name": "",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "pure",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

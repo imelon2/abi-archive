@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint256",
         "name": "proposalId",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "execute",
+    "constant": false,
     "outputs": [],
     "stateMutability": "payable",
-    "type": "function"
+    "payable": true,
+    "gas": null
   }
 ]

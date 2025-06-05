@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint16",
         "name": "_days",
-        "type": "uint16"
+        "type": "uint16",
+        "baseType": "uint16",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "setWasmKeepaliveDays",
+    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

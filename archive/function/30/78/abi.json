@@ -1,41 +1,62 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint64",
         "name": "roleId",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "address",
         "name": "account",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "getAccess",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint48",
         "name": "since",
-        "type": "uint48"
+        "type": "uint48",
+        "baseType": "uint48",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint32",
         "name": "currentDelay",
-        "type": "uint32"
+        "type": "uint32",
+        "baseType": "uint32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint32",
         "name": "pendingDelay",
-        "type": "uint32"
+        "type": "uint32",
+        "baseType": "uint32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint48",
         "name": "effect",
-        "type": "uint48"
+        "type": "uint48",
+        "baseType": "uint48",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

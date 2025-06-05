@@ -1,41 +1,59 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "contract IBridge",
         "name": "_bridge",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "postUpgradeInit",
+    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   },
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "contract IBridge",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "name": "postUpgradeInit",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "contract IOneStepProofEntry",
         "name": "osp_",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "postUpgradeInit",
+    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "postUpgradeInit",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
   }
 ]

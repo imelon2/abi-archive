@@ -1,0 +1,16 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "",
+        "type": "bytes1",
+        "baseType": "bytes1",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "InvalidHeaderFlag"
+  }
+]

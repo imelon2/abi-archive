@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "reader4844",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "contract IReader4844",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

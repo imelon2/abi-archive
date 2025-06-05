@@ -1,0 +1,54 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "newRoundTimingInfo",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "offsetTimestamp",
+            "type": "int64",
+            "baseType": "int64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "roundDurationSeconds",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "auctionClosingSeconds",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "reserveSubmissionSeconds",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "setRoundTimingInfo",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

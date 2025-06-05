@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint64",
         "name": "number",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "customRevert",
+    "constant": true,
     "outputs": [],
     "stateMutability": "pure",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

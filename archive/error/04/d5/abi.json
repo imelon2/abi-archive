@@ -1,7 +1,0 @@
-[
-  {
-    "inputs": [],
-    "name": "ExtraGasNotUint64",
-    "type": "error"
-  }
-]

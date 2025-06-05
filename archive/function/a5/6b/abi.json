@@ -1,0 +1,36 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "target",
+        "type": "address",
+        "baseType": "address",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "delay",
+        "type": "uint32",
+        "baseType": "uint32",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "since",
+        "type": "uint48",
+        "baseType": "uint48",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "TargetAdminDelayUpdated",
+    "anonymous": false
+  }
+]

@@ -1,21 +1,30 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "bytes32",
         "name": "codehash",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "codehashVersion",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint16",
         "name": "version",
-        "type": "uint16"
+        "type": "uint16",
+        "baseType": "uint16",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

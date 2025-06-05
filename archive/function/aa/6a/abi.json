@@ -1,0 +1,51 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "maxTimeVariation",
+        "type": "tuple",
+        "baseType": "tuple",
+        "indexed": false,
+        "components": [
+          {
+            "name": "delayBlocks",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "futureBlocks",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "delaySeconds",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "futureSeconds",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "MaxTimeVariationSet",
+    "anonymous": false
+  }
+]

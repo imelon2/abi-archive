@@ -1,0 +1,54 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "_tokenPaymasterConfig",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "priceMarkup",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "minEntryPointBalance",
+            "type": "uint128",
+            "baseType": "uint128",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "refundPostopCost",
+            "type": "uint48",
+            "baseType": "uint48",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "priceMaxAge",
+            "type": "uint48",
+            "baseType": "uint48",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "setTokenPaymasterConfig",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

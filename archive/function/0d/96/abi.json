@@ -1,0 +1,41 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "validators",
+        "type": "address[]",
+        "baseType": "array",
+        "indexed": false,
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "enabled",
+        "type": "bool[]",
+        "baseType": "array",
+        "indexed": false,
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bool",
+          "baseType": "bool",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      }
+    ],
+    "name": "ValidatorsSet",
+    "anonymous": false
+  }
+]

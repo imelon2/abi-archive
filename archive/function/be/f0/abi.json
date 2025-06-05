@@ -1,0 +1,38 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "transferor",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "addr",
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "fixedUntilRound",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "setTransferor",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

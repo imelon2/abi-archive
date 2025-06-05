@@ -1,0 +1,107 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "challengeIndex",
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "selection",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "oldSegmentsStart",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "oldSegmentsLength",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "oldSegments",
+            "type": "bytes32[]",
+            "baseType": "array",
+            "components": null,
+            "arrayLength": -1,
+            "arrayChildren": {
+              "name": "",
+              "type": "bytes32",
+              "baseType": "bytes32",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            }
+          },
+          {
+            "name": "challengePosition",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "machineStatuses",
+        "type": "uint8[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint8",
+          "baseType": "uint8",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "globalStateHashes",
+        "type": "bytes32[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes32",
+          "baseType": "bytes32",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "numSteps",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "challengeExecution",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

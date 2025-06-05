@@ -1,0 +1,131 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "wasmModuleRoot_",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "startAndEndMachineStatuses_",
+        "type": "uint8[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint8",
+          "baseType": "uint8",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "startAndEndGlobalStates_",
+        "type": "tuple[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "tuple",
+          "baseType": "tuple",
+          "components": [
+            {
+              "name": "bytes32Vals",
+              "type": "bytes32[2]",
+              "baseType": "array",
+              "components": null,
+              "arrayLength": 2,
+              "arrayChildren": {
+                "name": "",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            },
+            {
+              "name": "u64Vals",
+              "type": "uint64[2]",
+              "baseType": "array",
+              "components": null,
+              "arrayLength": 2,
+              "arrayChildren": {
+                "name": "",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            }
+          ],
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "numBlocks",
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "asserter_",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "challenger_",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "asserterTimeLeft_",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "challengerTimeLeft_",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "createChallenge",
+    "constant": false,
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

@@ -1,15 +1,28 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "getBatchPosters",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "address[]",
         "name": "",
-        "type": "address[]"
+        "type": "address[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

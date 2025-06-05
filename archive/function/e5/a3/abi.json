@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "DATA_AUTHENTICATED_FLAG",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "bytes1",
         "name": "",
-        "type": "bytes1"
+        "type": "bytes1",
+        "baseType": "bytes1",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

@@ -1,0 +1,36 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "nodeNum",
+        "type": "uint64",
+        "baseType": "uint64",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "blockHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "sendRoot",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "NodeConfirmed",
+    "anonymous": false
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "deployedContract",
+        "type": "address",
+        "baseType": "address",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "ContractDeployed",
+    "anonymous": false
+  }
+]

@@ -1,40 +1,30 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "contract ITransparentUpgradeableProxy",
         "name": "proxy",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "getProxyImplementation",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "address",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "contract TransparentUpgradeableProxy",
-        "name": "proxy",
-        "type": "address"
-      }
-    ],
-    "name": "getProxyImplementation",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

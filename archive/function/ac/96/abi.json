@@ -1,21 +1,44 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "bytes[]",
         "name": "data",
-        "type": "bytes[]"
+        "type": "bytes[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes",
+          "baseType": "bytes",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "name": "multicall",
+    "constant": false,
     "outputs": [
       {
-        "internalType": "bytes[]",
         "name": "results",
-        "type": "bytes[]"
+        "type": "bytes[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes",
+          "baseType": "bytes",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

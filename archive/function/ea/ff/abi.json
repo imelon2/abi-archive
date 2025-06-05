@@ -1,0 +1,18 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "nodeNum",
+        "type": "uint64",
+        "baseType": "uint64",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "NodeRejected",
+    "anonymous": false
+  }
+]

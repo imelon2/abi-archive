@@ -1,0 +1,202 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "nodeNum",
+        "type": "uint64",
+        "baseType": "uint64",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "parentNodeHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "nodeHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "executionHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "assertion",
+        "type": "tuple",
+        "baseType": "tuple",
+        "indexed": false,
+        "components": [
+          {
+            "name": "beforeState",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "globalState",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  },
+                  {
+                    "name": "u64Vals",
+                    "type": "uint64[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "uint64",
+                      "baseType": "uint64",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "machineStatus",
+                "type": "uint8",
+                "baseType": "uint8",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "afterState",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "globalState",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  },
+                  {
+                    "name": "u64Vals",
+                    "type": "uint64[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "uint64",
+                      "baseType": "uint64",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "machineStatus",
+                "type": "uint8",
+                "baseType": "uint8",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "numBlocks",
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "afterInboxBatchAcc",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "wasmModuleRoot",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "inboxMaxCount",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "NodeCreated",
+    "anonymous": false
+  }
+]

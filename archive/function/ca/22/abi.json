@@ -1,0 +1,18 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "size",
+        "type": "uint64",
+        "baseType": "uint64",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "SetCacheSize",
+    "anonymous": false
+  }
+]

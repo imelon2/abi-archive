@@ -1,26 +1,45 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "bytes32",
         "name": "mode",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "bytes",
         "name": "executionCalldata",
-        "type": "bytes"
+        "type": "bytes",
+        "baseType": "bytes",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "executeFromExecutor",
+    "constant": false,
     "outputs": [
       {
-        "internalType": "bytes[]",
         "name": "returnData",
-        "type": "bytes[]"
+        "type": "bytes[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes",
+          "baseType": "bytes",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "stateMutability": "payable",
-    "type": "function"
+    "payable": true,
+    "gas": null
   }
 ]

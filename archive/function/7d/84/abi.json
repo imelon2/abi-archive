@@ -1,0 +1,118 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "proposalId",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "proposer",
+        "type": "address",
+        "baseType": "address",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "targets",
+        "type": "address[]",
+        "baseType": "array",
+        "indexed": false,
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "values",
+        "type": "uint256[]",
+        "baseType": "array",
+        "indexed": false,
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "signatures",
+        "type": "string[]",
+        "baseType": "array",
+        "indexed": false,
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "string",
+          "baseType": "string",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "calldatas",
+        "type": "bytes[]",
+        "baseType": "array",
+        "indexed": false,
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes",
+          "baseType": "bytes",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "voteStart",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "voteEnd",
+        "type": "uint256",
+        "baseType": "uint256",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "baseType": "string",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "ProposalCreated",
+    "anonymous": false
+  }
+]

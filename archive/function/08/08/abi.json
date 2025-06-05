@@ -1,0 +1,16 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "amount",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "AmountTooLarge"
+  }
+]

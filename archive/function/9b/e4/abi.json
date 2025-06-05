@@ -1,0 +1,54 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "flag",
+        "type": "bool",
+        "baseType": "bool",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "field",
+        "type": "address",
+        "baseType": "address",
+        "indexed": true,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "number",
+        "type": "uint24",
+        "baseType": "uint24",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "value",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "store",
+        "type": "bytes",
+        "baseType": "bytes",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "Store",
+    "anonymous": false
+  }
+]

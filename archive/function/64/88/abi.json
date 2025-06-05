@@ -1,9 +1,12 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "fillBlockMulMod",
+    "constant": false,
     "outputs": [],
     "stateMutability": "payable",
-    "type": "function"
+    "payable": true,
+    "gas": null
   }
 ]

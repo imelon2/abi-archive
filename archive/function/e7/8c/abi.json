@@ -1,28 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "bridge",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "contract IBridge",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "bridge",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

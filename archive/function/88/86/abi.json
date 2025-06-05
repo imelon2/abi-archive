@@ -1,0 +1,8 @@
+[
+  {
+    "type": "event",
+    "inputs": [],
+    "name": "DefaultAdminTransferCanceled",
+    "anonymous": false
+  }
+]

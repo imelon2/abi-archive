@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "isConsumingScheduledOp",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "bytes4",
         "name": "",
-        "type": "bytes4"
+        "type": "bytes4",
+        "baseType": "bytes4",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

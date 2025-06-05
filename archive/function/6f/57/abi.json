@@ -1,0 +1,298 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "stakers",
+        "type": "address[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "nodeNums",
+        "type": "uint64[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint64",
+          "baseType": "uint64",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "machineStatuses",
+        "type": "uint8[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint8",
+          "baseType": "uint8",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "globalStates",
+        "type": "tuple[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "tuple",
+          "baseType": "tuple",
+          "components": [
+            {
+              "name": "bytes32Vals",
+              "type": "bytes32[2]",
+              "baseType": "array",
+              "components": null,
+              "arrayLength": 2,
+              "arrayChildren": {
+                "name": "",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            },
+            {
+              "name": "u64Vals",
+              "type": "uint64[2]",
+              "baseType": "array",
+              "components": null,
+              "arrayLength": 2,
+              "arrayChildren": {
+                "name": "",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            }
+          ],
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "numBlocks",
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "secondExecutionHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "proposedBlocks",
+        "type": "uint256[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "wasmModuleRoots",
+        "type": "bytes32[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes32",
+          "baseType": "bytes32",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      }
+    ],
+    "name": "createChallenge",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "stakers",
+        "type": "address[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "nodeNums",
+        "type": "uint64[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint64",
+          "baseType": "uint64",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "machineStatuses",
+        "type": "uint8[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint8",
+          "baseType": "uint8",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "globalStates",
+        "type": "tuple[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "tuple",
+          "baseType": "tuple",
+          "components": [
+            {
+              "name": "bytes32Vals",
+              "type": "bytes32[2]",
+              "baseType": "array",
+              "components": null,
+              "arrayLength": 2,
+              "arrayChildren": {
+                "name": "",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            },
+            {
+              "name": "u64Vals",
+              "type": "uint64[2]",
+              "baseType": "array",
+              "components": null,
+              "arrayLength": 2,
+              "arrayChildren": {
+                "name": "",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            }
+          ],
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "numBlocks",
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "secondExecutionHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "proposedTimes",
+        "type": "uint256[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      },
+      {
+        "name": "wasmModuleRoots",
+        "type": "bytes32[2]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 2,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes32",
+          "baseType": "bytes32",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      }
+    ],
+    "name": "createChallenge",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

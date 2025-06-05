@@ -1,0 +1,2186 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "maxInboxMessagesRead",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "bridge",
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "startMach",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "status",
+            "type": "uint8",
+            "baseType": "uint8",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "valueStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "frameStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "tuple",
+                  "baseType": "tuple",
+                  "components": [
+                    {
+                      "name": "returnPc",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "localsMerkleRoot",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModule",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModuleInternals",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  ],
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "globalStateHash",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionPc",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "modulesRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "startMod",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "globalsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleMemory",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "size",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "maxSize",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "merkleRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "tablesMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalsOffset",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "inst",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "opcode",
+            "type": "uint16",
+            "baseType": "uint16",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "argumentData",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "proof",
+        "type": "bytes",
+        "baseType": "bytes",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "executeOneStep",
+    "constant": true,
+    "outputs": [
+      {
+        "name": "mach",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "status",
+            "type": "uint8",
+            "baseType": "uint8",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "valueStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "frameStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "tuple",
+                  "baseType": "tuple",
+                  "components": [
+                    {
+                      "name": "returnPc",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "localsMerkleRoot",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModule",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModuleInternals",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  ],
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "globalStateHash",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionPc",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "modulesRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "mod",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "globalsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleMemory",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "size",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "maxSize",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "merkleRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "tablesMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalsOffset",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "stateMutability": "pure",
+    "payable": false,
+    "gas": null
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "execCtx",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "maxInboxMessagesRead",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "bridge",
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "startMach",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "status",
+            "type": "uint8",
+            "baseType": "uint8",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "valueStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "frameStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "tuple",
+                  "baseType": "tuple",
+                  "components": [
+                    {
+                      "name": "returnPc",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "localsMerkleRoot",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModule",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModuleInternals",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  ],
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "globalStateHash",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionPc",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "modulesRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "startMod",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "globalsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleMemory",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "size",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "maxSize",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "merkleRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "tablesMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalsOffset",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "inst",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "opcode",
+            "type": "uint16",
+            "baseType": "uint16",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "argumentData",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "proof",
+        "type": "bytes",
+        "baseType": "bytes",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "executeOneStep",
+    "constant": true,
+    "outputs": [
+      {
+        "name": "mach",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "status",
+            "type": "uint8",
+            "baseType": "uint8",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "valueStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "frameStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "tuple",
+                  "baseType": "tuple",
+                  "components": [
+                    {
+                      "name": "returnPc",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "localsMerkleRoot",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModule",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModuleInternals",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  ],
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "globalStateHash",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionPc",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "modulesRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "mod",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "globalsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleMemory",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "size",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "maxSize",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "merkleRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "tablesMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalsOffset",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "stateMutability": "view",
+    "payable": false,
+    "gas": null
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "execCtx",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "maxInboxMessagesRead",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "bridge",
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "mach",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "status",
+            "type": "uint8",
+            "baseType": "uint8",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "valueStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "frameStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "tuple",
+                  "baseType": "tuple",
+                  "components": [
+                    {
+                      "name": "returnPc",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "localsMerkleRoot",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModule",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModuleInternals",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  ],
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "globalStateHash",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionPc",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "modulesRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "mod",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "globalsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleMemory",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "size",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "maxSize",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "merkleRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "tablesMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalsOffset",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "instruction",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "opcode",
+            "type": "uint16",
+            "baseType": "uint16",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "argumentData",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "proof",
+        "type": "bytes",
+        "baseType": "bytes",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "executeOneStep",
+    "constant": true,
+    "outputs": [
+      {
+        "name": "result",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "status",
+            "type": "uint8",
+            "baseType": "uint8",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "valueStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "inner",
+                    "type": "tuple[]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": -1,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "frameStack",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "proved",
+                "type": "tuple[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "tuple",
+                  "baseType": "tuple",
+                  "components": [
+                    {
+                      "name": "returnPc",
+                      "type": "tuple",
+                      "baseType": "tuple",
+                      "components": [
+                        {
+                          "name": "valueType",
+                          "type": "uint8",
+                          "baseType": "uint8",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        },
+                        {
+                          "name": "contents",
+                          "type": "uint256",
+                          "baseType": "uint256",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      ],
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "localsMerkleRoot",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModule",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    },
+                    {
+                      "name": "callerModuleInternals",
+                      "type": "uint32",
+                      "baseType": "uint32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  ],
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              },
+              {
+                "name": "remainingHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "globalStateHash",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionIdx",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionPc",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "modulesRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "resultMod",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "globalsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "moduleMemory",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "size",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "maxSize",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "merkleRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "tablesMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "functionsMerkleRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "internalsOffset",
+            "type": "uint32",
+            "baseType": "uint32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "stateMutability": "view",
+    "payable": false,
+    "gas": null
+  }
+]

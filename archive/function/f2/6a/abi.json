@@ -1,15 +1,35 @@
 [
   {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "actual",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "NotExecutorOrOwner"
+  },
+  {
+    "type": "function",
     "inputs": [],
     "name": "osp",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "contract IOneStepProofEntry",
         "name": "",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

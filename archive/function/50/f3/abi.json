@@ -1,0 +1,494 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "tokenAmount",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "assertion",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "beforeStateData",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "prevPrevAssertionHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "sequencerBatchAcc",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "configData",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "wasmModuleRoot",
+                    "type": "bytes32",
+                    "baseType": "bytes32",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "requiredStake",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "challengeManager",
+                    "type": "address",
+                    "baseType": "address",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "confirmPeriodBlocks",
+                    "type": "uint64",
+                    "baseType": "uint64",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "nextInboxPosition",
+                    "type": "uint64",
+                    "baseType": "uint64",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "beforeState",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "globalState",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  },
+                  {
+                    "name": "u64Vals",
+                    "type": "uint64[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "uint64",
+                      "baseType": "uint64",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "machineStatus",
+                "type": "uint8",
+                "baseType": "uint8",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "endHistoryRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "afterState",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "globalState",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  },
+                  {
+                    "name": "u64Vals",
+                    "type": "uint64[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "uint64",
+                      "baseType": "uint64",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "machineStatus",
+                "type": "uint8",
+                "baseType": "uint8",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "endHistoryRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "expectedAssertionHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "_withdrawalAddress",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "newStakeOnNewAssertion",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "tokenAmount",
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "assertion",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "beforeStateData",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "prevPrevAssertionHash",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "sequencerBatchAcc",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "configData",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "wasmModuleRoot",
+                    "type": "bytes32",
+                    "baseType": "bytes32",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "requiredStake",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "challengeManager",
+                    "type": "address",
+                    "baseType": "address",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "confirmPeriodBlocks",
+                    "type": "uint64",
+                    "baseType": "uint64",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "nextInboxPosition",
+                    "type": "uint64",
+                    "baseType": "uint64",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "beforeState",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "globalState",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  },
+                  {
+                    "name": "u64Vals",
+                    "type": "uint64[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "uint64",
+                      "baseType": "uint64",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "machineStatus",
+                "type": "uint8",
+                "baseType": "uint8",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "endHistoryRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "afterState",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "globalState",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "bytes32",
+                      "baseType": "bytes32",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  },
+                  {
+                    "name": "u64Vals",
+                    "type": "uint64[2]",
+                    "baseType": "array",
+                    "components": null,
+                    "arrayLength": 2,
+                    "arrayChildren": {
+                      "name": "",
+                      "type": "uint64",
+                      "baseType": "uint64",
+                      "components": null,
+                      "arrayLength": null,
+                      "arrayChildren": null
+                    }
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "machineStatus",
+                "type": "uint8",
+                "baseType": "uint8",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "endHistoryRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "expectedAssertionHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "withdrawalAddress",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "newStakeOnNewAssertion",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

@@ -1,28 +1,40 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint64",
-        "name": "challengeIndex_",
-        "type": "uint64"
+        "name": "challengeIndex",
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "clearChallenge",
+    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   },
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint64",
-        "name": "challengeIndex",
-        "type": "uint64"
+        "name": "challengeIndex_",
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "clearChallenge",
+    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

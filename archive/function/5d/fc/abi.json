@@ -1,9 +1,12 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "noop",
+    "constant": true,
     "outputs": [],
     "stateMutability": "pure",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

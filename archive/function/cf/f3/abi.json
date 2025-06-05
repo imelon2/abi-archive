@@ -1,9 +1,12 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "storeDifficulty",
+    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

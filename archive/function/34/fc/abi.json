@@ -1,0 +1,53 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "calls",
+        "type": "tuple[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "tuple",
+          "baseType": "tuple",
+          "components": [
+            {
+              "name": "target",
+              "type": "address",
+              "baseType": "address",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "baseType": "uint256",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            },
+            {
+              "name": "data",
+              "type": "bytes",
+              "baseType": "bytes",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            }
+          ],
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      }
+    ],
+    "name": "executeBatch",
+    "constant": false,
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "gas": null
+  }
+]

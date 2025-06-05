@@ -1,9 +1,12 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "acceptFundsFromOldBridge",
+    "constant": false,
     "outputs": [],
     "stateMutability": "payable",
-    "type": "function"
+    "payable": true,
+    "gas": null
   }
 ]

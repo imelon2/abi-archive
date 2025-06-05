@@ -1,0 +1,8 @@
+[
+  {
+    "type": "event",
+    "inputs": [],
+    "name": "NullEvent",
+    "anonymous": false
+  }
+]

@@ -1,21 +1,44 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint256[25]",
         "name": "input",
-        "type": "uint256[25]"
+        "type": "uint256[25]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 25,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "name": "keccakF",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint256[25]",
         "name": "",
-        "type": "uint256[25]"
+        "type": "uint256[25]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 25,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "stateMutability": "pure",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

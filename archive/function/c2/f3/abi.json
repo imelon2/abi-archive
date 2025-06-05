@@ -1,0 +1,16 @@
+[
+  {
+    "type": "error",
+    "inputs": [
+      {
+        "name": "authority",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "AccessManagedInvalidAuthority"
+  }
+]

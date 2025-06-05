@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "OUTBOX_VERSION",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint128",
         "name": "",
-        "type": "uint128"
+        "type": "uint128",
+        "baseType": "uint128",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

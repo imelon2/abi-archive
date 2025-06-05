@@ -1,28 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "contract TimelockController",
         "name": "newTimelock",
-        "type": "address"
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "updateTimelock",
+    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "contract ICompoundTimelock",
-        "name": "newTimelock",
-        "type": "address"
-      }
-    ],
-    "name": "updateTimelock",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

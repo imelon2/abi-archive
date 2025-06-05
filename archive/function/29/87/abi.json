@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "getLastL1PricingSurplus",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "int256",
         "name": "",
-        "type": "int256"
+        "type": "int256",
+        "baseType": "int256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

@@ -1,15 +1,21 @@
 [
   {
+    "type": "function",
     "inputs": [],
     "name": "getPerBatchGasCharge",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "int64",
         "name": "",
-        "type": "int64"
+        "type": "int64",
+        "baseType": "int64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

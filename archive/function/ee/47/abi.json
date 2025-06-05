@@ -1,15 +1,28 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint256[4]",
         "name": "aPublicKey",
-        "type": "uint256[4]"
+        "type": "uint256[4]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": 4,
+        "arrayChildren": {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "name": "initialize",
+    "constant": false,
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

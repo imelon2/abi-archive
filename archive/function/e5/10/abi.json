@@ -1,0 +1,200 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "assertionHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "state",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "globalState",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "bytes32Vals",
+                "type": "bytes32[2]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": 2,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "bytes32",
+                  "baseType": "bytes32",
+                  "components": null,
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              },
+              {
+                "name": "u64Vals",
+                "type": "uint64[2]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": 2,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "uint64",
+                  "baseType": "uint64",
+                  "components": null,
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "machineStatus",
+            "type": "uint8",
+            "baseType": "uint8",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "endHistoryRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "prevAssertionHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "inboxAcc",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "validateAssertionHash",
+    "constant": true,
+    "outputs": [],
+    "stateMutability": "pure",
+    "payable": false,
+    "gas": null
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "assertionHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "state",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "globalState",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "bytes32Vals",
+                "type": "bytes32[2]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": 2,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "bytes32",
+                  "baseType": "bytes32",
+                  "components": null,
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              },
+              {
+                "name": "u64Vals",
+                "type": "uint64[2]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": 2,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "uint64",
+                  "baseType": "uint64",
+                  "components": null,
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "machineStatus",
+            "type": "uint8",
+            "baseType": "uint8",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "endHistoryRoot",
+            "type": "bytes32",
+            "baseType": "bytes32",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "prevAssertionHash",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "inboxAcc",
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "validateAssertionHash",
+    "constant": true,
+    "outputs": [],
+    "stateMutability": "view",
+    "payable": false,
+    "gas": null
+  }
+]

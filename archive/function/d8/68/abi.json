@@ -1,0 +1,34 @@
+[
+  {
+    "type": "event",
+    "inputs": [
+      {
+        "name": "newWhitelist",
+        "type": "address",
+        "baseType": "address",
+        "indexed": false,
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
+        "name": "targets",
+        "type": "address[]",
+        "baseType": "array",
+        "indexed": false,
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      }
+    ],
+    "name": "WhitelistUpgraded",
+    "anonymous": false
+  }
+]

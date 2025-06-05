@@ -1,0 +1,407 @@
+[
+  {
+    "type": "function",
+    "inputs": [
+      {
+        "name": "deployParams",
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "config",
+            "type": "tuple",
+            "baseType": "tuple",
+            "components": [
+              {
+                "name": "confirmPeriodBlocks",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "stakeToken",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "baseStake",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "wasmModuleRoot",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "owner",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "loserStakeEscrow",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "chainId",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "chainConfig",
+                "type": "string",
+                "baseType": "string",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "minimumAssertionPeriod",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "validatorAfkBlocks",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "miniStakeValues",
+                "type": "uint256[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                  "name": "",
+                  "type": "uint256",
+                  "baseType": "uint256",
+                  "components": null,
+                  "arrayLength": null,
+                  "arrayChildren": null
+                }
+              },
+              {
+                "name": "sequencerInboxMaxTimeVariation",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "delayBlocks",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "futureBlocks",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "delaySeconds",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "futureSeconds",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "layerZeroBlockEdgeHeight",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "layerZeroBigStepEdgeHeight",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "layerZeroSmallStepEdgeHeight",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "genesisAssertionState",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "globalState",
+                    "type": "tuple",
+                    "baseType": "tuple",
+                    "components": [
+                      {
+                        "name": "bytes32Vals",
+                        "type": "bytes32[2]",
+                        "baseType": "array",
+                        "components": null,
+                        "arrayLength": 2,
+                        "arrayChildren": {
+                          "name": "",
+                          "type": "bytes32",
+                          "baseType": "bytes32",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      },
+                      {
+                        "name": "u64Vals",
+                        "type": "uint64[2]",
+                        "baseType": "array",
+                        "components": null,
+                        "arrayLength": 2,
+                        "arrayChildren": {
+                          "name": "",
+                          "type": "uint64",
+                          "baseType": "uint64",
+                          "components": null,
+                          "arrayLength": null,
+                          "arrayChildren": null
+                        }
+                      }
+                    ],
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "machineStatus",
+                    "type": "uint8",
+                    "baseType": "uint8",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "endHistoryRoot",
+                    "type": "bytes32",
+                    "baseType": "bytes32",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "genesisInboxCount",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "anyTrustFastConfirmer",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "numBigStepLevel",
+                "type": "uint8",
+                "baseType": "uint8",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "challengeGracePeriodBlocks",
+                "type": "uint64",
+                "baseType": "uint64",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+              },
+              {
+                "name": "bufferConfig",
+                "type": "tuple",
+                "baseType": "tuple",
+                "components": [
+                  {
+                    "name": "threshold",
+                    "type": "uint64",
+                    "baseType": "uint64",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "max",
+                    "type": "uint64",
+                    "baseType": "uint64",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  },
+                  {
+                    "name": "replenishRateInBasis",
+                    "type": "uint64",
+                    "baseType": "uint64",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                  }
+                ],
+                "arrayLength": null,
+                "arrayChildren": null
+              }
+            ],
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "validators",
+            "type": "address[]",
+            "baseType": "array",
+            "components": null,
+            "arrayLength": -1,
+            "arrayChildren": {
+              "name": "",
+              "type": "address",
+              "baseType": "address",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            }
+          },
+          {
+            "name": "maxDataSize",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "nativeToken",
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "deployFactoriesToL2",
+            "type": "bool",
+            "baseType": "bool",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "maxFeePerGasForRetryables",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "batchPosters",
+            "type": "address[]",
+            "baseType": "array",
+            "components": null,
+            "arrayLength": -1,
+            "arrayChildren": {
+              "name": "",
+              "type": "address",
+              "baseType": "address",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            }
+          },
+          {
+            "name": "batchPosterManager",
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "feeTokenPricer",
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "createRollup",
+    "constant": false,
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "stateMutability": "payable",
+    "payable": true,
+    "gas": null
+  }
+]

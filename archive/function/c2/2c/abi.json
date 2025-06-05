@@ -1,26 +1,66 @@
 [
   {
+    "type": "error",
     "inputs": [
       {
-        "internalType": "bytes32[]",
+        "name": "defaultAdmin",
+        "type": "address",
+        "baseType": "address",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
+      }
+    ],
+    "name": "AccessControlInvalidDefaultAdmin"
+  },
+  {
+    "type": "function",
+    "inputs": [
+      {
         "name": "me",
-        "type": "bytes32[]"
+        "type": "bytes32[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes32",
+          "baseType": "bytes32",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "bytes32",
         "name": "leaf",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "appendLeaf",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "bytes32[]",
         "name": "",
-        "type": "bytes32[]"
+        "type": "bytes32[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bytes32",
+          "baseType": "bytes32",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "stateMutability": "pure",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

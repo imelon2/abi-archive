@@ -1,0 +1,8 @@
+[
+  {
+    "type": "event",
+    "inputs": [],
+    "name": "TemplatesUpdated",
+    "anonymous": false
+  }
+]

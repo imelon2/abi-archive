@@ -1,58 +1,87 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "bytes32",
         "name": "ticket",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "getRetryable",
+    "constant": true,
     "outputs": [
       {
+        "name": "retryable",
+        "type": "tuple",
+        "baseType": "tuple",
         "components": [
           {
-            "internalType": "uint64",
             "name": "timeout",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "address",
             "name": "from",
-            "type": "address"
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "address",
             "name": "to",
-            "type": "address"
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint256",
             "name": "value",
-            "type": "uint256"
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "address",
             "name": "beneficiary",
-            "type": "address"
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint64",
             "name": "tries",
-            "type": "uint64"
+            "type": "uint64",
+            "baseType": "uint64",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "bytes",
             "name": "data",
-            "type": "bytes"
+            "type": "bytes",
+            "baseType": "bytes",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           }
         ],
-        "internalType": "struct NodeInterfaceDebug.RetryableInfo",
-        "name": "retryable",
-        "type": "tuple"
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

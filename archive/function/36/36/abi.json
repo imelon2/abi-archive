@@ -1,31 +1,60 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint256",
         "name": "proposalId",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "proposalExecutionPlan",
+    "constant": true,
     "outputs": [
       {
-        "internalType": "uint32",
         "name": "delay",
-        "type": "uint32"
+        "type": "uint32",
+        "baseType": "uint32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "bool[]",
         "name": "indirect",
-        "type": "bool[]"
+        "type": "bool[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bool",
+          "baseType": "bool",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       },
       {
-        "internalType": "bool[]",
         "name": "withDelay",
-        "type": "bool[]"
+        "type": "bool[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "bool",
+          "baseType": "bool",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

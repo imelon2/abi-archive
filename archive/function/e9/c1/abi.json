@@ -1,38 +1,62 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint256",
         "name": "k",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "getSmallestEntries",
+    "constant": true,
     "outputs": [
       {
-        "components": [
-          {
-            "internalType": "bytes32",
-            "name": "code",
-            "type": "bytes32"
-          },
-          {
-            "internalType": "uint64",
-            "name": "size",
-            "type": "uint64"
-          },
-          {
-            "internalType": "uint192",
-            "name": "bid",
-            "type": "uint192"
-          }
-        ],
-        "internalType": "struct CacheManager.Entry[]",
         "name": "result",
-        "type": "tuple[]"
+        "type": "tuple[]",
+        "baseType": "array",
+        "components": null,
+        "arrayLength": -1,
+        "arrayChildren": {
+          "name": "",
+          "type": "tuple",
+          "baseType": "tuple",
+          "components": [
+            {
+              "name": "code",
+              "type": "bytes32",
+              "baseType": "bytes32",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            },
+            {
+              "name": "size",
+              "type": "uint64",
+              "baseType": "uint64",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            },
+            {
+              "name": "bid",
+              "type": "uint192",
+              "baseType": "uint192",
+              "components": null,
+              "arrayLength": null,
+              "arrayChildren": null
+            }
+          ],
+          "arrayLength": null,
+          "arrayChildren": null
+        }
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]

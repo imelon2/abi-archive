@@ -1,75 +1,112 @@
 [
   {
+    "type": "function",
     "inputs": [
       {
-        "internalType": "uint256",
         "name": "",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "name": "challenges",
+    "constant": true,
     "outputs": [
       {
-        "components": [
-          {
-            "internalType": "address",
-            "name": "addr",
-            "type": "address"
-          },
-          {
-            "internalType": "uint256",
-            "name": "timeLeft",
-            "type": "uint256"
-          }
-        ],
-        "internalType": "struct ChallengeLib.Participant",
         "name": "current",
-        "type": "tuple"
-      },
-      {
+        "type": "tuple",
+        "baseType": "tuple",
         "components": [
           {
-            "internalType": "address",
             "name": "addr",
-            "type": "address"
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           },
           {
-            "internalType": "uint256",
             "name": "timeLeft",
-            "type": "uint256"
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
           }
         ],
-        "internalType": "struct ChallengeLib.Participant",
+        "arrayLength": null,
+        "arrayChildren": null
+      },
+      {
         "name": "next",
-        "type": "tuple"
+        "type": "tuple",
+        "baseType": "tuple",
+        "components": [
+          {
+            "name": "addr",
+            "type": "address",
+            "baseType": "address",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          },
+          {
+            "name": "timeLeft",
+            "type": "uint256",
+            "baseType": "uint256",
+            "components": null,
+            "arrayLength": null,
+            "arrayChildren": null
+          }
+        ],
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint256",
         "name": "lastMoveTimestamp",
-        "type": "uint256"
+        "type": "uint256",
+        "baseType": "uint256",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "bytes32",
         "name": "wasmModuleRoot",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "bytes32",
         "name": "challengeStateHash",
-        "type": "bytes32"
+        "type": "bytes32",
+        "baseType": "bytes32",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "uint64",
         "name": "maxInboxMessages",
-        "type": "uint64"
+        "type": "uint64",
+        "baseType": "uint64",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       },
       {
-        "internalType": "enum ChallengeLib.ChallengeMode",
         "name": "mode",
-        "type": "uint8"
+        "type": "uint8",
+        "baseType": "uint8",
+        "components": null,
+        "arrayLength": null,
+        "arrayChildren": null
       }
     ],
     "stateMutability": "view",
-    "type": "function"
+    "payable": false,
+    "gas": null
   }
 ]
