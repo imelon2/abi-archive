@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "success",
+        "type": "bool"
+      },
+      {
+        "internalType": "bytes",
+        "name": "ret",
+        "type": "bytes"
+      }
+    ],
+    "name": "DelegateAndRevert",
+    "type": "error"
+  }
+]

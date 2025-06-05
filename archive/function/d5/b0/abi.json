@@ -49,86 +49,62 @@
             "type": "bytes"
           }
         ],
-        "internalType": "struct PackedUserOperation[]",
-        "name": "userOps",
-        "type": "tuple[]"
-      }
-    ],
-    "name": "aggregateSignatures",
-    "outputs": [
+        "internalType": "struct PackedUserOperation",
+        "name": "op",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "target",
+        "type": "address"
+      },
       {
         "internalType": "bytes",
-        "name": "aggregatesSignature",
+        "name": "targetCallData",
         "type": "bytes"
       }
     ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
+    "name": "simulateHandleOp",
+    "outputs": [
       {
         "components": [
           {
-            "internalType": "address",
-            "name": "sender",
-            "type": "address"
-          },
-          {
             "internalType": "uint256",
-            "name": "nonce",
+            "name": "preOpGas",
             "type": "uint256"
           },
           {
-            "internalType": "bytes",
-            "name": "initCode",
-            "type": "bytes"
-          },
-          {
-            "internalType": "bytes",
-            "name": "callData",
-            "type": "bytes"
-          },
-          {
-            "internalType": "bytes32",
-            "name": "accountGasLimits",
-            "type": "bytes32"
-          },
-          {
             "internalType": "uint256",
-            "name": "preVerificationGas",
+            "name": "paid",
             "type": "uint256"
           },
           {
-            "internalType": "bytes32",
-            "name": "gasFees",
-            "type": "bytes32"
+            "internalType": "uint256",
+            "name": "accountValidationData",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "paymasterValidationData",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "targetSuccess",
+            "type": "bool"
           },
           {
             "internalType": "bytes",
-            "name": "paymasterAndData",
-            "type": "bytes"
-          },
-          {
-            "internalType": "bytes",
-            "name": "signature",
+            "name": "targetResult",
             "type": "bytes"
           }
         ],
-        "internalType": "struct PackedUserOperation[]",
-        "name": "userOps",
-        "type": "tuple[]"
+        "internalType": "struct IEntryPointSimulations.ExecutionResult",
+        "name": "",
+        "type": "tuple"
       }
     ],
-    "name": "aggregateSignatures",
-    "outputs": [
-      {
-        "internalType": "bytes",
-        "name": "aggregatedSignature",
-        "type": "bytes"
-      }
-    ],
-    "stateMutability": "view",
+    "stateMutability": "nonpayable",
     "type": "function"
   }
 ]

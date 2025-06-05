@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "accountImplementation",
+    "outputs": [
+      {
+        "internalType": "contract SimpleAccount",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

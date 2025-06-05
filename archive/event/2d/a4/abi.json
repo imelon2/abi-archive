@@ -36,5 +36,24 @@
     ],
     "name": "Deposited",
     "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "totalDeposit",
+        "type": "uint256"
+      }
+    ],
+    "name": "Deposited",
+    "type": "event"
   }
 ]
