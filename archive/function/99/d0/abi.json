@@ -1,18 +1,5 @@
 [
   {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": true,
-        "internalType": "bytes32",
-        "name": "msgHash",
-        "type": "bytes32"
-      }
-    ],
-    "name": "FailedRelayedMessage",
-    "type": "event"
-  },
-  {
     "inputs": [],
     "name": "minInitGas",
     "outputs": [

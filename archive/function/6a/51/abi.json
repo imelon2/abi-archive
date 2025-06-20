@@ -3,30 +3,6 @@
     "inputs": [
       {
         "internalType": "address",
-        "name": "expressLaneController",
-        "type": "address"
-      }
-    ],
-    "name": "transferorOf",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "addr",
-        "type": "address"
-      },
-      {
-        "internalType": "uint64",
-        "name": "fixedUntil",
-        "type": "uint64"
-      }
-    ],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "address",
         "name": "",
         "type": "address"
       }
@@ -45,6 +21,30 @@
       }
     ],
     "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "expressLaneController",
+        "type": "address"
+      }
+    ],
+    "name": "transferorOf",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "addr",
+        "type": "address"
+      },
+      {
+        "internalType": "uint64",
+        "name": "fixedUntil",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "nonpayable",
     "type": "function"
   }
 ]

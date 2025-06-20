@@ -1,16 +1,5 @@
 [
   {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "actual",
-        "type": "address"
-      }
-    ],
-    "name": "NotExecutorOrOwner",
-    "type": "error"
-  },
-  {
     "inputs": [],
     "name": "osp",
     "outputs": [

@@ -3,7 +3,7 @@
     "inputs": [
       {
         "internalType": "address",
-        "name": "dest",
+        "name": "target",
         "type": "address"
       },
       {
@@ -13,7 +13,7 @@
       },
       {
         "internalType": "bytes",
-        "name": "func",
+        "name": "data",
         "type": "bytes"
       }
     ],
@@ -26,7 +26,7 @@
     "inputs": [
       {
         "internalType": "address",
-        "name": "target",
+        "name": "dest",
         "type": "address"
       },
       {
@@ -36,7 +36,7 @@
       },
       {
         "internalType": "bytes",
-        "name": "data",
+        "name": "func",
         "type": "bytes"
       }
     ],

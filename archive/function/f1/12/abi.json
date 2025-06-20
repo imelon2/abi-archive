@@ -17,17 +17,17 @@
       {
         "components": [
           {
-            "internalType": "uint48",
-            "name": "_key",
-            "type": "uint48"
+            "internalType": "uint32",
+            "name": "fromBlock",
+            "type": "uint32"
           },
           {
-            "internalType": "uint208",
-            "name": "_value",
-            "type": "uint208"
+            "internalType": "uint224",
+            "name": "votes",
+            "type": "uint224"
           }
         ],
-        "internalType": "struct Checkpoints.Checkpoint208",
+        "internalType": "struct ERC20Votes.Checkpoint",
         "name": "",
         "type": "tuple"
       }
@@ -53,17 +53,17 @@
       {
         "components": [
           {
-            "internalType": "uint32",
-            "name": "fromBlock",
-            "type": "uint32"
+            "internalType": "uint48",
+            "name": "_key",
+            "type": "uint48"
           },
           {
-            "internalType": "uint224",
-            "name": "votes",
-            "type": "uint224"
+            "internalType": "uint208",
+            "name": "_value",
+            "type": "uint208"
           }
         ],
-        "internalType": "struct ERC20Votes.Checkpoint",
+        "internalType": "struct Checkpoints.Checkpoint208",
         "name": "",
         "type": "tuple"
       }

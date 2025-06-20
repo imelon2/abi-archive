@@ -4,7 +4,7 @@
     "name": "token",
     "outputs": [
       {
-        "internalType": "contract IERC5805",
+        "internalType": "contract IERC20",
         "name": "",
         "type": "address"
       }
@@ -17,7 +17,7 @@
     "name": "token",
     "outputs": [
       {
-        "internalType": "contract IERC20",
+        "internalType": "contract IERC5805",
         "name": "",
         "type": "address"
       }

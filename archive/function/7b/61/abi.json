@@ -11,12 +11,12 @@
     "outputs": [
       {
         "internalType": "uint64",
-        "name": "start",
+        "name": "",
         "type": "uint64"
       },
       {
         "internalType": "uint64",
-        "name": "end",
+        "name": "",
         "type": "uint64"
       }
     ],
@@ -35,12 +35,12 @@
     "outputs": [
       {
         "internalType": "uint64",
-        "name": "",
+        "name": "start",
         "type": "uint64"
       },
       {
         "internalType": "uint64",
-        "name": "",
+        "name": "end",
         "type": "uint64"
       }
     ],

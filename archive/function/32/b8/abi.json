@@ -4,9 +4,9 @@
     "name": "lateQuorumVoteExtension",
     "outputs": [
       {
-        "internalType": "uint48",
+        "internalType": "uint64",
         "name": "",
-        "type": "uint48"
+        "type": "uint64"
       }
     ],
     "stateMutability": "view",
@@ -17,9 +17,9 @@
     "name": "lateQuorumVoteExtension",
     "outputs": [
       {
-        "internalType": "uint64",
+        "internalType": "uint48",
         "name": "",
-        "type": "uint64"
+        "type": "uint48"
       }
     ],
     "stateMutability": "view",

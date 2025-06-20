@@ -32,16 +32,5 @@
     ],
     "stateMutability": "nonpayable",
     "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint64",
-        "name": "fixedUntilRound",
-        "type": "uint64"
-      }
-    ],
-    "name": "FixedTransferor",
-    "type": "error"
   }
 ]
