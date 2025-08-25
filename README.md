@@ -5,7 +5,7 @@ The project organizes ABI files using a **trie-based directory layout**.
 
 ```mermaid
 flowchart TD
-  repo[abi-archive/]:::dir
+  repo[archive/]:::dir
   repo --> FUNC[function/]:::dir
   repo --> EVT[event/]:::dir
   repo --> ERR[error/]:::dir
@@ -15,8 +15,6 @@ flowchart TD
 
   L2 --> |erc20 transafer 'a9059cbb' abi| FILE[abi.json]:::file
 
-  classDef dir fill:#eef,stroke:#6b8cff,stroke-width:1px,rx:6px,ry:6px;
-  classDef file fill:#fff,stroke:#999,stroke-dasharray: 2 2,rx:6px,ry:6px;
 ```
 
 - By using the first 2 bytes of the function selector as a two-level depth structure, it helps to minimize ABI collisions.
