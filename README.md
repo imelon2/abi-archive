@@ -13,7 +13,7 @@ flowchart TD
   FUNC -->|0xa9 - first byte| L1[a9/]:::dir
   L1 -->|0x05 - second byte| L2[05/]:::dir
 
-  L2 --> |erc20 transafer(a9059cbb) abi| FILE[abi.json]:::file
+  L2 --> |erc20 transafer 'a9059cbb' abi| FILE[abi.json]:::file
 
   classDef dir fill:#eef,stroke:#6b8cff,stroke-width:1px,rx:6px,ry:6px;
   classDef file fill:#fff,stroke:#999,stroke-dasharray: 2 2,rx:6px,ry:6px;
