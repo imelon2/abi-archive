@@ -1,7 +1,7 @@
 # ABI Archive
 ABI Archive is a project that stores ABI files on GitHub and serves them through `githubusercontent URLs`. This allows applications to fetch the required ABI via simple HTTP requests. As a result, ABI data can be widely retrieved across different projects.
 
-The project organizes ABI files using a **trie-based directory layout**.
+## Trie-Based Directory Layout
 
 ```mermaid
 flowchart TD
@@ -16,7 +16,7 @@ flowchart TD
   L2 --> |erc20 transafer 'a9059cbb' abi| FILE[abi.json]:::file
 
 ```
-
+The project organizes ABI files using a **trie-based directory layout**.
 - By using the first 2 bytes of the function selector as a two-level depth structure, it helps to minimize ABI collisions.
 - ABI entries are also separated by **error, event, and function categories**, further reducing the chance of conflicts.
 - This structure also reduces the size of response data, making ABI retrieval more efficient.
