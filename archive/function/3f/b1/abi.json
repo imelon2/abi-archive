@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "contains",
+    "inputs": [
+      {
+        "name": "subject",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "search",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "result",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

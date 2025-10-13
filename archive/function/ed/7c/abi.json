@@ -1,0 +1,48 @@
+[
+  {
+    "type": "function",
+    "name": "createWallet",
+    "inputs": [
+      {
+        "name": "privateKey",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "walletLabel",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "wallet",
+        "type": "tuple",
+        "internalType": "struct VmSafe.Wallet",
+        "components": [
+          {
+            "name": "addr",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "publicKeyX",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "publicKeyY",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "privateKey",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

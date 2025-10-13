@@ -1,0 +1,42 @@
+[
+  {
+    "type": "function",
+    "name": "lastCallGas",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "gas",
+        "type": "tuple",
+        "internalType": "struct VmSafe.Gas",
+        "components": [
+          {
+            "name": "gasLimit",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "gasTotalUsed",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "gasMemoryUsed",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "gasRefunded",
+            "type": "int64",
+            "internalType": "int64"
+          },
+          {
+            "name": "gasRemaining",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

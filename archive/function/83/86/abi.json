@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "interceptInitcode",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

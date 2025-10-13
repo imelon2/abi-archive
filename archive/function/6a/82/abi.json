@@ -1,0 +1,39 @@
+[
+  {
+    "type": "function",
+    "name": "assertNotEq",
+    "inputs": [
+      {
+        "name": "left",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "right",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "parseJson",
+    "inputs": [
+      {
+        "name": "json",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "abiEncodedData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

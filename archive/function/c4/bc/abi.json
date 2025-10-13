@@ -1,0 +1,48 @@
+[
+  {
+    "type": "function",
+    "name": "readDir",
+    "inputs": [
+      {
+        "name": "path",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "entries",
+        "type": "tuple[]",
+        "internalType": "struct VmSafe.DirEntry[]",
+        "components": [
+          {
+            "name": "errorMessage",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "path",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "depth",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "isDir",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "isSymlink",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

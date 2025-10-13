@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "toUppercase",
+    "inputs": [
+      {
+        "name": "input",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "output",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "loadAllocs",
+    "inputs": [
+      {
+        "name": "pathToAllocsJson",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

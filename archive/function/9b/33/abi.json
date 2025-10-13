@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "serializeJson",
+    "inputs": [
+      {
+        "name": "objectKey",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "value",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "json",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

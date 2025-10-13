@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "parseBytes32",
+    "inputs": [
+      {
+        "name": "stringifiedValue",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "parsedValue",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

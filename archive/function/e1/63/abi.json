@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setArbitraryStorage",
+    "inputs": [
+      {
+        "name": "target",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

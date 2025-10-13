@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "getWallets",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "wallets",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

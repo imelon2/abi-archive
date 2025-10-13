@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "parseToml",
+    "inputs": [
+      {
+        "name": "toml",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "key",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "abiEncodedData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

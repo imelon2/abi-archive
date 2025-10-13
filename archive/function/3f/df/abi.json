@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "clearMockedCalls",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

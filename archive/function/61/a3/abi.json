@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "changeOwnerSlotValue",
+    "inputs": [
+      {
+        "name": "change",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

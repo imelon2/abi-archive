@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "serializeUint",
+    "inputs": [
+      {
+        "name": "objectKey",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "valueKey",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "values",
+        "type": "uint256[]",
+        "internalType": "uint256[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "json",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

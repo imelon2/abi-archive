@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "expectCreate2",
+    "inputs": [
+      {
+        "name": "bytecode",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "deployer",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

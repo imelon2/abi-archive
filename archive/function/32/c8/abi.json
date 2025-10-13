@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "deriveKey",
+    "inputs": [
+      {
+        "name": "mnemonic",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "index",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "language",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "privateKey",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "readLink",
+    "inputs": [
+      {
+        "name": "linkPath",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "targetPath",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

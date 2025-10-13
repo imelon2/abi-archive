@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "startBroadcast",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

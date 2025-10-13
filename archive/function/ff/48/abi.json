@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "coinbase",
+    "inputs": [
+      {
+        "name": "newCoinbase",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

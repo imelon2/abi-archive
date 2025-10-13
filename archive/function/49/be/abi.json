@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "parseTomlTypeArray",
+    "inputs": [
+      {
+        "name": "toml",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "key",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "typeDescription",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

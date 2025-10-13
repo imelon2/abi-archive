@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "readFileBinary",
+    "inputs": [
+      {
+        "name": "path",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

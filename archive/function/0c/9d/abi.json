@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "stopSnapshotGas",
+    "inputs": [
+      {
+        "name": "group",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "gasUsed",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "resumeTracing",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "view"
+  }
+]

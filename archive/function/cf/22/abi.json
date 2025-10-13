@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "startStateDiffRecording",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "randomInt",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "int256",
+        "internalType": "int256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

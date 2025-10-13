@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "parseBool",
+    "inputs": [
+      {
+        "name": "stringifiedValue",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "parsedValue",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

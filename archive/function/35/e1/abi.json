@@ -1,0 +1,83 @@
+[
+  {
+    "type": "function",
+    "name": "eth_getLogs",
+    "inputs": [
+      {
+        "name": "fromBlock",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "toBlock",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "target",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "topics",
+        "type": "bytes32[]",
+        "internalType": "bytes32[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "logs",
+        "type": "tuple[]",
+        "internalType": "struct VmSafe.EthGetLogs[]",
+        "components": [
+          {
+            "name": "emitter",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "topics",
+            "type": "bytes32[]",
+            "internalType": "bytes32[]"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "blockHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "blockNumber",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "transactionHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "transactionIndex",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "logIndex",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "removed",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

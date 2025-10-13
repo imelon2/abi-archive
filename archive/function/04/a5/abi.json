@@ -1,0 +1,30 @@
+[
+  {
+    "type": "function",
+    "name": "assertGtDecimal",
+    "inputs": [
+      {
+        "name": "left",
+        "type": "int256",
+        "internalType": "int256"
+      },
+      {
+        "name": "right",
+        "type": "int256",
+        "internalType": "int256"
+      },
+      {
+        "name": "decimals",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "error",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  }
+]

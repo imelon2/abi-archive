@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "assertEq",
+    "inputs": [
+      {
+        "name": "left",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "right",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "error",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  }
+]

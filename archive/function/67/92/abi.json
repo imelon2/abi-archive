@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "eip712HashType",
+    "inputs": [
+      {
+        "name": "typeNameOrDefinition",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "typeHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

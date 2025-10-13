@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "transact",
+    "inputs": [
+      {
+        "name": "forkId",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "txHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

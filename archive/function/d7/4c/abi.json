@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "rollFork",
+    "inputs": [
+      {
+        "name": "forkId",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "blockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

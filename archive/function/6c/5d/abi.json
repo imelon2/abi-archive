@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "randomBytes",
+    "inputs": [
+      {
+        "name": "len",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

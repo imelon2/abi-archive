@@ -1,0 +1,23 @@
+[
+  {
+    "type": "error",
+    "name": "WrongOwnerAtIndex",
+    "inputs": [
+      {
+        "name": "index",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "expectedOwner",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "actualOwner",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

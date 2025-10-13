@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidOwnerBytesLength",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

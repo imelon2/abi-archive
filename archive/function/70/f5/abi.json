@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "readLine",
+    "inputs": [
+      {
+        "name": "path",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "line",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

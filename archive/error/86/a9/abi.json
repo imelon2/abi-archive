@@ -9,5 +9,16 @@
     ],
     "name": "SignatureValidationFailed",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "SignatureValidationFailed",
+    "inputs": [
+      {
+        "name": "aggregator",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

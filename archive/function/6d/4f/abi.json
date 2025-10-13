@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "serializeJsonType",
+    "inputs": [
+      {
+        "name": "typeDescription",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "value",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "json",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

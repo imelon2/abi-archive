@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "assertFalse",
+    "inputs": [
+      {
+        "name": "condition",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "error",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  }
+]

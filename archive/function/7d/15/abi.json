@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "isDir",
+    "inputs": [
+      {
+        "name": "path",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "result",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

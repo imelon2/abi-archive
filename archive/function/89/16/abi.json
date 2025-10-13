@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "ffi",
+    "inputs": [
+      {
+        "name": "commandInput",
+        "type": "string[]",
+        "internalType": "string[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "result",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

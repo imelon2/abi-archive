@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "rpc",
+    "inputs": [
+      {
+        "name": "urlOrAlias",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "method",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "params",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "publicKeyP256",
+    "inputs": [
+      {
+        "name": "privateKey",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "publicKeyX",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "publicKeyY",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

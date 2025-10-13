@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "parseTomlAddress",
+    "inputs": [
+      {
+        "name": "toml",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "key",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "makePersistent",
+    "inputs": [
+      {
+        "name": "account0",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "account1",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

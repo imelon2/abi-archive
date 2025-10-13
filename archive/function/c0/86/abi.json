@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "writeToml",
+    "inputs": [
+      {
+        "name": "json",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "path",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

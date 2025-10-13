@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "assertLe",
+    "inputs": [
+      {
+        "name": "left",
+        "type": "int256",
+        "internalType": "int256"
+      },
+      {
+        "name": "right",
+        "type": "int256",
+        "internalType": "int256"
+      },
+      {
+        "name": "error",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  }
+]

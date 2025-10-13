@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "getDeployment",
+    "inputs": [
+      {
+        "name": "contractName",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "chainId",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "deployedAddress",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

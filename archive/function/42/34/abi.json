@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "parseInt",
+    "inputs": [
+      {
+        "name": "stringifiedValue",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "parsedValue",
+        "type": "int256",
+        "internalType": "int256"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

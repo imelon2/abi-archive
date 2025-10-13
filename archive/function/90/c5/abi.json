@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "stopPrank",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "type": "function",
+    "name": "sign",
+    "inputs": [
+      {
+        "name": "wallet",
+        "type": "tuple",
+        "internalType": "struct VmSafe.Wallet",
+        "components": [
+          {
+            "name": "addr",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "publicKeyX",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "publicKeyY",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "privateKey",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      },
+      {
+        "name": "digest",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "v",
+        "type": "uint8",
+        "internalType": "uint8"
+      },
+      {
+        "name": "r",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "s",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

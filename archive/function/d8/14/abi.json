@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "expectRevert",
+    "inputs": [
+      {
+        "name": "reverter",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

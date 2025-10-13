@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "createAccount",
+    "inputs": [
+      {
+        "name": "owners",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      },
+      {
+        "name": "nonce",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "contract CoinbaseSmartWallet"
+      }
+    ],
+    "stateMutability": "payable"
+  }
+]

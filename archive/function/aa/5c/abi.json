@@ -1,0 +1,154 @@
+[
+  {
+    "type": "function",
+    "name": "assertLeDecimal",
+    "inputs": [
+      {
+        "name": "left",
+        "type": "int256",
+        "internalType": "int256"
+      },
+      {
+        "name": "right",
+        "type": "int256",
+        "internalType": "int256"
+      },
+      {
+        "name": "decimals",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "error",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "stopAndReturnStateDiff",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "accountAccesses",
+        "type": "tuple[]",
+        "internalType": "struct VmSafe.AccountAccess[]",
+        "components": [
+          {
+            "name": "chainInfo",
+            "type": "tuple",
+            "internalType": "struct VmSafe.ChainInfo",
+            "components": [
+              {
+                "name": "forkId",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "chainId",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "kind",
+            "type": "uint8",
+            "internalType": "enum VmSafe.AccountAccessKind"
+          },
+          {
+            "name": "account",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "accessor",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "initialized",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "oldBalance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "newBalance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "deployedCode",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "value",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "reverted",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "storageAccesses",
+            "type": "tuple[]",
+            "internalType": "struct VmSafe.StorageAccess[]",
+            "components": [
+              {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "slot",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "isWrite",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "previousValue",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "newValue",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "reverted",
+                "type": "bool",
+                "internalType": "bool"
+              }
+            ]
+          },
+          {
+            "name": "depth",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

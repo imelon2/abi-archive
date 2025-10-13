@@ -94,5 +94,53 @@
     ],
     "stateMutability": "nonpayable",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "tryAggregate",
+    "inputs": [
+      {
+        "name": "requireSuccess",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "calls",
+        "type": "tuple[]",
+        "internalType": "struct IMulticall3.Call[]",
+        "components": [
+          {
+            "name": "target",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "callData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "returnData",
+        "type": "tuple[]",
+        "internalType": "struct IMulticall3.Result[]",
+        "components": [
+          {
+            "name": "success",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "returnData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "payable"
   }
 ]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "expectRevert",
+    "inputs": [
+      {
+        "name": "revertData",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      },
+      {
+        "name": "reverter",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

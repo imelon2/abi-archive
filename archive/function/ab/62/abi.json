@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "setData",
+    "inputs": [
+      {
+        "name": "data_",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "payable"
+  }
+]

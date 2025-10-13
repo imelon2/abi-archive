@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "split",
+    "inputs": [
+      {
+        "name": "input",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "delimiter",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "outputs",
+        "type": "string[]",
+        "internalType": "string[]"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

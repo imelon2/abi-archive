@@ -29,5 +29,36 @@
     ],
     "name": "AccountDeployed",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "AccountDeployed",
+    "inputs": [
+      {
+        "name": "userOpHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "sender",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "factory",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "paymaster",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

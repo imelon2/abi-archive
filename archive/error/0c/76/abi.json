@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidImplementation",
+    "inputs": [
+      {
+        "name": "implementation",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

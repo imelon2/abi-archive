@@ -1,0 +1,30 @@
+[
+  {
+    "type": "function",
+    "name": "mockCall",
+    "inputs": [
+      {
+        "name": "callee",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "msgValue",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "data",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      },
+      {
+        "name": "returnData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

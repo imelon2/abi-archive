@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidEthereumAddressOwner",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

@@ -34,5 +34,41 @@
     ],
     "name": "ExecutionResult",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ExecutionResult",
+    "inputs": [
+      {
+        "name": "preOpGas",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "paid",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "validAfter",
+        "type": "uint48",
+        "internalType": "uint48"
+      },
+      {
+        "name": "validUntil",
+        "type": "uint48",
+        "internalType": "uint48"
+      },
+      {
+        "name": "targetSuccess",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "targetResult",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
   }
 ]

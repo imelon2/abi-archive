@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "dumpState",
+    "inputs": [
+      {
+        "name": "pathToStateJson",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

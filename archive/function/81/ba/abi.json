@@ -1,0 +1,35 @@
+[
+  {
+    "type": "function",
+    "name": "expectEmit",
+    "inputs": [
+      {
+        "name": "checkTopic1",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "checkTopic2",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "checkTopic3",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "checkData",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "emitter",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

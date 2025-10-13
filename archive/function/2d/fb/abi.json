@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "mockCallRevert",
+    "inputs": [
+      {
+        "name": "callee",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "data",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      },
+      {
+        "name": "revertData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

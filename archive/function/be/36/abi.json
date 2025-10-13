@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "resetGasMetering",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

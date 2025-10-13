@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "deployCode",
+    "inputs": [
+      {
+        "name": "artifactPath",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "constructorArgs",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "salt",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "deployedAddress",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

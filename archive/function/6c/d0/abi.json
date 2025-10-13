@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "startSnapshotGas",
+    "inputs": [
+      {
+        "name": "group",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

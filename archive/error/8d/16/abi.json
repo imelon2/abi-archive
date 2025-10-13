@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "AlreadyOwner",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

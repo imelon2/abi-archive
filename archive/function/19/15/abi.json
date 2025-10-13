@@ -1,0 +1,32 @@
+[
+  {
+    "type": "function",
+    "name": "getRecordedLogs",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "logs",
+        "type": "tuple[]",
+        "internalType": "struct VmSafe.Log[]",
+        "components": [
+          {
+            "name": "topics",
+            "type": "bytes32[]",
+            "internalType": "bytes32[]"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "emitter",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

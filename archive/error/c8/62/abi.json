@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "ReturnedAddressDoesNotMatchAccount",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "returned",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

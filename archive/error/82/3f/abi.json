@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "NotLastOwner",
+    "inputs": [
+      {
+        "name": "ownersRemaining",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

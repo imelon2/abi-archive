@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "envOr",
+    "inputs": [
+      {
+        "name": "name",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "delim",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "defaultValue",
+        "type": "bytes32[]",
+        "internalType": "bytes32[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "value",
+        "type": "bytes32[]",
+        "internalType": "bytes32[]"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "assertLtDecimal",
+    "inputs": [
+      {
+        "name": "left",
+        "type": "int256",
+        "internalType": "int256"
+      },
+      {
+        "name": "right",
+        "type": "int256",
+        "internalType": "int256"
+      },
+      {
+        "name": "decimals",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  }
+]

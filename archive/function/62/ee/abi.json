@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "promptAddress",
+    "inputs": [
+      {
+        "name": "promptText",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

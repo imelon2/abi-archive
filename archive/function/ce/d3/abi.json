@@ -1,0 +1,47 @@
+[
+  {
+    "type": "function",
+    "name": "stopAndReturnDebugTraceRecording",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "step",
+        "type": "tuple[]",
+        "internalType": "struct VmSafe.DebugStep[]",
+        "components": [
+          {
+            "name": "stack",
+            "type": "uint256[]",
+            "internalType": "uint256[]"
+          },
+          {
+            "name": "memoryInput",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "opcode",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "depth",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "isOutOfGas",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "contractAddr",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

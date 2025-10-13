@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "toBase64URL",
+    "inputs": [
+      {
+        "name": "data",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

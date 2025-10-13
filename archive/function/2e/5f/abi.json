@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "expectEmitAnonymous",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

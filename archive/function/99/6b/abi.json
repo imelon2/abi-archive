@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "stopRecord",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

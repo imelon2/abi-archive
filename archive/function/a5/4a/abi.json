@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "copyFile",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "to",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "copied",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "type": "function",
+    "name": "rpcUrlStructs",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "urls",
+        "type": "tuple[]",
+        "internalType": "struct VmSafe.Rpc[]",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "internalType": "string"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "startDebugTraceRecording",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "getBlobhashes",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "hashes",
+        "type": "bytes32[]",
+        "internalType": "bytes32[]"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "unixTime",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "milliseconds",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

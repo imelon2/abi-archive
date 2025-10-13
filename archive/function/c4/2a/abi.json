@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "skip",
+    "inputs": [
+      {
+        "name": "skipTest",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "reason",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

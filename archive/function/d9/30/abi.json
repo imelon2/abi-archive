@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "projectRoot",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "path",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

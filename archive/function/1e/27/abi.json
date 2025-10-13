@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "promptSecret",
+    "inputs": [
+      {
+        "name": "promptText",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "input",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

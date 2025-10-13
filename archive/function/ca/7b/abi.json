@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "foundryVersionCmp",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "int256",
+        "internalType": "int256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "breakpoint",
+    "inputs": [
+      {
+        "name": "char",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  }
+]

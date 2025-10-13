@@ -1,0 +1,27 @@
+[
+  {
+    "type": "function",
+    "name": "accessList",
+    "inputs": [
+      {
+        "name": "access",
+        "type": "tuple[]",
+        "internalType": "struct VmSafe.AccessListItem[]",
+        "components": [
+          {
+            "name": "target",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "storageKeys",
+            "type": "bytes32[]",
+            "internalType": "bytes32[]"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

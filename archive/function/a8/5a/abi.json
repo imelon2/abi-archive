@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "rpcUrls",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "urls",
+        "type": "string[2][]",
+        "internalType": "string[2][]"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "function",
+    "name": "assumeNoRevert",
+    "inputs": [
+      {
+        "name": "potentialRevert",
+        "type": "tuple",
+        "internalType": "struct VmSafe.PotentialRevert",
+        "components": [
+          {
+            "name": "reverter",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "partialMatch",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "revertData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  }
+]

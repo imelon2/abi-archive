@@ -4,5 +4,11 @@
     "inputs": [],
     "name": "BeforeExecution",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "BeforeExecution",
+    "inputs": [],
+    "anonymous": false
   }
 ]

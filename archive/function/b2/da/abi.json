@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "trim",
+    "inputs": [
+      {
+        "name": "input",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "output",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

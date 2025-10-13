@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "resumeGasMetering",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

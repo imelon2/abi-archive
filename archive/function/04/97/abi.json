@@ -62,5 +62,18 @@
     "outputs": [],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "randomBytes8",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes8",
+        "internalType": "bytes8"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

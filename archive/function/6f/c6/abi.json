@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "expectEmitAnonymous",
+    "inputs": [
+      {
+        "name": "emitter",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

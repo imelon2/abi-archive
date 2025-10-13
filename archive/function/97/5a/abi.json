@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "rpcUrl",
+    "inputs": [
+      {
+        "name": "rpcAlias",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "json",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

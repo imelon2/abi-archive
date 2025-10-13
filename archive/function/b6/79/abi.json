@@ -1,0 +1,43 @@
+[
+  {
+    "type": "function",
+    "name": "getChain",
+    "inputs": [
+      {
+        "name": "chainId",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "chain",
+        "type": "tuple",
+        "internalType": "struct VmSafe.Chain",
+        "components": [
+          {
+            "name": "name",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "chainId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "chainAlias",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "rpcUrl",
+            "type": "string",
+            "internalType": "string"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

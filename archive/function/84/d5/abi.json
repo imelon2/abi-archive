@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "createSelectFork",
+    "inputs": [
+      {
+        "name": "urlOrAlias",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "txHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "forkId",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

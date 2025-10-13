@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "promptUint",
+    "inputs": [
+      {
+        "name": "promptText",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

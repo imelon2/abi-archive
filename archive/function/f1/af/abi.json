@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "removeFile",
+    "inputs": [
+      {
+        "name": "path",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

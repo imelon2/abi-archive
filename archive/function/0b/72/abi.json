@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "assertNotEq",
+    "inputs": [
+      {
+        "name": "left",
+        "type": "int256[]",
+        "internalType": "int256[]"
+      },
+      {
+        "name": "right",
+        "type": "int256[]",
+        "internalType": "int256[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "readCallers",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "callerMode",
+        "type": "uint8",
+        "internalType": "enum VmSafe.CallerMode"
+      },
+      {
+        "name": "msgSender",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "txOrigin",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

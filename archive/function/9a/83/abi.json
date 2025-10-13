@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "deployCode",
+    "inputs": [
+      {
+        "name": "artifactPath",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "deployedAddress",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

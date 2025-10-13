@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "assertNotEq",
+    "inputs": [
+      {
+        "name": "left",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "right",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "error",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "assertEq",
+    "inputs": [
+      {
+        "name": "left",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "right",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  }
+]

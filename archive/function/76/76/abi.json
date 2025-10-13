@@ -69,5 +69,34 @@
     ],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "serializeInt",
+    "inputs": [
+      {
+        "name": "objectKey",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "valueKey",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "values",
+        "type": "int256[]",
+        "internalType": "int256[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "json",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "nonpayable"
   }
 ]

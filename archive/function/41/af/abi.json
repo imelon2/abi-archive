@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "recordLogs",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

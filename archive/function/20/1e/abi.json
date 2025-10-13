@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "serializeBytes32",
+    "inputs": [
+      {
+        "name": "objectKey",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "valueKey",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "values",
+        "type": "bytes32[]",
+        "internalType": "bytes32[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "json",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

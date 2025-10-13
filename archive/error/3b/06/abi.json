@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "SelectorNotAllowed",
+    "inputs": [
+      {
+        "name": "selector",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ]
+  }
+]

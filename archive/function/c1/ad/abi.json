@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "expectCall",
+    "inputs": [
+      {
+        "name": "callee",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "count",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

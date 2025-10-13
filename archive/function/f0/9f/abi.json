@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "test__codesize",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "getArtifactPathByDeployedCode",
+    "inputs": [
+      {
+        "name": "deployedCode",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "path",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "isContext",
+    "inputs": [
+      {
+        "name": "context",
+        "type": "uint8",
+        "internalType": "enum VmSafe.ForgeContext"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "result",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

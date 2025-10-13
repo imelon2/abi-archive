@@ -9,5 +9,16 @@
     ],
     "name": "SenderAddressResult",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "SenderAddressResult",
+    "inputs": [
+      {
+        "name": "sender",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

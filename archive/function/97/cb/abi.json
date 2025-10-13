@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "rememberKeys",
+    "inputs": [
+      {
+        "name": "mnemonic",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "derivationPath",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "count",
+        "type": "uint32",
+        "internalType": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "keyAddrs",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

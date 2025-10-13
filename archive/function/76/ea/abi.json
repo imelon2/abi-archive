@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "stopBroadcast",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

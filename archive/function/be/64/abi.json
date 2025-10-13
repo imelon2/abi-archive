@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "transact",
+    "inputs": [
+      {
+        "name": "txHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

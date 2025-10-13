@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "getCode",
+    "inputs": [
+      {
+        "name": "artifactPath",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "creationBytecode",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

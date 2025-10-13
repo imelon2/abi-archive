@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "startPrank",
+    "inputs": [
+      {
+        "name": "msgSender",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]
