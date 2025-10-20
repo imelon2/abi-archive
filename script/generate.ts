@@ -1,7 +1,7 @@
 
 import { genAccountAbstraction } from '../projects/account-abstraction';
 import { genArbitrum } from '../projects/arbitrum';
-import { genGnosisSafe } from '../projects/gnosisSafe';
+import { genSource } from '../projects/source';
 import { genOffchainLabs } from '../projects/offchainlabs';
 import { genOpenzeppelin } from '../projects/openzeppelin';
 import { genSmartWallet } from '../projects/smart-wallet';
@@ -11,7 +11,7 @@ async function main() {
     await genArbitrum()
     await genOffchainLabs()
     await genAccountAbstraction()
-    await genGnosisSafe()
+    await genSource()
     await genSmartWallet()
 }
 
