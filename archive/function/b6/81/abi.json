@@ -1,0 +1,84 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "templateId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes[]",
+            "name": "commandParams",
+            "type": "bytes[]"
+          },
+          {
+            "internalType": "uint256",
+            "name": "skippedCommandPrefix",
+            "type": "uint256"
+          },
+          {
+            "components": [
+              {
+                "internalType": "string",
+                "name": "domainName",
+                "type": "string"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "publicKeyHash",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "uint256",
+                "name": "timestamp",
+                "type": "uint256"
+              },
+              {
+                "internalType": "string",
+                "name": "maskedCommand",
+                "type": "string"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "emailNullifier",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "accountSalt",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "bool",
+                "name": "isCodeExist",
+                "type": "bool"
+              },
+              {
+                "internalType": "bytes",
+                "name": "proof",
+                "type": "bytes"
+              }
+            ],
+            "internalType": "struct EmailProof",
+            "name": "proof",
+            "type": "tuple"
+          }
+        ],
+        "internalType": "struct EmailAuthMsg",
+        "name": "emailAuthMsg",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "templateIdx",
+        "type": "uint256"
+      }
+    ],
+    "name": "handleRecovery",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

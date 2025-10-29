@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes[]",
+        "name": "commandParams",
+        "type": "bytes[]"
+      },
+      {
+        "internalType": "uint256",
+        "name": "templateIdx",
+        "type": "uint256"
+      }
+    ],
+    "name": "extractRecoveredAccountFromAcceptanceCommand",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -24,5 +24,36 @@
     ],
     "outputs": [],
     "stateMutability": "nonpayable"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "getPreviousRecoveryRequest",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "previousGuardianInitiated",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "cancelRecoveryCooldown",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IEmailRecoveryManager.PreviousRecoveryRequest",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
   }
 ]

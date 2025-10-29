@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "validator",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "isInstalledContext",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes4",
+        "name": "recoverySelector",
+        "type": "bytes4"
+      }
+    ],
+    "name": "allowValidatorRecovery",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

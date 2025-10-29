@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "validator",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "prevValidator",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes4",
+        "name": "recoverySelector",
+        "type": "bytes4"
+      }
+    ],
+    "name": "disallowValidatorRecovery",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

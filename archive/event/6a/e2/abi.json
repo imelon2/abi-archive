@@ -1,0 +1,27 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "guardian",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "enum GuardianStatus",
+        "name": "newStatus",
+        "type": "uint8"
+      }
+    ],
+    "name": "GuardianStatusUpdated",
+    "type": "event"
+  }
+]

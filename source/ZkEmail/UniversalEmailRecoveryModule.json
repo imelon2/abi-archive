@@ -1,0 +1,640 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        { "internalType": "address", "name": "verifier", "type": "address" },
+        { "internalType": "address", "name": "dkimRegistry", "type": "address" },
+        { "internalType": "address", "name": "emailAuthImpl", "type": "address" },
+        { "internalType": "address", "name": "commandHandler", "type": "address" },
+        { "internalType": "uint256", "name": "minimumDelay", "type": "uint256" },
+        { "internalType": "address", "name": "killSwitchAuthorizer", "type": "address" }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    { "inputs": [], "name": "AccountNotConfigured", "type": "error" },
+    { "inputs": [], "name": "AddressAlreadyGuardian", "type": "error" },
+    { "inputs": [], "name": "AddressNotGuardianForAccount", "type": "error" },
+    { "inputs": [{ "internalType": "address", "name": "smartAccount", "type": "address" }], "name": "AlreadyInitialized", "type": "error" },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "delay", "type": "uint256" },
+        { "internalType": "uint256", "name": "minimumDelay", "type": "uint256" }
+      ],
+      "name": "DelayLessThanMinimumDelay",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "delay", "type": "uint256" },
+        { "internalType": "uint256", "name": "expiry", "type": "uint256" }
+      ],
+      "name": "DelayMoreThanExpiry",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "blockTimestamp", "type": "uint256" },
+        { "internalType": "uint256", "name": "executeAfter", "type": "uint256" }
+      ],
+      "name": "DelayNotPassed",
+      "type": "error"
+    },
+    { "inputs": [], "name": "GuardianAlreadyVoted", "type": "error" },
+    { "inputs": [{ "internalType": "address", "name": "guardian", "type": "address" }], "name": "GuardianMustWaitForCooldown", "type": "error" },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "guardianCount", "type": "uint256" },
+        { "internalType": "uint256", "name": "weightCount", "type": "uint256" }
+      ],
+      "name": "IncorrectNumberOfWeights",
+      "type": "error"
+    },
+    { "inputs": [], "name": "InvalidAccountAddress", "type": "error" },
+    { "inputs": [], "name": "InvalidCommandHandler", "type": "error" },
+    { "inputs": [], "name": "InvalidDkimRegistry", "type": "error" },
+    { "inputs": [], "name": "InvalidEmailAuthImpl", "type": "error" },
+    { "inputs": [], "name": "InvalidFactory", "type": "error" },
+    { "inputs": [{ "internalType": "address", "name": "guardian", "type": "address" }], "name": "InvalidGuardianAddress", "type": "error" },
+    {
+      "inputs": [
+        { "internalType": "enum GuardianStatus", "name": "guardianStatus", "type": "uint8" },
+        { "internalType": "enum GuardianStatus", "name": "expectedGuardianStatus", "type": "uint8" }
+      ],
+      "name": "InvalidGuardianStatus",
+      "type": "error"
+    },
+    { "inputs": [], "name": "InvalidGuardianWeight", "type": "error" },
+    { "inputs": [], "name": "InvalidKillSwitchAuthorizer", "type": "error" },
+    { "inputs": [], "name": "InvalidOnInstallData", "type": "error" },
+    { "inputs": [], "name": "InvalidProxyBytecodeHash", "type": "error" },
+    {
+      "inputs": [
+        { "internalType": "bytes32", "name": "recoveryDataHash", "type": "bytes32" },
+        { "internalType": "bytes32", "name": "expectedRecoveryDataHash", "type": "bytes32" }
+      ],
+      "name": "InvalidRecoveryDataHash",
+      "type": "error"
+    },
+    { "inputs": [{ "internalType": "bytes4", "name": "selector", "type": "bytes4" }], "name": "InvalidSelector", "type": "error" },
+    { "inputs": [{ "internalType": "address", "name": "validator", "type": "address" }], "name": "InvalidValidator", "type": "error" },
+    { "inputs": [], "name": "InvalidVerifier", "type": "error" },
+    { "inputs": [], "name": "KillSwitchEnabled", "type": "error" },
+    { "inputs": [], "name": "LinkedList_AlreadyInitialized", "type": "error" },
+    { "inputs": [{ "internalType": "address", "name": "entry", "type": "address" }], "name": "LinkedList_EntryAlreadyInList", "type": "error" },
+    { "inputs": [{ "internalType": "address", "name": "entry", "type": "address" }], "name": "LinkedList_InvalidEntry", "type": "error" },
+    { "inputs": [], "name": "LinkedList_InvalidPage", "type": "error" },
+    { "inputs": [], "name": "MaxNumberOfGuardiansReached", "type": "error" },
+    { "inputs": [], "name": "MaxValidatorsReached", "type": "error" },
+    { "inputs": [], "name": "NoRecoveryConfigured", "type": "error" },
+    { "inputs": [], "name": "NoRecoveryInProcess", "type": "error" },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "currentWeight", "type": "uint256" },
+        { "internalType": "uint256", "name": "threshold", "type": "uint256" }
+      ],
+      "name": "NotEnoughApprovals",
+      "type": "error"
+    },
+    { "inputs": [{ "internalType": "address", "name": "smartAccount", "type": "address" }], "name": "NotInitialized", "type": "error" },
+    { "inputs": [{ "internalType": "address", "name": "owner", "type": "address" }], "name": "OwnableInvalidOwner", "type": "error" },
+    { "inputs": [{ "internalType": "address", "name": "account", "type": "address" }], "name": "OwnableUnauthorizedAccount", "type": "error" },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "account", "type": "address" },
+        { "internalType": "uint256", "name": "blockTimestamp", "type": "uint256" },
+        { "internalType": "uint256", "name": "executeBefore", "type": "uint256" }
+      ],
+      "name": "RecoveryHasNotExpired",
+      "type": "error"
+    },
+    { "inputs": [], "name": "RecoveryInProcess", "type": "error" },
+    { "inputs": [], "name": "RecoveryIsNotActivated", "type": "error" },
+    { "inputs": [], "name": "RecoveryModuleNotInitialized", "type": "error" },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "blockTimestamp", "type": "uint256" },
+        { "internalType": "uint256", "name": "executeBefore", "type": "uint256" }
+      ],
+      "name": "RecoveryRequestExpired",
+      "type": "error"
+    },
+    { "inputs": [{ "internalType": "uint256", "name": "recoveryWindow", "type": "uint256" }], "name": "RecoveryWindowTooShort", "type": "error" },
+    { "inputs": [], "name": "SetupAlreadyCalled", "type": "error" },
+    { "inputs": [], "name": "SetupNotCalled", "type": "error" },
+    { "inputs": [{ "internalType": "enum GuardianStatus", "name": "newStatus", "type": "uint8" }], "name": "StatusCannotBeTheSame", "type": "error" },
+    { "inputs": [], "name": "ThresholdCannotBeZero", "type": "error" },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "threshold", "type": "uint256" },
+        { "internalType": "uint256", "name": "acceptedWeight", "type": "uint256" }
+      ],
+      "name": "ThresholdExceedsAcceptedWeight",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "threshold", "type": "uint256" },
+        { "internalType": "uint256", "name": "totalWeight", "type": "uint256" }
+      ],
+      "name": "ThresholdExceedsTotalWeight",
+      "type": "error"
+    },
+    { "inputs": [], "name": "TooManyValuesToRemove", "type": "error" },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "guardian", "type": "address" },
+        { "indexed": false, "internalType": "uint256", "name": "weight", "type": "uint256" }
+      ],
+      "name": "AddedGuardian",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": false, "internalType": "uint256", "name": "threshold", "type": "uint256" }
+      ],
+      "name": "ChangedThreshold",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "guardian", "type": "address" }
+      ],
+      "name": "GuardianAccepted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "guardian", "type": "address" },
+        { "indexed": false, "internalType": "enum GuardianStatus", "name": "newStatus", "type": "uint8" }
+      ],
+      "name": "GuardianStatusUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "guardian", "type": "address" },
+        { "indexed": false, "internalType": "uint256", "name": "currentWeight", "type": "uint256" },
+        { "indexed": false, "internalType": "uint256", "name": "guardianWeight", "type": "uint256" }
+      ],
+      "name": "GuardianVoted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "validator", "type": "address" },
+        { "indexed": false, "internalType": "bytes4", "name": "recoverySelector", "type": "bytes4" }
+      ],
+      "name": "NewValidatorRecovery",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "previousOwner", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "newOwner", "type": "address" }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    { "anonymous": false, "inputs": [{ "indexed": true, "internalType": "address", "name": "account", "type": "address" }], "name": "RecoveryCancelled", "type": "event" },
+    { "anonymous": false, "inputs": [{ "indexed": true, "internalType": "address", "name": "account", "type": "address" }], "name": "RecoveryCompleted", "type": "event" },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": false, "internalType": "uint256", "name": "delay", "type": "uint256" },
+        { "indexed": false, "internalType": "uint256", "name": "expiry", "type": "uint256" }
+      ],
+      "name": "RecoveryConfigUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": false, "internalType": "uint256", "name": "guardianCount", "type": "uint256" },
+        { "indexed": false, "internalType": "uint256", "name": "totalWeight", "type": "uint256" },
+        { "indexed": false, "internalType": "uint256", "name": "threshold", "type": "uint256" }
+      ],
+      "name": "RecoveryConfigured",
+      "type": "event"
+    },
+    { "anonymous": false, "inputs": [{ "indexed": true, "internalType": "address", "name": "account", "type": "address" }], "name": "RecoveryDeInitialized", "type": "event" },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "validator", "type": "address" }
+      ],
+      "name": "RecoveryExecuted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "guardian", "type": "address" },
+        { "indexed": false, "internalType": "uint256", "name": "executeAfter", "type": "uint256" },
+        { "indexed": false, "internalType": "uint256", "name": "executeBefore", "type": "uint256" },
+        { "indexed": false, "internalType": "bytes32", "name": "recoveryDataHash", "type": "bytes32" }
+      ],
+      "name": "RecoveryRequestComplete",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "guardian", "type": "address" },
+        { "indexed": false, "internalType": "uint256", "name": "executeBefore", "type": "uint256" },
+        { "indexed": false, "internalType": "bytes32", "name": "recoveryDataHash", "type": "bytes32" }
+      ],
+      "name": "RecoveryRequestStarted",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "guardian", "type": "address" },
+        { "indexed": false, "internalType": "uint256", "name": "weight", "type": "uint256" }
+      ],
+      "name": "RemovedGuardian",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "account", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "validator", "type": "address" },
+        { "indexed": false, "internalType": "bytes4", "name": "recoverySelector", "type": "bytes4" }
+      ],
+      "name": "RemovedValidatorRecovery",
+      "type": "event"
+    },
+    { "inputs": [], "name": "CANCEL_EXPIRED_RECOVERY_COOLDOWN", "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "MAX_VALIDATORS", "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "MINIMUM_RECOVERY_WINDOW", "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "acceptanceCommandTemplates", "outputs": [{ "internalType": "string[][]", "name": "", "type": "string[][]" }], "stateMutability": "view", "type": "function" },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "guardian", "type": "address" },
+        { "internalType": "uint256", "name": "weight", "type": "uint256" }
+      ],
+      "name": "addGuardian",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "validator", "type": "address" },
+        { "internalType": "bytes", "name": "isInstalledContext", "type": "bytes" },
+        { "internalType": "bytes4", "name": "recoverySelector", "type": "bytes4" }
+      ],
+      "name": "allowValidatorRecovery",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "account", "type": "address" },
+        { "internalType": "address", "name": "validator", "type": "address" }
+      ],
+      "name": "canStartRecoveryRequest",
+      "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    { "inputs": [{ "internalType": "address", "name": "account", "type": "address" }], "name": "cancelExpiredRecovery", "outputs": [], "stateMutability": "nonpayable", "type": "function" },
+    { "inputs": [], "name": "cancelRecovery", "outputs": [], "stateMutability": "nonpayable", "type": "function" },
+    { "inputs": [{ "internalType": "uint256", "name": "threshold", "type": "uint256" }], "name": "changeThreshold", "outputs": [], "stateMutability": "nonpayable", "type": "function" },
+    { "inputs": [], "name": "commandHandler", "outputs": [{ "internalType": "address", "name": "", "type": "address" }], "stateMutability": "view", "type": "function" },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "account", "type": "address" },
+        { "internalType": "bytes", "name": "recoveryData", "type": "bytes" }
+      ],
+      "name": "completeRecovery",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "uint256", "name": "templateIdx", "type": "uint256" }],
+      "name": "computeAcceptanceTemplateId",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "recoveredAccount", "type": "address" },
+        { "internalType": "bytes32", "name": "accountSalt", "type": "bytes32" }
+      ],
+      "name": "computeEmailAuthAddress",
+      "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "uint256", "name": "templateIdx", "type": "uint256" }],
+      "name": "computeRecoveryTemplateId",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "validator", "type": "address" },
+        { "internalType": "address", "name": "prevValidator", "type": "address" },
+        { "internalType": "bytes4", "name": "recoverySelector", "type": "bytes4" }
+      ],
+      "name": "disallowValidatorRecovery",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    { "inputs": [], "name": "dkim", "outputs": [{ "internalType": "address", "name": "", "type": "address" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "dkimAddr", "outputs": [{ "internalType": "address", "name": "", "type": "address" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "emailAuthImplementation", "outputs": [{ "internalType": "address", "name": "", "type": "address" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "emailAuthImplementationAddr", "outputs": [{ "internalType": "address", "name": "", "type": "address" }], "stateMutability": "view", "type": "function" },
+    {
+      "inputs": [
+        { "internalType": "bytes[]", "name": "commandParams", "type": "bytes[]" },
+        { "internalType": "uint256", "name": "templateIdx", "type": "uint256" }
+      ],
+      "name": "extractRecoveredAccountFromAcceptanceCommand",
+      "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "bytes[]", "name": "commandParams", "type": "bytes[]" },
+        { "internalType": "uint256", "name": "templateIdx", "type": "uint256" }
+      ],
+      "name": "extractRecoveredAccountFromRecoveryCommand",
+      "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "account", "type": "address" }],
+      "name": "getAllGuardians",
+      "outputs": [{ "internalType": "address[]", "name": "", "type": "address[]" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "account", "type": "address" }],
+      "name": "getAllowedSelectors",
+      "outputs": [{ "internalType": "bytes4[]", "name": "", "type": "bytes4[]" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "account", "type": "address" }],
+      "name": "getAllowedValidators",
+      "outputs": [{ "internalType": "address[]", "name": "", "type": "address[]" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "account", "type": "address" },
+        { "internalType": "address", "name": "guardian", "type": "address" }
+      ],
+      "name": "getGuardian",
+      "outputs": [
+        {
+          "components": [
+            { "internalType": "enum GuardianStatus", "name": "status", "type": "uint8" },
+            { "internalType": "uint256", "name": "weight", "type": "uint256" }
+          ],
+          "internalType": "struct GuardianStorage",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "account", "type": "address" }],
+      "name": "getGuardianConfig",
+      "outputs": [
+        {
+          "components": [
+            { "internalType": "uint256", "name": "guardianCount", "type": "uint256" },
+            { "internalType": "uint256", "name": "totalWeight", "type": "uint256" },
+            { "internalType": "uint256", "name": "acceptedWeight", "type": "uint256" },
+            { "internalType": "uint256", "name": "threshold", "type": "uint256" }
+          ],
+          "internalType": "struct IGuardianManager.GuardianConfig",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "account", "type": "address" }],
+      "name": "getPreviousRecoveryRequest",
+      "outputs": [
+        {
+          "components": [
+            { "internalType": "address", "name": "previousGuardianInitiated", "type": "address" },
+            { "internalType": "uint256", "name": "cancelRecoveryCooldown", "type": "uint256" }
+          ],
+          "internalType": "struct IEmailRecoveryManager.PreviousRecoveryRequest",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "account", "type": "address" }],
+      "name": "getRecoveryConfig",
+      "outputs": [
+        {
+          "components": [
+            { "internalType": "uint256", "name": "delay", "type": "uint256" },
+            { "internalType": "uint256", "name": "expiry", "type": "uint256" }
+          ],
+          "internalType": "struct IEmailRecoveryManager.RecoveryConfig",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "account", "type": "address" }],
+      "name": "getRecoveryRequest",
+      "outputs": [
+        { "internalType": "uint256", "name": "executeAfter", "type": "uint256" },
+        { "internalType": "uint256", "name": "executeBefore", "type": "uint256" },
+        { "internalType": "uint256", "name": "currentWeight", "type": "uint256" },
+        { "internalType": "bytes32", "name": "recoveryDataHash", "type": "bytes32" }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            { "internalType": "uint256", "name": "templateId", "type": "uint256" },
+            { "internalType": "bytes[]", "name": "commandParams", "type": "bytes[]" },
+            { "internalType": "uint256", "name": "skippedCommandPrefix", "type": "uint256" },
+            {
+              "components": [
+                { "internalType": "string", "name": "domainName", "type": "string" },
+                { "internalType": "bytes32", "name": "publicKeyHash", "type": "bytes32" },
+                { "internalType": "uint256", "name": "timestamp", "type": "uint256" },
+                { "internalType": "string", "name": "maskedCommand", "type": "string" },
+                { "internalType": "bytes32", "name": "emailNullifier", "type": "bytes32" },
+                { "internalType": "bytes32", "name": "accountSalt", "type": "bytes32" },
+                { "internalType": "bool", "name": "isCodeExist", "type": "bool" },
+                { "internalType": "bytes", "name": "proof", "type": "bytes" }
+              ],
+              "internalType": "struct EmailProof",
+              "name": "proof",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct EmailAuthMsg",
+          "name": "emailAuthMsg",
+          "type": "tuple"
+        },
+        { "internalType": "uint256", "name": "templateIdx", "type": "uint256" }
+      ],
+      "name": "handleAcceptance",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            { "internalType": "uint256", "name": "templateId", "type": "uint256" },
+            { "internalType": "bytes[]", "name": "commandParams", "type": "bytes[]" },
+            { "internalType": "uint256", "name": "skippedCommandPrefix", "type": "uint256" },
+            {
+              "components": [
+                { "internalType": "string", "name": "domainName", "type": "string" },
+                { "internalType": "bytes32", "name": "publicKeyHash", "type": "bytes32" },
+                { "internalType": "uint256", "name": "timestamp", "type": "uint256" },
+                { "internalType": "string", "name": "maskedCommand", "type": "string" },
+                { "internalType": "bytes32", "name": "emailNullifier", "type": "bytes32" },
+                { "internalType": "bytes32", "name": "accountSalt", "type": "bytes32" },
+                { "internalType": "bool", "name": "isCodeExist", "type": "bool" },
+                { "internalType": "bytes", "name": "proof", "type": "bytes" }
+              ],
+              "internalType": "struct EmailProof",
+              "name": "proof",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct EmailAuthMsg",
+          "name": "emailAuthMsg",
+          "type": "tuple"
+        },
+        { "internalType": "uint256", "name": "templateIdx", "type": "uint256" }
+      ],
+      "name": "handleRecovery",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "account", "type": "address" },
+        { "internalType": "address", "name": "guardian", "type": "address" }
+      ],
+      "name": "hasGuardianVoted",
+      "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "account", "type": "address" }],
+      "name": "isActivated",
+      "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "account", "type": "address" }],
+      "name": "isInitialized",
+      "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "uint256", "name": "typeID", "type": "uint256" }],
+      "name": "isModuleType",
+      "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    { "inputs": [], "name": "killSwitchEnabled", "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "minimumDelay", "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "name", "outputs": [{ "internalType": "string", "name": "", "type": "string" }], "stateMutability": "pure", "type": "function" },
+    { "inputs": [{ "internalType": "bytes", "name": "data", "type": "bytes" }], "name": "onInstall", "outputs": [], "stateMutability": "nonpayable", "type": "function" },
+    { "inputs": [{ "internalType": "bytes", "name": "", "type": "bytes" }], "name": "onUninstall", "outputs": [], "stateMutability": "nonpayable", "type": "function" },
+    { "inputs": [], "name": "owner", "outputs": [{ "internalType": "address", "name": "", "type": "address" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "recoveryCommandTemplates", "outputs": [{ "internalType": "string[][]", "name": "", "type": "string[][]" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [{ "internalType": "address", "name": "guardian", "type": "address" }], "name": "removeGuardian", "outputs": [], "stateMutability": "nonpayable", "type": "function" },
+    { "inputs": [], "name": "renounceOwnership", "outputs": [], "stateMutability": "nonpayable", "type": "function" },
+    { "inputs": [], "name": "toggleKillSwitch", "outputs": [], "stateMutability": "nonpayable", "type": "function" },
+    { "inputs": [{ "internalType": "address", "name": "newOwner", "type": "address" }], "name": "transferOwnership", "outputs": [], "stateMutability": "nonpayable", "type": "function" },
+    {
+      "inputs": [
+        {
+          "components": [
+            { "internalType": "uint256", "name": "delay", "type": "uint256" },
+            { "internalType": "uint256", "name": "expiry", "type": "uint256" }
+          ],
+          "internalType": "struct IEmailRecoveryManager.RecoveryConfig",
+          "name": "recoveryConfig",
+          "type": "tuple"
+        }
+      ],
+      "name": "updateRecoveryConfig",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "account", "type": "address" }],
+      "name": "validatorCount",
+      "outputs": [{ "internalType": "uint256", "name": "count", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    { "inputs": [], "name": "verifier", "outputs": [{ "internalType": "address", "name": "", "type": "address" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "verifierAddr", "outputs": [{ "internalType": "address", "name": "", "type": "address" }], "stateMutability": "view", "type": "function" },
+    { "inputs": [], "name": "version", "outputs": [{ "internalType": "string", "name": "", "type": "string" }], "stateMutability": "pure", "type": "function" }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "enum GuardianStatus",
+        "name": "guardianStatus",
+        "type": "uint8"
+      },
+      {
+        "internalType": "enum GuardianStatus",
+        "name": "expectedGuardianStatus",
+        "type": "uint8"
+      }
+    ],
+    "name": "InvalidGuardianStatus",
+    "type": "error"
+  }
+]

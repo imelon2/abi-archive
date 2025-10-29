@@ -1,0 +1,36 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "getRecoveryRequest",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "executeAfter",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "executeBefore",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "currentWeight",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "recoveryDataHash",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

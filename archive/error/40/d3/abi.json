@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "entry",
+        "type": "address"
+      }
+    ],
+    "name": "LinkedList_EntryAlreadyInList",
+    "type": "error"
+  }
+]
