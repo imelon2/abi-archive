@@ -9,5 +9,16 @@
     ],
     "name": "ERC1967InvalidBeacon",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC1967InvalidBeacon",
+    "inputs": [
+      {
+        "name": "beacon",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

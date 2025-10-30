@@ -22,5 +22,29 @@
     ],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "computeEmailAuthAddress",
+    "inputs": [
+      {
+        "name": "recoveredAccount",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "accountSalt",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

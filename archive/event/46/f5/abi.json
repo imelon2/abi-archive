@@ -11,5 +11,18 @@
     ],
     "name": "RecoveryCompleted",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "RecoveryCompleted",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

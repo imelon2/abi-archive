@@ -11,5 +11,18 @@
     ],
     "name": "ChangedGuard",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "ChangedGuard",
+    "inputs": [
+      {
+        "name": "guard",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

@@ -9,5 +9,16 @@
     ],
     "name": "ERC1155InvalidSender",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC1155InvalidSender",
+    "inputs": [
+      {
+        "name": "sender",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

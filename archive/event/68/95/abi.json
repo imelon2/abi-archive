@@ -11,5 +11,18 @@
     ],
     "name": "ExecutionFromModuleSuccess",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "ExecutionFromModuleSuccess",
+    "inputs": [
+      {
+        "name": "module",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

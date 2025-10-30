@@ -9,5 +9,16 @@
     ],
     "name": "ERC721InvalidOperator",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC721InvalidOperator",
+    "inputs": [
+      {
+        "name": "operator",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

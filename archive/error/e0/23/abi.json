@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "TooManyValuesToRemove",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "TooManyValuesToRemove",
+    "inputs": []
   }
 ]

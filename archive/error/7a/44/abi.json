@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidFactory",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidFactory",
+    "inputs": []
   }
 ]

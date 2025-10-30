@@ -37,5 +37,18 @@
     ],
     "stateMutability": "pure",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "version",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
   }
 ]

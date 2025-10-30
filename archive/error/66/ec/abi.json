@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "AccountNotConfigured",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "AccountNotConfigured",
+    "inputs": []
   }
 ]

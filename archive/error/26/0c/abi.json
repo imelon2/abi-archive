@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidDkimRegistry",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidDkimRegistry",
+    "inputs": []
   }
 ]

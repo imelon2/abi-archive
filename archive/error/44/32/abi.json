@@ -14,5 +14,21 @@
     ],
     "name": "NotEnoughApprovals",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "NotEnoughApprovals",
+    "inputs": [
+      {
+        "name": "currentWeight",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "threshold",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
   }
 ]

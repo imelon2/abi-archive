@@ -14,5 +14,21 @@
     ],
     "name": "DelegateAndRevert",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "DelegateAndRevert",
+    "inputs": [
+      {
+        "name": "success",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "ret",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
   }
 ]

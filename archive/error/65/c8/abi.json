@@ -19,5 +19,26 @@
     ],
     "name": "FailedOpWithRevert",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "FailedOpWithRevert",
+    "inputs": [
+      {
+        "name": "opIndex",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "reason",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "inner",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
   }
 ]

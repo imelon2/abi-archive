@@ -9,5 +9,16 @@
     ],
     "name": "SafeCastOverflowedUintToInt",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "SafeCastOverflowedUintToInt",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
   }
 ]

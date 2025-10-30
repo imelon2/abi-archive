@@ -11,5 +11,18 @@
     ],
     "name": "RemovedOwner",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "RemovedOwner",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

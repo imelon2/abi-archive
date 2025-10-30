@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "MaxNumberOfGuardiansReached",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "MaxNumberOfGuardiansReached",
+    "inputs": []
   }
 ]

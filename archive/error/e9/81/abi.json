@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidEmailAuthImpl",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidEmailAuthImpl",
+    "inputs": []
   }
 ]

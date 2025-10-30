@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "FailedCall",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "FailedCall",
+    "inputs": []
   }
 ]

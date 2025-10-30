@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidCommandHandler",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidCommandHandler",
+    "inputs": []
   }
 ]

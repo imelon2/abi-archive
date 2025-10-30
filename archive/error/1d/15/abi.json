@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "StringsInvalidAddressFormat",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "StringsInvalidAddressFormat",
+    "inputs": []
   }
 ]

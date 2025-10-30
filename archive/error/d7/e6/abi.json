@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "NotInitializing",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "NotInitializing",
+    "inputs": []
   }
 ]

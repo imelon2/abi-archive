@@ -23,5 +23,30 @@
     ],
     "name": "UserOperationPrefundTooLow",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "UserOperationPrefundTooLow",
+    "inputs": [
+      {
+        "name": "userOpHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "sender",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "nonce",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
   }
 ]

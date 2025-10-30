@@ -11,5 +11,31 @@
     ],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "acceptanceCommandTemplates",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string[][]",
+        "internalType": "string[][]"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "acceptanceCommandTemplates",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string[][]",
+        "internalType": "string[][]"
+      }
+    ],
+    "stateMutability": "pure"
   }
 ]

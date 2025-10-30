@@ -9,5 +9,16 @@
     ],
     "name": "LinkedList_EntryAlreadyInList",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "LinkedList_EntryAlreadyInList",
+    "inputs": [
+      {
+        "name": "entry",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

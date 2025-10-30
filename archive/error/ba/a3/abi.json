@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidVerifier",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidVerifier",
+    "inputs": []
   }
 ]

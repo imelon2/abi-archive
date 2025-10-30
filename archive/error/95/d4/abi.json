@@ -14,5 +14,21 @@
     ],
     "name": "ERC7579AlreadyInstalledModule",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidOpcode",
+    "inputs": [
+      {
+        "name": "contractAddress",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "opcode",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ]
   }
 ]

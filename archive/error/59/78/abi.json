@@ -14,5 +14,21 @@
     ],
     "name": "DelayLessThanMinimumDelay",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "DelayLessThanMinimumDelay",
+    "inputs": [
+      {
+        "name": "delay",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "minimumDelay",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
   }
 ]

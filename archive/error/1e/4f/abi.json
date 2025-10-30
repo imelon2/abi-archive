@@ -9,5 +9,16 @@
     ],
     "name": "OwnableInvalidOwner",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "OwnableInvalidOwner",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

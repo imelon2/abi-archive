@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "ERC7579DecodingError",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC7579DecodingError",
+    "inputs": []
   }
 ]

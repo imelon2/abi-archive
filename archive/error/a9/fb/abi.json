@@ -9,5 +9,16 @@
     ],
     "name": "ERC721InvalidApprover",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC721InvalidApprover",
+    "inputs": [
+      {
+        "name": "approver",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

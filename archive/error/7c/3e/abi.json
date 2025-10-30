@@ -14,5 +14,21 @@
     ],
     "name": "ThresholdExceedsAcceptedWeight",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ThresholdExceedsAcceptedWeight",
+    "inputs": [
+      {
+        "name": "threshold",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "acceptedWeight",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
   }
 ]

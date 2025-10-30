@@ -17,5 +17,24 @@
     ],
     "name": "SafeReceived",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "SafeReceived",
+    "inputs": [
+      {
+        "name": "sender",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
   }
 ]

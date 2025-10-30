@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "RecoveryIsNotActivated",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "RecoveryIsNotActivated",
+    "inputs": []
   }
 ]

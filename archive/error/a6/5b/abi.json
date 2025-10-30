@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidProxyBytecodeHash",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidProxyBytecodeHash",
+    "inputs": []
   }
 ]

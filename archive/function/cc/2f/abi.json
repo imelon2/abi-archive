@@ -27,5 +27,34 @@
     ],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "getModulesPaginated",
+    "inputs": [
+      {
+        "name": "start",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "pageSize",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "array",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "next",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

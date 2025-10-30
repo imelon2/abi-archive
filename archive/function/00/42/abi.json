@@ -106,5 +106,113 @@
     ],
     "stateMutability": "nonpayable",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "innerHandleOp",
+    "inputs": [
+      {
+        "name": "callData",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "opInfo",
+        "type": "tuple",
+        "internalType": "struct EntryPoint.UserOpInfo",
+        "components": [
+          {
+            "name": "mUserOp",
+            "type": "tuple",
+            "internalType": "struct EntryPoint.MemoryUserOp",
+            "components": [
+              {
+                "name": "sender",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "nonce",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "verificationGasLimit",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "callGasLimit",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "paymasterVerificationGasLimit",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "paymasterPostOpGasLimit",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "preVerificationGas",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "paymaster",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "maxFeePerGas",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "maxPriorityFeePerGas",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "userOpHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "prefund",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "contextOffset",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "preOpGas",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      },
+      {
+        "name": "context",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "actualGasCost",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable"
   }
 ]

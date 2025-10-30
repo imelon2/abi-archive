@@ -22,5 +22,125 @@
     ],
     "stateMutability": "payable",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "executeFromExecutor",
+    "inputs": [
+      {
+        "name": "mode",
+        "type": "bytes32",
+        "internalType": "ModeCode"
+      },
+      {
+        "name": "executionCalldata",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "returnData",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeFromExecutor",
+    "inputs": [
+      {
+        "name": "mode",
+        "type": "bytes32",
+        "internalType": "ExecMode"
+      },
+      {
+        "name": "executionCalldata",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "returnData",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      }
+    ],
+    "stateMutability": "payable"
+  },
+  {
+    "type": "function",
+    "name": "executeFromExecutor",
+    "inputs": [
+      {
+        "name": "execMode",
+        "type": "bytes32",
+        "internalType": "ExecMode"
+      },
+      {
+        "name": "executionCalldata",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "returnData",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      }
+    ],
+    "stateMutability": "payable"
+  },
+  {
+    "type": "function",
+    "name": "executeFromExecutor",
+    "inputs": [
+      {
+        "name": "mode",
+        "type": "bytes32",
+        "internalType": "ModeCode"
+      },
+      {
+        "name": "executionCalldata",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "returnDatas",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeFromExecutor",
+    "inputs": [
+      {
+        "name": "mode",
+        "type": "bytes32",
+        "internalType": "ModeCode"
+      },
+      {
+        "name": "executionCalldata",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "returnData",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      }
+    ],
+    "stateMutability": "payable"
   }
 ]

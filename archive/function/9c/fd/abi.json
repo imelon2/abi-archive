@@ -11,5 +11,31 @@
     ],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "accountId",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "accountImplementationId",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "accountId",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "accountImplementationId",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
   }
 ]

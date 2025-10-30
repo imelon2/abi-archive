@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidKillSwitchAuthorizer",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidKillSwitchAuthorizer",
+    "inputs": []
   }
 ]

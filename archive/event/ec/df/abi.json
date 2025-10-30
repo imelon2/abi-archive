@@ -11,5 +11,18 @@
     ],
     "name": "EnabledModule",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "EnabledModule",
+    "inputs": [
+      {
+        "name": "module",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

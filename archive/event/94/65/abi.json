@@ -11,5 +11,18 @@
     ],
     "name": "AddedOwner",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "AddedOwner",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

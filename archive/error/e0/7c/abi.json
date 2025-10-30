@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "UUPSUnauthorizedCallContext",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "UUPSUnauthorizedCallContext",
+    "inputs": []
   }
 ]

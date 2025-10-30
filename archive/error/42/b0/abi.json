@@ -9,5 +9,16 @@
     ],
     "name": "MissingPrecompile",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "MissingPrecompile",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

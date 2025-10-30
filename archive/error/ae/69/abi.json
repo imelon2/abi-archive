@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "SetupNotCalled",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "SetupNotCalled",
+    "inputs": []
   }
 ]

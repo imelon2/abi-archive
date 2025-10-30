@@ -9,5 +9,16 @@
     ],
     "name": "ERC20InvalidReceiver",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC20InvalidReceiver",
+    "inputs": [
+      {
+        "name": "receiver",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

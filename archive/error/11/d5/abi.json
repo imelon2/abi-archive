@@ -9,5 +9,16 @@
     ],
     "name": "InvalidValidator",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidValidator",
+    "inputs": [
+      {
+        "name": "validator",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

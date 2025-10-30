@@ -11,5 +11,18 @@
     ],
     "name": "ExecutionFromModuleFailure",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "ExecutionFromModuleFailure",
+    "inputs": [
+      {
+        "name": "module",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

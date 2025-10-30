@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "SetupAlreadyCalled",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "SetupAlreadyCalled",
+    "inputs": []
   }
 ]

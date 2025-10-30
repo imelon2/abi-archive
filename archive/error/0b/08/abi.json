@@ -3,5 +3,26 @@
     "inputs": [],
     "name": "RecoveryModuleNotInitialized",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "RecoveryModuleNotInitialized",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "HashMismatch",
+    "inputs": [
+      {
+        "name": "providedHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "computedHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ]
   }
 ]

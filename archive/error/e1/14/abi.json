@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "GuardianAlreadyVoted",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "GuardianAlreadyVoted",
+    "inputs": []
   }
 ]

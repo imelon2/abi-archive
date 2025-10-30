@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidAccountAddress",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidAccountAddress",
+    "inputs": []
   }
 ]

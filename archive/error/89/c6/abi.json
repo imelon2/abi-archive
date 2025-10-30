@@ -9,5 +9,16 @@
     ],
     "name": "ERC721InvalidOwner",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC721InvalidOwner",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

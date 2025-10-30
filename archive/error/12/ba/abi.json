@@ -9,5 +9,16 @@
     ],
     "name": "InvalidSelector",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidSelector",
+    "inputs": [
+      {
+        "name": "selector",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ]
   }
 ]

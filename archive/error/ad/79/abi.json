@@ -9,5 +9,16 @@
     ],
     "name": "PostOpReverted",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "PostOpReverted",
+    "inputs": [
+      {
+        "name": "returnData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
   }
 ]

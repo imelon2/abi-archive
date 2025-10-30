@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidGuardianWeight",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidGuardianWeight",
+    "inputs": []
   }
 ]

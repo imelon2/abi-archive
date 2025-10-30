@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "LinkedList_InvalidPage",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "LinkedList_InvalidPage",
+    "inputs": []
   }
 ]

@@ -14,5 +14,21 @@
     ],
     "name": "RecoveryRequestExpired",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "RecoveryRequestExpired",
+    "inputs": [
+      {
+        "name": "blockTimestamp",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "executeBefore",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
   }
 ]

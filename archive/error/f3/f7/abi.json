@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "AddressNotGuardianForAccount",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "AddressNotGuardianForAccount",
+    "inputs": []
   }
 ]

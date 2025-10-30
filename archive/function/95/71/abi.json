@@ -21,5 +21,28 @@
     "outputs": [],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "_validateSenderAndPaymaster",
+    "inputs": [
+      {
+        "name": "initCode",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "sender",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "paymasterAndData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "view"
   }
 ]

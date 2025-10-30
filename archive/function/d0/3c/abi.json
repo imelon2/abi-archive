@@ -17,5 +17,62 @@
     ],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "supportsExecutionMode",
+    "inputs": [
+      {
+        "name": "encodedMode",
+        "type": "bytes32",
+        "internalType": "ModeCode"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "supportsExecutionMode",
+    "inputs": [
+      {
+        "name": "encodedMode",
+        "type": "bytes32",
+        "internalType": "ExecMode"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "supportsExecutionMode",
+    "inputs": [
+      {
+        "name": "mode",
+        "type": "bytes32",
+        "internalType": "ExecMode"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "pure"
   }
 ]

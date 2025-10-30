@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidOnInstallData",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidOnInstallData",
+    "inputs": []
   }
 ]

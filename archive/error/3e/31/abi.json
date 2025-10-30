@@ -9,5 +9,16 @@
     ],
     "name": "ERC1155InvalidApprover",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC1155InvalidApprover",
+    "inputs": [
+      {
+        "name": "approver",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

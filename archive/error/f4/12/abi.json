@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "ThresholdCannotBeZero",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ThresholdCannotBeZero",
+    "inputs": []
   }
 ]

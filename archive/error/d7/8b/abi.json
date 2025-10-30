@@ -9,5 +9,16 @@
     ],
     "name": "ECDSAInvalidSignatureS",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ECDSAInvalidSignatureS",
+    "inputs": [
+      {
+        "name": "s",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ]
   }
 ]

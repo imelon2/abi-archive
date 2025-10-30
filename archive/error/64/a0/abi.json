@@ -9,5 +9,16 @@
     ],
     "name": "ERC721InvalidReceiver",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC721InvalidReceiver",
+    "inputs": [
+      {
+        "name": "receiver",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

@@ -17,5 +17,24 @@
     ],
     "name": "ModuleInstalled",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "ModuleInstalled",
+    "inputs": [
+      {
+        "name": "moduleTypeId",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "module",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

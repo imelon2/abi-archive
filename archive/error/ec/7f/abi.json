@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "KillSwitchEnabled",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "KillSwitchEnabled",
+    "inputs": []
   }
 ]

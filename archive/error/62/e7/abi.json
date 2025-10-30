@@ -9,5 +9,16 @@
     ],
     "name": "ERC1967InvalidAdmin",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC1967InvalidAdmin",
+    "inputs": [
+      {
+        "name": "admin",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

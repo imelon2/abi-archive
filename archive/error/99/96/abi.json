@@ -9,5 +9,16 @@
     ],
     "name": "AddressEmptyCode",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "AddressEmptyCode",
+    "inputs": [
+      {
+        "name": "target",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

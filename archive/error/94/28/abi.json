@@ -14,5 +14,16 @@
     "inputs": [],
     "name": "CloneArgumentsTooLong",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ERC20InvalidSpender",
+    "inputs": [
+      {
+        "name": "spender",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

@@ -9,5 +9,16 @@
     ],
     "name": "NotInitialized",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "NotInitialized",
+    "inputs": [
+      {
+        "name": "smartAccount",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

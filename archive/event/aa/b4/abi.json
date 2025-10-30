@@ -11,5 +11,18 @@
     ],
     "name": "DisabledModule",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "DisabledModule",
+    "inputs": [
+      {
+        "name": "module",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]
